@@ -1,0 +1,153 @@
+// Infocast — Prisma schema
+// 공유 Cloud SQL PostgreSQL, 스키마 격리. 본 앱은 `infocast` 스키마만 소유·마이그레이션한다.
+// 외부 스키마(search 등) 읽기는 별도 읽기전용 계정 + $queryRaw 격리로만.
+
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["multiSchema", "postgresqlExtensions"]
+}
+
+datasource db {
+  provider   = "postgresql"
+  url        = env("DATABASE_URL")
+  schemas    = ["infocast"]
+  extensions = [vector]
+}
+
+// ── 입시정보 1건 ───────────────────────────────────────────────
+model InfoItem {
+  id          String    @id @default(uuid()) @db.Uuid
+  title       String
+  body        String
+  category    InfoCategory
+  source      String? // 출처명 (예: 대교협, 대학 입학처)
+  url         String? // 원문 링크
+  // 태깅: 학년/계열/지역/전형유형/curriculum 등 (jsonb)
+  targetTags  Json      @default("{}") @map("target_tags")
+  publishedAt DateTime? @map("published_at")
+  deadlineAt  DateTime? @map("deadline_at")
+  status      ItemStatus @default(DRAFT)
+  createdAt   DateTime  @default(now()) @map("created_at")
+  updatedAt   DateTime  @updatedAt @map("updated_at")
+
+  embedding   InfoEmbedding?
+  deliveries  Delivery[]
+
+  @@index([category, status])
+  @@index([deadlineAt])
+  @@index([publishedAt])
+  @@map("ic_info_item")
+  @@schema("infocast")
+}
+
+// ── 정보 임베딩 (시멘틱 매칭용, pgvector) ──────────────────────
+model InfoEmbedding {
+  infoItemId String                      @id @map("info_item_id") @db.Uuid
+  // 768차원 text-embedding-004 기준 (확정 시 조정)
+  embedding  Unsupported("vector(768)")?
+  createdAt  DateTime                    @default(now()) @map("created_at")
+
+  infoItem   InfoItem                    @relation(fields: [infoItemId], references: [id], onDelete: Cascade)
+
+  @@map("ic_info_embedding")
+  @@schema("infocast")
+}
+
+// ── 사용자 구독/관심 설정 ──────────────────────────────────────
+model Subscription {
+  id           String   @id @default(uuid()) @db.Uuid
+  memberId     String   @map("member_id") // Hub user id
+  // 관심 대학·계열·전형 등 (jsonb)
+  interests    Json     @default("{}")
+  // 채널 on/off + quiet hours + 빈도
+  channels     Json     @default("{}")
+  frequency    Frequency @default(DAILY)
+  quietStart   Int?     @map("quiet_start") // 0-23
+  quietEnd     Int?     @map("quiet_end")
+  enabled      Boolean  @default(true)
+  createdAt    DateTime @default(now()) @map("created_at")
+  updatedAt    DateTime @updatedAt @map("updated_at")
+
+  @@unique([memberId])
+  @@map("ic_subscription")
+  @@schema("infocast")
+}
+
+// ── 발송 이력 ──────────────────────────────────────────────────
+model Delivery {
+  id           String         @id @default(uuid()) @db.Uuid
+  memberId     String         @map("member_id")
+  infoItemId   String         @map("info_item_id") @db.Uuid
+  channel      Channel
+  status       DeliveryStatus @default(QUEUED)
+  matchedScore Float?         @map("matched_score")
+  sentAt       DateTime?      @map("sent_at")
+  error        String?
+  createdAt    DateTime       @default(now()) @map("created_at")
+
+  infoItem     InfoItem       @relation(fields: [infoItemId], references: [id], onDelete: Cascade)
+
+  @@index([memberId, status])
+  @@index([infoItemId])
+  @@map("ic_delivery")
+  @@schema("infocast")
+}
+
+// ── 매칭 배치 이력 ─────────────────────────────────────────────
+model MatchLog {
+  id          String   @id @default(uuid()) @db.Uuid
+  runAt       DateTime @default(now()) @map("run_at")
+  itemsCount  Int      @default(0) @map("items_count")
+  matchCount  Int      @default(0) @map("match_count")
+  meta        Json     @default("{}")
+
+  @@map("ic_match_log")
+  @@schema("infocast")
+}
+
+// ── enums ──────────────────────────────────────────────────────
+enum InfoCategory {
+  GUIDELINE_CHANGE // 모집요강 변경
+  SCHEDULE         // 원서접수/전형 일정
+  COMPETITION_RATE // 경쟁률 속보
+  POLICY_NEWS      // 입시 정책·뉴스
+  BRIEFING         // 대학별 설명회
+  DEADLINE         // 마감 임박
+  NEW_ADMISSION    // 내게 맞는 새 전형(생태계 변화 감지)
+
+  @@schema("infocast")
+}
+
+enum ItemStatus {
+  DRAFT
+  APPROVED
+  ARCHIVED
+
+  @@schema("infocast")
+}
+
+enum Channel {
+  KAKAO
+  SMS
+  PUSH
+  EMAIL
+
+  @@schema("infocast")
+}
+
+enum DeliveryStatus {
+  QUEUED
+  SENT
+  FAILED
+  SKIPPED
+
+  @@schema("infocast")
+}
+
+enum Frequency {
+  REALTIME
+  DAILY
+  WEEKLY
+
+  @@schema("infocast")
+}

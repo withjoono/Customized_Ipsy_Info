@@ -1,0 +1,24 @@
+# Google App Engine — infocast-backend
+# 배포: gcloud app deploy app.yaml --project ts-back-nest-479305
+# 비밀 값은 Secret Manager / 배포 파이프라인에서 주입(여기 평문 금지).
+runtime: nodejs20
+service: infocast-backend
+
+instance_class: F1
+
+automatic_scaling:
+  min_instances: 0
+  max_instances: 2
+
+env_variables:
+  NODE_ENV: "production"
+  SERVICE_ID: "infocast"
+  VERTEX_LOCATION: "asia-northeast3"
+  VERTEX_EMBEDDING_MODEL: "text-embedding-004"
+  # DATABASE_URL / AUTH_JWT_SECRET / AUTH_SERVICE_SECRET / HUB_* 등은
+  # 배포 시 Secret Manager 또는 CI 시크릿으로 주입.
+
+handlers:
+  - url: /.*
+    script: auto
+    secure: always
