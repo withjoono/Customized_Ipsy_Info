@@ -37,3 +37,4 @@ gha-creds-*.json
 .vscode/*
 !.vscode/extensions.json
 *.swp
+app.deploy.yaml

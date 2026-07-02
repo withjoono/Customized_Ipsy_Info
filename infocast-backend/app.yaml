@@ -1,8 +1,10 @@
 # Google App Engine — infocast-backend
 # 배포: gcloud app deploy app.yaml --project ts-back-nest-479305
 # 비밀 값은 Secret Manager / 배포 파이프라인에서 주입(여기 평문 금지).
-runtime: nodejs20
+runtime: nodejs22
 service: infocast-backend
+
+entrypoint: node dist/main.js
 
 instance_class: F1
 
