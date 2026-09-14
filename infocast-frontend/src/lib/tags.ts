@@ -10,7 +10,12 @@ export const CATEGORIES = [
   { value: 'NEW_ADMISSION', label: '새 전형' },
 ] as const;
 
-export const GRADES = [1, 2, 3] as const;
+export const GRADES = [
+  { value: 1, label: '고1' },
+  { value: 2, label: '고2' },
+  { value: 3, label: '고3' },
+  { value: 'N', label: '재수생' },
+] as const;
 
 export const TRACKS = [
   { value: 'HUMANITIES', label: '인문' },

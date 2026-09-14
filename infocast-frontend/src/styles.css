@@ -248,3 +248,802 @@ button:hover {
   border-radius: 999px;
   padding: 2px 8px;
 }
+
+/* ══════════════════════════════════════════════════════════
+   입시 캘린더 — 대시보드 히어로 / 월간 그리드 / 일정 카드
+   ══════════════════════════════════════════════════════════ */
+
+:root {
+  /* 카테고리 색 (점·배지 공용) */
+  --c-GUIDELINE_CHANGE: #7c3aed;
+  --c-SCHEDULE: #4f46e5;
+  --c-COMPETITION_RATE: #0891b2;
+  --c-POLICY_NEWS: #64748b;
+  --c-BRIEFING: #059669;
+  --c-DEADLINE: #dc2626;
+  --c-NEW_ADMISSION: #d97706;
+}
+
+.dash {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* ── ① 히어로: 이 앱에서 가장 큰 시각 요소 ─────────────── */
+.hero {
+  background: linear-gradient(135deg, #4f46e5 0%, #6d28d9 55%, #7c3aed 100%);
+  color: #fff;
+  border-radius: 18px;
+  padding: 22px 22px 18px;
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  box-shadow: 0 10px 28px rgba(79, 70, 229, 0.28);
+}
+
+.hero__label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero__badge {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 999px;
+  padding: 3px 10px;
+}
+
+.hero__heading {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  opacity: 0.92;
+}
+
+.hero__main {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.hero__main--skeleton {
+  opacity: 0.6;
+}
+
+.hero__title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.hero__dday {
+  font-size: 56px;
+  line-height: 1.05;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+}
+
+.hero__sub {
+  margin: 0;
+  font-size: 13px;
+  opacity: 0.85;
+}
+
+.hero__cta,
+.hero__more {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.hero__more {
+  align-self: flex-end;
+  opacity: 0.92;
+}
+
+.hero__next {
+  list-style: none;
+  margin: 0;
+  padding: 12px 0 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.22);
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.hero__nextitem {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  font-size: 13px;
+}
+
+.hero__nextdday {
+  min-width: 52px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  opacity: 0.95;
+}
+
+.hero__nexttitle {
+  opacity: 0.88;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.hero__mini {
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 10px;
+}
+
+/* ── ②③ 일반 섹션 ─────────────────────────────────────── */
+.dash__section {
+  background: #fff;
+  border: 1px solid #e6e6ef;
+  border-radius: 12px;
+  padding: 16px 18px;
+}
+
+.dash__sechead {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 10px;
+}
+
+.dash__h2 {
+  margin: 0;
+  font-size: 15px;
+}
+
+.dash__summary {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 0 0 12px;
+}
+
+.dash__summary dt {
+  font-size: 12px;
+  color: #888;
+}
+
+.dash__summary dd {
+  margin: 2px 0 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* ── 캘린더 페이지 ─────────────────────────────────────── */
+.calpage {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.calpage__head,
+.calpage__bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.calpage__head h1 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.calpage__nav {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.calpage__ym {
+  min-width: 104px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.icobtn {
+  background: #fff;
+  color: #4f46e5;
+  border: 1px solid #d4d4e0;
+  font-size: 18px;
+  line-height: 1;
+  padding: 4px 12px;
+}
+
+.icobtn:hover {
+  background: #eef2ff;
+}
+
+.calpage__today {
+  background: #eef2ff;
+  color: #4338ca;
+  font-size: 13px;
+  padding: 6px 10px;
+}
+
+.calpage__today:hover {
+  background: #e0e7ff;
+}
+
+.seg {
+  display: inline-flex;
+  background: #ececf4;
+  border-radius: 10px;
+  padding: 3px;
+  gap: 2px;
+}
+
+.seg__btn {
+  background: transparent;
+  color: #555;
+  font-size: 13px;
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+
+.seg__btn:hover {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.seg__btn--on,
+.seg__btn--on:hover {
+  background: #fff;
+  color: #4338ca;
+  font-weight: 600;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.calpage__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.calpage__list,
+.calpage__detail {
+  margin-top: 4px;
+}
+
+.calpage__detail h2 {
+  font-size: 15px;
+  margin: 18px 0 10px;
+}
+
+.calpage__notice {
+  font-size: 12px;
+  color: #888;
+  margin-top: 8px;
+}
+
+/* ── 월간 그리드 ───────────────────────────────────────── */
+.cal {
+  background: #fff;
+  border: 1px solid #e6e6ef;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.cal__week--head,
+.cal__grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.cal__week--head {
+  margin-bottom: 4px;
+}
+
+.cal__wd {
+  text-align: center;
+  font-size: 11px;
+  color: #888;
+  padding: 4px 0;
+}
+
+.cal__wd:first-child {
+  color: #dc2626;
+}
+
+.cal__wd:last-child {
+  color: #2563eb;
+}
+
+.cal__grid {
+  gap: 2px;
+}
+
+.cal__cell {
+  background: transparent;
+  color: #1a1a2e;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  min-height: 56px;
+  padding: 5px 4px 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.cal__cell:hover:not(:disabled) {
+  background: #f3f4ff;
+}
+
+.cal__cell:disabled {
+  cursor: default;
+}
+
+.cal__cell--out {
+  color: #c4c4d0;
+}
+
+.cal__cell--today {
+  border-color: #4f46e5;
+  font-weight: 700;
+}
+
+.cal__cell--selected,
+.cal__cell--selected:hover:not(:disabled) {
+  background: #4f46e5;
+  color: #fff;
+}
+
+.cal__num {
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+}
+
+.cal__dots {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cal__dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--c-POLICY_NEWS);
+  display: inline-block;
+}
+
+.cal__dot--mine {
+  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.18);
+}
+
+.cal__dot--GUIDELINE_CHANGE { background: var(--c-GUIDELINE_CHANGE); }
+.cal__dot--SCHEDULE { background: var(--c-SCHEDULE); }
+.cal__dot--COMPETITION_RATE { background: var(--c-COMPETITION_RATE); }
+.cal__dot--POLICY_NEWS { background: var(--c-POLICY_NEWS); }
+.cal__dot--BRIEFING { background: var(--c-BRIEFING); }
+.cal__dot--DEADLINE { background: var(--c-DEADLINE); }
+.cal__dot--NEW_ADMISSION { background: var(--c-NEW_ADMISSION); }
+
+.cal__more {
+  font-size: 9px;
+  color: #888;
+  font-style: normal;
+}
+
+/* 미니(히어로 내부) */
+.cal--compact {
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.cal--compact .cal__wd {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.cal--compact .cal__wd:first-child,
+.cal--compact .cal__wd:last-child {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.cal--compact .cal__cell {
+  min-height: 30px;
+  color: rgba(255, 255, 255, 0.92);
+  padding: 3px 2px;
+}
+
+.cal--compact .cal__cell--out {
+  color: rgba(255, 255, 255, 0.35);
+}
+
+.cal--compact .cal__cell--today {
+  border-color: rgba(255, 255, 255, 0.9);
+}
+
+.cal--compact .cal__num {
+  font-size: 11px;
+}
+
+.cal--compact .cal__dot {
+  width: 4px;
+  height: 4px;
+  box-shadow: none;
+}
+
+.cal--compact .cal__more {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* ── 일정 카드 ─────────────────────────────────────────── */
+.evt {
+  background: #fff;
+  border: 1px solid #e6e6ef;
+  border-radius: 12px;
+  padding: 14px 16px;
+  list-style: none;
+}
+
+.evt--past {
+  opacity: 0.55;
+}
+
+.evt__top {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.evt__cat {
+  font-size: 11px;
+  font-weight: 700;
+  color: #fff;
+  background: var(--c-POLICY_NEWS);
+  border-radius: 999px;
+  padding: 2px 9px;
+}
+
+.evt__cat--GUIDELINE_CHANGE { background: var(--c-GUIDELINE_CHANGE); }
+.evt__cat--SCHEDULE { background: var(--c-SCHEDULE); }
+.evt__cat--COMPETITION_RATE { background: var(--c-COMPETITION_RATE); }
+.evt__cat--POLICY_NEWS { background: var(--c-POLICY_NEWS); }
+.evt__cat--BRIEFING { background: var(--c-BRIEFING); }
+.evt__cat--DEADLINE { background: var(--c-DEADLINE); }
+.evt__cat--NEW_ADMISSION { background: var(--c-NEW_ADMISSION); }
+
+.evt__mine {
+  font-size: 11px;
+  font-weight: 600;
+  color: #4338ca;
+  background: #eef2ff;
+  border-radius: 999px;
+  padding: 2px 8px;
+}
+
+.evt__dday {
+  margin-left: auto;
+  font-size: 13px;
+  font-weight: 700;
+  color: #4f46e5;
+  font-variant-numeric: tabular-nums;
+}
+
+.evt__date {
+  margin: 8px 0 0;
+  font-size: 12px;
+  color: #888;
+}
+
+.evt__title {
+  margin: 6px 0 8px;
+  font-size: 16px;
+}
+
+.evt__reasons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.evt__foot {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 480px) {
+  .hero__dday { font-size: 46px; }
+  .cal__cell { min-height: 46px; }
+  .dash__summary { grid-template-columns: 1fr 1fr; }
+}
+
+/* 헤더: 좁은 화면에서 네비가 줄바꿈되지 않도록 */
+@media (max-width: 560px) {
+  .app__header {
+    padding: 12px 14px;
+    gap: 8px;
+  }
+
+  .app__brand {
+    font-size: 16px;
+    white-space: nowrap;
+  }
+
+  .app__nav {
+    gap: 10px;
+  }
+
+  .app__link {
+    font-size: 13px;
+    white-space: nowrap;
+  }
+
+  .app__user {
+    display: none;
+  }
+
+  .app__header button {
+    padding: 6px 10px;
+    font-size: 13px;
+    white-space: nowrap;
+  }
+
+  .app__main {
+    padding: 16px 14px;
+  }
+}
+
+.hero__minilabel {
+  margin: 0 0 6px;
+  font-size: 12px;
+  font-weight: 600;
+  opacity: 0.85;
+  text-align: center;
+}
+
+/* ── 날짜별 일정 목록 (공개 페이지 · 캘린더 목록 뷰) ─────── */
+.bydate {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.bydate__month {
+  margin: 12px 0 10px;
+  font-size: 18px;
+  color: #4338ca;
+  border-bottom: 2px solid #e0e7ff;
+  padding-bottom: 6px;
+}
+
+.bydate__head {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.bydate__head--past {
+  opacity: 0.6;
+}
+
+.bydate__date {
+  margin: 0;
+  font-size: 15px;
+}
+
+.bydate__dday {
+  font-size: 12px;
+  font-weight: 700;
+  color: #4f46e5;
+  background: #eef2ff;
+  border-radius: 999px;
+  padding: 2px 8px;
+  font-variant-numeric: tabular-nums;
+}
+
+.bydate__count {
+  font-size: 12px;
+  color: #888;
+  margin-left: auto;
+}
+
+/* ── 공개 일정 페이지 ──────────────────────────────────── */
+.pub {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.pub__hero {
+  background: linear-gradient(135deg, #4f46e5 0%, #6d28d9 100%);
+  color: #fff;
+  border-radius: 16px;
+  padding: 22px;
+}
+
+.pub__eyebrow {
+  margin: 0 0 4px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  opacity: 0.85;
+}
+
+.pub__title {
+  margin: 0 0 8px;
+  font-size: 26px;
+  line-height: 1.25;
+}
+
+.pub__lead {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+.pub__next {
+  margin: 14px 0 0;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+
+.pub__next strong {
+  font-size: 16px;
+  margin-right: 6px;
+}
+
+.pub__cta {
+  margin-top: 14px;
+  background: #fff;
+  color: #4338ca;
+  font-weight: 700;
+  display: inline-block;
+  text-decoration: none;
+  padding: 9px 16px;
+  border-radius: 8px;
+}
+
+.pub__cta:hover {
+  background: #eef2ff;
+}
+
+.pub__search {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.pub__search input {
+  flex: 1;
+  min-width: 200px;
+  padding: 9px 12px;
+  border: 1px solid #d4d4e0;
+  border-radius: 8px;
+  font: inherit;
+}
+
+.pub__clear {
+  background: #ececf4;
+  color: #555;
+}
+
+.pub__clear:hover {
+  background: #e0e0ec;
+}
+
+.pub__count {
+  margin: 4px 0 0;
+}
+
+/* ── 관심 대학 선택 ────────────────────────────────────── */
+.uni {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+}
+
+.uni__search {
+  padding: 8px 10px;
+  border: 1px solid #d4d4e0;
+  border-radius: 8px;
+  font: inherit;
+  max-width: 320px;
+}
+
+.uni__results {
+  background: #f7f7fc;
+  border: 1px solid #e6e6ef;
+  border-radius: 10px;
+  padding: 10px;
+  max-height: 180px;
+  overflow-y: auto;
+}
+
+/* 히어로 — 학년 배지 / 준비 모드(고1·고2) */
+.hero__badge--grade {
+  background: rgba(255, 255, 255, 0.28);
+}
+
+.hero__main--prep {
+  gap: 8px;
+}
+
+.hero__sub--prep {
+  font-size: 14px;
+  line-height: 1.6;
+  opacity: 0.92;
+  max-width: 42ch;
+}
+
+.hero__peek {
+  margin: 8px 0 0;
+  font-size: 13px;
+  background: rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 10px;
+  padding: 9px 12px;
+}
+
+.hero__note {
+  margin: 10px 0 0;
+  font-size: 12px;
+  line-height: 1.55;
+  opacity: 0.9;
+  border-left: 2px solid rgba(255, 255, 255, 0.5);
+  padding-left: 10px;
+}
+
+/* ── 학교 학사일정 레이어 ─────────────────────────────── */
+:root {
+  --c-SCHOOL_EXAM: #b91c1c;
+  --c-SCHOOL_EVENT: #0d9488;
+  --c-SCHOOL_HOLIDAY: #94a3b8;
+}
+
+.cal__dot--SCHOOL_EXAM { background: var(--c-SCHOOL_EXAM); }
+.cal__dot--SCHOOL_EVENT { background: var(--c-SCHOOL_EVENT); }
+.cal__dot--SCHOOL_HOLIDAY { background: var(--c-SCHOOL_HOLIDAY); }
+
+.evt__cat--SCHOOL_EXAM { background: var(--c-SCHOOL_EXAM); }
+.evt__cat--SCHOOL_EVENT { background: var(--c-SCHOOL_EVENT); }
+.evt__cat--SCHOOL_HOLIDAY { background: var(--c-SCHOOL_HOLIDAY); }
+
+.calpage__school {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  background: #fff;
+  border: 1px solid #e6e6ef;
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+
+.calpage__schoollabel {
+  font-size: 13px;
+  font-weight: 600;
+  color: #444;
+}

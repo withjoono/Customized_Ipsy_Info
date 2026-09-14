@@ -5,9 +5,15 @@ import { rootRoute } from './root';
 import { api } from '../lib/api';
 import { useAuth } from '../store/auth';
 import { ADMISSION_TYPES, REGIONS, TRACKS } from '../lib/tags';
+import { UNIVERSITIES } from '../lib/universities';
 
 interface Subscription {
-  interests?: { regions?: string[]; tracks?: string[]; admissionTypes?: string[] };
+  interests?: {
+    regions?: string[];
+    tracks?: string[];
+    admissionTypes?: string[];
+    universities?: string[];
+  };
   channels?: { kakao?: boolean; sms?: boolean; push?: boolean; email?: boolean };
   frequency?: 'REALTIME' | 'DAILY' | 'WEEKLY';
   quietStart?: number | null;
@@ -39,6 +45,8 @@ function Subscribe() {
   const [regions, setRegions] = useState<string[]>([]);
   const [tracks, setTracks] = useState<string[]>([]);
   const [admissionTypes, setAdmissionTypes] = useState<string[]>([]);
+  const [universities, setUniversities] = useState<string[]>([]);
+  const [uniQuery, setUniQuery] = useState('');
   const [channels, setChannels] = useState<Record<string, boolean>>({});
   const [frequency, setFrequency] = useState<'REALTIME' | 'DAILY' | 'WEEKLY'>('DAILY');
   const [quietStart, setQuietStart] = useState<string>('');
@@ -60,6 +68,7 @@ function Subscribe() {
     setRegions(s.interests?.regions ?? []);
     setTracks(s.interests?.tracks ?? []);
     setAdmissionTypes(s.interests?.admissionTypes ?? []);
+    setUniversities(s.interests?.universities ?? []);
     setChannels((s.channels as Record<string, boolean>) ?? {});
     setFrequency(s.frequency ?? 'DAILY');
     setQuietStart(s.quietStart != null ? String(s.quietStart) : '');
@@ -70,7 +79,7 @@ function Subscribe() {
   const saveMut = useMutation({
     mutationFn: async () => {
       const payload = {
-        interests: { regions, tracks, admissionTypes },
+        interests: { regions, tracks, admissionTypes, universities },
         channels,
         frequency,
         quietStart: quietStart === '' ? undefined : Number(quietStart),
@@ -88,11 +97,16 @@ function Subscribe() {
   if (!token) {
     return (
       <section className="empty">
-        <p>구독 설정을 위해 로그인하세요.</p>
-        <button onClick={loginRedirect}>로그인</button>
+        <p className="eyebrow">STAY UPDATED</p>
+        <h1>내게 필요한 소식만 받아보세요</h1>
+        <p>로그인 후 관심 대학·전형과 알림 주기를 설정할 수 있어요.</p>
+        <button onClick={loginRedirect}>T스쿨로 시작하기</button>
       </section>
     );
   }
+
+  if (sub.isLoading) return <section className="empty" role="status"><h1>구독 설정</h1><p>저장된 관심사를 불러오고 있어요…</p></section>;
+  if (sub.error) return <section className="empty"><h1>구독 설정을 불러오지 못했어요</h1><p>잠시 후 다시 시도해 주세요.</p><button onClick={() => void sub.refetch()}>다시 불러오기</button></section>;
 
   return (
     <section className="admin">
@@ -136,6 +150,61 @@ function Subscribe() {
                   {t.label}
                 </button>
               ))}
+            </div>
+          </div>
+          <div className="admin__taggroup">
+            <span className="admin__taglabel">대학</span>
+            <div className="uni">
+              {universities.length > 0 && (
+                <div className="admin__chips">
+                  {universities.map((u) => (
+                    <button
+                      type="button"
+                      key={u}
+                      className="chip chip--on"
+                      onClick={() => setUniversities((s) => s.filter((x) => x !== u))}
+                      aria-label={`${u} 선택 해제`}
+                    >
+                      {u} ×
+                    </button>
+                  ))}
+                </div>
+              )}
+              <input
+                type="search"
+                className="uni__search"
+                value={uniQuery}
+                onChange={(e) => setUniQuery(e.target.value)}
+                placeholder="대학명 검색 (예: 고려, 한양)"
+                aria-label="관심 대학 검색"
+              />
+              {uniQuery.trim() && (
+                <div className="uni__results admin__chips">
+                  {UNIVERSITIES.filter(
+                    (u) => u.includes(uniQuery.trim()) && !universities.includes(u),
+                  )
+                    .slice(0, 20)
+                    .map((u) => (
+                      <button
+                        type="button"
+                        key={u}
+                        className="chip"
+                        onClick={() => {
+                          setUniversities((s) => [...s, u]);
+                          setUniQuery('');
+                        }}
+                      >
+                        + {u}
+                      </button>
+                    ))}
+                  {UNIVERSITIES.filter(
+                    (u) => u.includes(uniQuery.trim()) && !universities.includes(u),
+                  ).length === 0 && <span className="muted">일치하는 대학이 없어요.</span>}
+                </div>
+              )}
+              <p className="muted">
+                관심 대학을 고르면 그 대학의 면접일·합격자 발표일이 캘린더 맨 위로 올라옵니다.
+              </p>
             </div>
           </div>
           <div className="admin__taggroup">

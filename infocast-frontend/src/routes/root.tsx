@@ -1,3 +1,4 @@
+import { Footer } from "../components/footer";
 import { createRootRoute, Link, Outlet } from '@tanstack/react-router';
 import { useAuth } from '../store/auth';
 
@@ -6,15 +7,23 @@ function RootLayout() {
 
   return (
     <div className="app">
+      <a href="#main-content" className="skip-link">본문으로 바로가기</a>
       <header className="app__header">
         <Link to="/" className="app__brand">
-          맞춤 입시정보
+          <span className="brand-mark" aria-hidden="true">T<span>·</span></span>
+          <span>맞춤정보<small>BY TSKOOL</small></span>
         </Link>
-        <nav className="app__nav">
+        <nav className="app__nav" aria-label="주 메뉴">
+          <Link to="/" className="app__link" activeOptions={{ exact: true }}>대시보드</Link>
+          <Link to="/schedule" className="app__link">
+            전체 일정
+          </Link>
+          <Link to="/feed" className="app__link">맞춤 피드</Link>
+          <Link to="/subscribe" className="app__link">구독 설정</Link>
           {user ? (
             <>
-              <Link to="/subscribe" className="app__link">
-                구독
+              <Link to="/calendar" className="app__link">
+                캘린더
               </Link>
               <Link to="/admin" className="app__link">
                 관리자
@@ -23,16 +32,14 @@ function RootLayout() {
               <button onClick={logout}>로그아웃</button>
             </>
           ) : (
-            <button onClick={loginRedirect}>로그인</button>
+            <button onClick={loginRedirect} className="header-login">T스쿨 로그인 <span aria-hidden="true">↗</span></button>
           )}
         </nav>
       </header>
-      <main className="app__main">
+      <main id="main-content" className="app__main" tabIndex={-1}>
         <Outlet />
       </main>
-      <footer className="app__footer">
-        입결·합격가능성은 추정이며 보장하지 않습니다. 출처를 확인하세요.
-      </footer>
+      <Footer />
     </div>
   );
 }

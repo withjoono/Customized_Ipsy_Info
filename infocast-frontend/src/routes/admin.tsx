@@ -14,7 +14,7 @@ import {
 } from '../lib/tags';
 
 interface TagState {
-  grades: number[];
+  grades: (number | string)[];
   tracks: string[];
   regions: string[];
   admissionTypes: string[];
@@ -155,11 +155,11 @@ function Admin() {
           <TagGroup label="학년">
             {GRADES.map((g) => (
               <Chip
-                key={g}
-                active={tags.grades.includes(g)}
-                onClick={() => setTags((t) => ({ ...t, grades: toggle(t.grades, g) }))}
+                key={g.value}
+                active={tags.grades.includes(g.value)}
+                onClick={() => setTags((t) => ({ ...t, grades: toggle(t.grades, g.value) }))}
               >
-                {g}학년
+                {g.label}
               </Chip>
             ))}
           </TagGroup>
