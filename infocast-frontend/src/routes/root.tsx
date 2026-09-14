@@ -1,3 +1,4 @@
+import { Footer } from "../components/footer";
 import { createRootRoute, Link, Outlet } from '@tanstack/react-router';
 import { useAuth } from '../store/auth';
 
@@ -8,7 +9,8 @@ function RootLayout() {
     <div className="app">
       <header className="app__header">
         <Link to="/" className="app__brand">
-          맞춤 입시정보
+          <img src="https://www.tskool.kr/logo.png" alt="티스쿨 로고" width={40} height={40} />
+          T맞춤정보
         </Link>
         <nav className="app__nav">
           {user ? (
@@ -30,9 +32,7 @@ function RootLayout() {
       <main className="app__main">
         <Outlet />
       </main>
-      <footer className="app__footer">
-        입결·합격가능성은 추정이며 보장하지 않습니다. 출처를 확인하세요.
-      </footer>
+      <Footer />
     </div>
   );
 }
