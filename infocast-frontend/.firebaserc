@@ -5,7 +5,9 @@
   "targets": {
     "ts-front-479305": {
       "hosting": {
-        "infocast-front": ["infocast-front"]
+        "infocast-front": [
+          "infocast-front"
+        ]
       }
     }
   }
