@@ -1,0 +1,2596 @@
+{
+  "meta": {
+    "schoolYear": "2027학년도",
+    "scope": "대학별 수시 합격자 발표일 — 고3·재수생 대상, 대학 태그로 개인화",
+    "sources": [
+      {
+        "name": "2027학년도 수시 대학별 합격자 발표 일정 (사용자 제공)",
+        "url": ""
+      }
+    ],
+    "note": "면접 일정은 대교협 공식 자료 기반의 interview-2027.json 으로 분리·교체했다(이 파일에는 발표일만 남는다). 대학명은 interview 시드와 같은 규칙으로 정규화했다. 대상 학년은 고3+재수생([3,'N']).",
+    "disclaimer": "대학별 일정은 각 대학 공고에 따라 변경될 수 있으므로 반드시 해당 대학 입학처에서 확인해야 한다.",
+    "universities": [
+      "DGIST",
+      "GIST",
+      "KAIST",
+      "KENTECH",
+      "POSTECH",
+      "UNIST",
+      "가천대",
+      "가톨릭대",
+      "강남대",
+      "강서대",
+      "강원대",
+      "건국대",
+      "건국대(글로컬)",
+      "경기대",
+      "경동대",
+      "경북대",
+      "경상국립대",
+      "경희대",
+      "고려대",
+      "고려대(세종)",
+      "광운대",
+      "국립공주대",
+      "국립한국교통대",
+      "국민대",
+      "나사렛대",
+      "남서울대",
+      "단국대(죽전)",
+      "단국대(천안)",
+      "대진대",
+      "덕성여대",
+      "동국대",
+      "동덕여대",
+      "동양대",
+      "명지대",
+      "백석대",
+      "부산대",
+      "삼육대",
+      "상명대",
+      "상명대(천안)",
+      "서강대",
+      "서경대",
+      "서울과기대",
+      "서울대",
+      "서울시립대",
+      "서울여대",
+      "서울한영대",
+      "선문대",
+      "성결대",
+      "성공회대",
+      "성균관대",
+      "성신여대",
+      "세종대",
+      "수원대",
+      "숙명여대",
+      "순천향대",
+      "숭실대",
+      "신한대",
+      "아주대",
+      "안양대",
+      "연세대",
+      "연세대(미래)",
+      "용인대",
+      "을지대",
+      "이화여대",
+      "인천가톨릭대",
+      "인천대",
+      "인하대",
+      "전남대",
+      "전북대",
+      "제주대",
+      "중부대",
+      "중앙대",
+      "차의과학대",
+      "청운대",
+      "청주대",
+      "총신대",
+      "충남대",
+      "충북대",
+      "평택대",
+      "한경국립대",
+      "한국공학대",
+      "한국교원대",
+      "한국기술교대",
+      "한국성서대",
+      "한국외대",
+      "한국항공대",
+      "한림대",
+      "한서대",
+      "한성대",
+      "한세대",
+      "한신대",
+      "한양대",
+      "한양대(ERICA)",
+      "협성대",
+      "호서대",
+      "홍익대",
+      "홍익대(세종)",
+      "화성의과학대"
+    ]
+  },
+  "items": [
+    {
+      "id": "e85175d1-94c2-439f-88bb-6d719e097061",
+      "title": "KAIST 수시 합격자 발표 — 창의도전/학교장추천",
+      "body": "KAIST 수시 합격자 발표: 10.12(월). 대상 전형·학과: 창의도전/학교장추천.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-10-12T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "KAIST"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "1f2338bd-6be5-4abd-8f5e-158dd63456eb",
+      "title": "한림대 수시 합격자 발표 — 학생부교과",
+      "body": "한림대 수시 합격자 발표: 10.15(목). 대상 전형·학과: 학생부교과.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-10-15T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "한림대"
+        ],
+        "admissionTypes": [
+          "GYOGWA"
+        ]
+      }
+    },
+    {
+      "id": "f020a911-8f09-4a9d-8322-b5a0870b5dcc",
+      "title": "용인대 수시 합격자 발표",
+      "body": "용인대 수시 합격자 발표: 10.16(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-10-16T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "용인대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "a6d9e417-6386-4c64-896c-25651142da47",
+      "title": "숙명여대 수시 합격자 발표 — 예능창의인재",
+      "body": "숙명여대 수시 합격자 발표: 10.27(화). 대상 전형·학과: 예능창의인재.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-10-27T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "숙명여대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "15b87e59-3758-488b-8ccf-97bd35be5155",
+      "title": "차의과학대 수시 합격자 발표 — 지역균형선발",
+      "body": "차의과학대 수시 합격자 발표: 10.27(화). 대상 전형·학과: 지역균형선발.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-10-27T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "차의과학대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "84a121cf-1a2a-45d4-80a7-f915a19ff80b",
+      "title": "신한대 수시 합격자 발표 — 실적",
+      "body": "신한대 수시 합격자 발표 기간: 10.29(목) ~ 11.2(월). 해당 기간 중 학과·전형별 일자가 다를 수 있으니 대학 공고를 확인하세요. 대상 전형·학과: 실적.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-10-29T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "신한대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "c4562b10-f9eb-4bf7-86f7-d32591d5f36f",
+      "title": "숭실대 수시 합격자 발표 — 예체능우수인재",
+      "body": "숭실대 수시 합격자 발표: 10.30(금). 대상 전형·학과: 예체능우수인재.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-10-30T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "숭실대"
+        ],
+        "admissionTypes": [
+          "SILGI"
+        ]
+      }
+    },
+    {
+      "id": "86fd3485-2022-44ff-8175-f20f29393db4",
+      "title": "삼육대 수시 합격자 발표",
+      "body": "삼육대 수시 합격자 발표: 11.2(월).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-02T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "삼육대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "76294d0c-9476-40e7-8d2b-73b146ff93c5",
+      "title": "총신대 수시 합격자 발표",
+      "body": "총신대 수시 합격자 발표: 11.4(수).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-04T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "총신대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "e2ff1941-10e8-432a-8f14-8b97df748977",
+      "title": "서울한영대 수시 합격자 발표",
+      "body": "서울한영대 수시 합격자 발표: 11.5(목).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-05T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "서울한영대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "a1946efa-35a3-4523-8e34-b29d91400d0c",
+      "title": "청운대 수시 합격자 발표",
+      "body": "청운대 수시 합격자 발표: 11.5(목).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-05T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "청운대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "a94ac439-aeb4-4df0-8910-36509b127d1f",
+      "title": "경동대 수시 합격자 발표",
+      "body": "경동대 수시 합격자 발표: 11.6(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-06T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "경동대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "9a5f9e46-3662-4170-8eab-fedff380693a",
+      "title": "광운대 수시 합격자 발표",
+      "body": "광운대 수시 합격자 발표: 11.6(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-06T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "광운대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "6923d78f-8b4a-407c-89bd-0fb85fe40205",
+      "title": "성결대 수시 합격자 발표",
+      "body": "성결대 수시 합격자 발표: 11.6(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-06T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "성결대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "178cf5ff-114d-4e9c-874c-e8ccf237d482",
+      "title": "세종대 수시 합격자 발표 — 실기우수/예체능특기",
+      "body": "세종대 수시 합격자 발표: 11.6(금). 대상 전형·학과: 실기우수/예체능특기.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-06T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "세종대"
+        ],
+        "admissionTypes": [
+          "SILGI"
+        ]
+      }
+    },
+    {
+      "id": "1673324a-9b69-4eb4-8fc7-e337253fbac1",
+      "title": "수원대 수시 합격자 발표",
+      "body": "수원대 수시 합격자 발표: 11.6(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-06T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "수원대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "652e9f69-452e-4b37-817a-ced99a50c93f",
+      "title": "아주대 수시 합격자 발표 — 체육우수자(축구)",
+      "body": "아주대 수시 합격자 발표: 11.6(금). 대상 전형·학과: 체육우수자(축구).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-06T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "아주대"
+        ],
+        "admissionTypes": [
+          "SILGI"
+        ]
+      }
+    },
+    {
+      "id": "00da4bf9-600d-4187-8463-31d8a2dc53bc",
+      "title": "인천대 수시 합격자 발표 — 특기자",
+      "body": "인천대 수시 합격자 발표: 11.6(금). 대상 전형·학과: 특기자.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-06T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "인천대"
+        ],
+        "admissionTypes": [
+          "SILGI"
+        ]
+      }
+    },
+    {
+      "id": "57a64477-7dc0-46e2-88de-006e67a7b85e",
+      "title": "한국성서대 수시 합격자 발표",
+      "body": "한국성서대 수시 합격자 발표: 11.6(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-06T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "한국성서대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "f53f8cc9-5cc7-44c2-8917-29bd00fc523c",
+      "title": "한성대 수시 합격자 발표",
+      "body": "한성대 수시 합격자 발표: 11.6(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-06T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "한성대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "0efa0d61-66b9-4866-8fc3-b8c9ba79ddae",
+      "title": "한신대 수시 합격자 발표",
+      "body": "한신대 수시 합격자 발표: 11.6(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-06T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "한신대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "7bae635c-23d3-407c-8704-375b54b34221",
+      "title": "홍익대 수시 합격자 발표 — 공연예술우수자",
+      "body": "홍익대 수시 합격자 발표: 11.7(토). 대상 전형·학과: 공연예술우수자.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-07T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "홍익대"
+        ],
+        "admissionTypes": [
+          "SILGI"
+        ]
+      }
+    },
+    {
+      "id": "13d300df-7edc-414b-8a0e-6e0f86119d9d",
+      "title": "홍익대(세종) 수시 합격자 발표 — 체육우수자",
+      "body": "홍익대(세종) 수시 합격자 발표: 11.7(토). 대상 전형·학과: 체육우수자.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-07T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "홍익대(세종)"
+        ],
+        "admissionTypes": [
+          "SILGI"
+        ]
+      }
+    },
+    {
+      "id": "4bf4b6fd-be53-499e-8a73-73cac70add27",
+      "title": "국민대 수시 합격자 발표 — 실기우수자, 특기자",
+      "body": "국민대 수시 합격자 발표: 11.10(화). 대상 전형·학과: 실기우수자, 특기자.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-10T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "국민대"
+        ],
+        "admissionTypes": [
+          "SILGI"
+        ]
+      }
+    },
+    {
+      "id": "a29db26e-1cb5-4afd-8ae8-27e5a6ca544a",
+      "title": "나사렛대 수시 합격자 발표",
+      "body": "나사렛대 수시 합격자 발표: 11.10(화).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-10T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "나사렛대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "23d2f295-4591-4f4f-80ff-3a79589df777",
+      "title": "중부대(고양) 수시 합격자 발표",
+      "body": "중부대(고양) 수시 합격자 발표: 11.10(화).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-10T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "중부대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "2acc4346-4d6f-40fa-8001-293b33511e49",
+      "title": "한세대 수시 합격자 발표",
+      "body": "한세대 수시 합격자 발표: 11.10(화).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-10T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "한세대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "6af514ad-e289-4cb2-824d-dd2019a1b5d5",
+      "title": "인천가톨릭대 수시 합격자 발표",
+      "body": "인천가톨릭대 수시 합격자 발표: 11.11(수).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-11T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "인천가톨릭대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "52c1c056-9418-4bdd-8ca6-e7c4015e1497",
+      "title": "강서대 수시 합격자 발표",
+      "body": "강서대 수시 합격자 발표: 11.13(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-13T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "강서대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "c2d60a2c-af97-4b27-88ed-cfcd3bc33c83",
+      "title": "경북대 수시 합격자 발표 — 실기, 특기자(체육)",
+      "body": "경북대 수시 합격자 발표: 11.13(금). 대상 전형·학과: 실기, 특기자(체육).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-13T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "경북대"
+        ],
+        "admissionTypes": [
+          "SILGI"
+        ]
+      }
+    },
+    {
+      "id": "df2e6436-d51d-421e-8546-e5fdbbaf8d06",
+      "title": "대진대 수시 합격자 발표",
+      "body": "대진대 수시 합격자 발표: 11.13(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-13T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "대진대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "17a16602-df2d-4b48-8d87-1e25687ee8fc",
+      "title": "서울여대 수시 합격자 발표",
+      "body": "서울여대 수시 합격자 발표: 11.13(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-13T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "서울여대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "a9091d42-9f28-450e-83aa-ac81fdcb8206",
+      "title": "성공회대 수시 합격자 발표",
+      "body": "성공회대 수시 합격자 발표: 11.13(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-13T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "성공회대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "f3b9c1aa-71e5-4297-86d8-12fffaa217d5",
+      "title": "성신여대 수시 합격자 발표",
+      "body": "성신여대 수시 합격자 발표: 11.13(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-13T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "성신여대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "12f829a6-73b7-4e1c-8bbc-12abb8c23995",
+      "title": "안양대 수시 합격자 발표",
+      "body": "안양대 수시 합격자 발표: 11.13(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-13T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "안양대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "c405737c-6842-4131-8161-738d2076aa61",
+      "title": "용인대 수시 합격자 발표 — 체육우수자",
+      "body": "용인대 수시 합격자 발표: 11.13(금). 대상 전형·학과: 체육우수자.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-13T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "용인대"
+        ],
+        "admissionTypes": [
+          "SILGI"
+        ]
+      }
+    },
+    {
+      "id": "993ba5d5-bda0-4e42-80bd-619aa47ff50e",
+      "title": "한국기술교대 수시 합격자 발표",
+      "body": "한국기술교대 수시 합격자 발표: 11.13(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-13T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "한국기술교대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "69a74b14-366d-4ab4-8736-006f1d7eb75b",
+      "title": "한양대 수시 합격자 발표 — 특기자",
+      "body": "한양대 수시 합격자 발표: 11.13(금). 대상 전형·학과: 특기자.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-13T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "한양대"
+        ],
+        "admissionTypes": [
+          "SILGI"
+        ]
+      }
+    },
+    {
+      "id": "faad5a23-7bef-4c90-8229-38810eff87b4",
+      "title": "한양대(ERICA) 수시 합격자 발표",
+      "body": "한양대(ERICA) 수시 합격자 발표: 11.13(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-13T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "한양대(ERICA)"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "e96fd3da-f324-4381-8596-6aea915d5416",
+      "title": "화성의과학대 수시 합격자 발표",
+      "body": "화성의과학대 수시 합격자 발표: 11.13(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-13T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "화성의과학대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "11532959-1912-4301-84cc-b8c8f6c5a2e2",
+      "title": "가천대 수시 합격자 발표",
+      "body": "가천대 수시 합격자 발표: 11.14(토).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-14T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "가천대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "6b66b080-3728-4bfd-8a81-c8bff53296ba",
+      "title": "신한대 수시 합격자 발표 — 교과/실기",
+      "body": "신한대 수시 합격자 발표 기간: 11.16(월) ~ 11.17(화). 해당 기간 중 학과·전형별 일자가 다를 수 있으니 대학 공고를 확인하세요. 대상 전형·학과: 교과/실기.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-16T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "신한대"
+        ],
+        "admissionTypes": [
+          "GYOGWA",
+          "SILGI"
+        ]
+      }
+    },
+    {
+      "id": "6530e7b7-4791-4077-8407-a43ba4e007c1",
+      "title": "남서울대 수시 합격자 발표",
+      "body": "남서울대 수시 합격자 발표: 11.17(화).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-17T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "남서울대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "aaac3827-bb77-42e1-82dd-844d3df12fe9",
+      "title": "동덕여대 수시 합격자 발표",
+      "body": "동덕여대 수시 합격자 발표: 11.17(화).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-17T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "동덕여대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "98ac05d6-d1cc-4dfe-8645-55f67d141877",
+      "title": "동양대(북서울) 수시 합격자 발표",
+      "body": "동양대(북서울) 수시 합격자 발표: 11.17(화).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-17T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "동양대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "d8d9802b-da0f-43df-8dc1-fd6765f50dbf",
+      "title": "중앙대 수시 합격자 발표 — 특기형",
+      "body": "중앙대 수시 합격자 발표: 11.17(화). 대상 전형·학과: 특기형.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-17T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "중앙대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "95e2a96e-8f1f-41c8-8942-a97cc5f60b4f",
+      "title": "청주대 수시 합격자 발표",
+      "body": "청주대 수시 합격자 발표: 11.17(화).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-17T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "청주대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "368a0b1f-25fa-4e69-82ef-d9e7ca48f8ac",
+      "title": "을지대 수시 합격자 발표 — 논술",
+      "body": "을지대 수시 합격자 발표: 11.18(수). 대상 전형·학과: 논술.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "을지대"
+        ],
+        "admissionTypes": [
+          "NONSUL"
+        ]
+      }
+    },
+    {
+      "id": "191dc844-fcbc-415b-849c-99a7f0a34c18",
+      "title": "한경국립대 수시 합격자 발표",
+      "body": "한경국립대 수시 합격자 발표: 11.18(수).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "한경국립대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "e34a8a20-547a-41b1-818f-3e1df8c20cdb",
+      "title": "건국대(글로컬) 수시 합격자 발표 — 체육특기자",
+      "body": "건국대(글로컬) 수시 합격자 발표: 11.19(목). 대상 전형·학과: 체육특기자.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-19T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "건국대(글로컬)"
+        ],
+        "admissionTypes": [
+          "SILGI"
+        ]
+      }
+    },
+    {
+      "id": "7e516165-51b1-44af-847a-d06d993b25f1",
+      "title": "경기대 수시 합격자 발표",
+      "body": "경기대 수시 합격자 발표: 11.20(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-20T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "경기대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "99830c8e-98b8-4d63-8168-33e5b2732c9d",
+      "title": "평택대 수시 합격자 발표",
+      "body": "평택대 수시 합격자 발표: 11.20(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-20T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "평택대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "db76ba88-b768-400f-8a36-1d5d22d5dfb2",
+      "title": "한서대 수시 합격자 발표",
+      "body": "한서대 수시 합격자 발표: 11.20(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-20T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "한서대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "54eb614f-965d-484f-8fde-0d3e38397692",
+      "title": "부산대 수시 합격자 발표",
+      "body": "부산대 수시 합격자 발표: 11.24(화).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-24T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "부산대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "d659a967-52a4-4a32-836f-42791381d05e",
+      "title": "상명대(천안) 수시 합격자 발표",
+      "body": "상명대(천안) 수시 합격자 발표: 11.24(화).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-24T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "상명대(천안)"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "93e3c31c-e09c-444c-8679-082b5e4749f8",
+      "title": "호서대 수시 합격자 발표",
+      "body": "호서대 수시 합격자 발표: 11.24(화).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-24T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "호서대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "d0db65ed-1bba-4587-83c5-bb84230e8d98",
+      "title": "경희대 수시 합격자 발표",
+      "body": "경희대 수시 합격자 발표: 11.25(수).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-25T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "경희대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "a2dbb186-7143-493c-872d-a7d55aeff59a",
+      "title": "선문대 수시 합격자 발표",
+      "body": "선문대 수시 합격자 발표: 11.25(수).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-25T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "선문대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "cf3bf8f2-9d94-4a64-87c6-d5632fa006f4",
+      "title": "가톨릭대 수시 합격자 발표",
+      "body": "가톨릭대 수시 합격자 발표: 11.27(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-27T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "가톨릭대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "53390df0-2824-446b-870a-27da89481b88",
+      "title": "단국대(죽전) 수시 합격자 발표 — 실기우수자",
+      "body": "단국대(죽전) 수시 합격자 발표: 11.27(금). 대상 전형·학과: 실기우수자.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-27T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "단국대(죽전)"
+        ],
+        "admissionTypes": [
+          "SILGI"
+        ]
+      }
+    },
+    {
+      "id": "4a820f69-0ec6-41ae-8a6f-6ee8d93e2ba8",
+      "title": "단국대(천안) 수시 합격자 발표 — 실기우수자, 체육특기자",
+      "body": "단국대(천안) 수시 합격자 발표: 11.27(금). 대상 전형·학과: 실기우수자, 체육특기자.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-27T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "단국대(천안)"
+        ],
+        "admissionTypes": [
+          "SILGI"
+        ]
+      }
+    },
+    {
+      "id": "2abc21be-04d9-41eb-8c8a-b1ad1e77a649",
+      "title": "백석대 수시 합격자 발표",
+      "body": "백석대 수시 합격자 발표: 11.27(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-11-27T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "백석대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "42d73e56-3389-4a86-8f47-e6da058ea2d4",
+      "title": "상명대 수시 합격자 발표",
+      "body": "상명대 수시 합격자 발표: 12.3(목).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-03T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "상명대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "51daa567-b154-4325-8550-868fc46709c5",
+      "title": "이화여대 수시 합격자 발표 — 미래인재면접/고른기회/사회기여자/예체능실기",
+      "body": "이화여대 수시 합격자 발표: 12.3(목). 대상 전형·학과: 미래인재면접/고른기회/사회기여자/예체능실기.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-03T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "이화여대"
+        ],
+        "admissionTypes": [
+          "SILGI"
+        ]
+      }
+    },
+    {
+      "id": "c186329b-5819-4673-8832-f0cd52efb831",
+      "title": "명지대 수시 합격자 발표",
+      "body": "명지대 수시 합격자 발표: 12.9(수).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-09T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "명지대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "4b92797b-e9bd-4403-880e-f5fcdd3f3aa9",
+      "title": "KENTECH 수시 합격자 발표",
+      "body": "KENTECH 수시 합격자 발표: 12.11(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-11T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "KENTECH"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "421b6928-fd02-4fa8-8b55-7f656d34c8f6",
+      "title": "대진대 수시 합격자 발표",
+      "body": "대진대 수시 합격자 발표: 12.11(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-11T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "대진대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "83d92506-82ef-4ad6-85e1-28f1acb4813e",
+      "title": "삼육대 수시 합격자 발표",
+      "body": "삼육대 수시 합격자 발표: 12.15(화).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-15T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "삼육대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "ec9ee13d-e66b-4049-8ed0-c1622d0d689f",
+      "title": "청주대 수시 합격자 발표 — 항공운항학과, 군사학과",
+      "body": "청주대 수시 합격자 발표: 12.15(화). 대상 전형·학과: 항공운항학과, 군사학과.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-15T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "청주대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "be647679-cfb5-4738-8887-4e79ad6120ed",
+      "title": "신한대 수시 합격자 발표 — 종합/논술",
+      "body": "신한대 수시 합격자 발표 기간: 12.16(수) ~ 12.18(금). 해당 기간 중 학과·전형별 일자가 다를 수 있으니 대학 공고를 확인하세요. 대상 전형·학과: 종합/논술.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-16T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "신한대"
+        ],
+        "admissionTypes": [
+          "NONSUL",
+          "JONGHAP"
+        ]
+      }
+    },
+    {
+      "id": "f9111567-ea11-46a7-84c3-cfc3dc041baf",
+      "title": "용인대 수시 합격자 발표 — 교과성적우수자",
+      "body": "용인대 수시 합격자 발표: 12.16(수). 대상 전형·학과: 교과성적우수자.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-16T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "용인대"
+        ],
+        "admissionTypes": [
+          "GYOGWA"
+        ]
+      }
+    },
+    {
+      "id": "4c7cb5db-b934-4e48-8901-bd91e1bde9b3",
+      "title": "한성대 수시 합격자 발표 — 교과우수",
+      "body": "한성대 수시 합격자 발표: 12.16(수). 대상 전형·학과: 교과우수.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-16T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "한성대"
+        ],
+        "admissionTypes": [
+          "GYOGWA"
+        ]
+      }
+    },
+    {
+      "id": "9e6cc26f-6d34-4828-8fd6-40b6982146d8",
+      "title": "화성의과학대 수시 합격자 발표",
+      "body": "화성의과학대 수시 합격자 발표: 12.16(수).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-16T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "화성의과학대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "d9273c4d-c1ec-4361-8c76-9d4656606757",
+      "title": "건국대(글로컬) 수시 합격자 발표",
+      "body": "건국대(글로컬) 수시 합격자 발표: 12.17(목).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-17T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "건국대(글로컬)"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "c63fbf3c-a3ce-42e9-8741-d41722597f55",
+      "title": "상명대(천안) 수시 합격자 발표 — 학생부교과",
+      "body": "상명대(천안) 수시 합격자 발표: 12.17(목). 대상 전형·학과: 학생부교과.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-17T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "상명대(천안)"
+        ],
+        "admissionTypes": [
+          "GYOGWA"
+        ]
+      }
+    },
+    {
+      "id": "e0c666d5-4933-46f0-83da-fece58f9101a",
+      "title": "이화여대 수시 합격자 발표 — 고교추천/미래인재서류/논술/예체능서류",
+      "body": "이화여대 수시 합격자 발표: 12.17(목). 대상 전형·학과: 고교추천/미래인재서류/논술/예체능서류.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-17T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "이화여대"
+        ],
+        "admissionTypes": [
+          "NONSUL",
+          "SILGI"
+        ]
+      }
+    },
+    {
+      "id": "06d097d8-cfbf-4b45-8ecb-35985244e663",
+      "title": "한경국립대 수시 합격자 발표",
+      "body": "한경국립대 수시 합격자 발표: 12.17(목).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-17T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "한경국립대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "9d4ec5b0-bcdb-43e5-8394-e3fcaa4275ba",
+      "title": "한국교원대 수시 합격자 발표",
+      "body": "한국교원대 수시 합격자 발표: 12.17(목).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-17T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "한국교원대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "12018fd8-17b8-4c6a-83df-8d3af6589e91",
+      "title": "한림대 수시 합격자 발표",
+      "body": "한림대 수시 합격자 발표: 12.17(목).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-17T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "한림대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "0ead5a3b-f3bc-4757-8354-3805cf9ffb19",
+      "title": "DGIST 수시 합격자 발표",
+      "body": "DGIST 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "DGIST"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "b41739cd-a124-41de-88ab-4bc481c6d147",
+      "title": "GIST 수시 합격자 발표",
+      "body": "GIST 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "GIST"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "9c6fc9a5-2d6c-4017-8c11-fd2916eca70e",
+      "title": "KAIST 수시 합격자 발표",
+      "body": "KAIST 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "KAIST"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "3de07f3b-0699-409b-868f-c9e07e3de353",
+      "title": "POSTECH 수시 합격자 발표",
+      "body": "POSTECH 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "POSTECH"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "a3c22842-5db7-46b4-8254-18ca6b13753b",
+      "title": "UNIST 수시 합격자 발표",
+      "body": "UNIST 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "UNIST"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "db92fa3b-5b47-48f2-8558-5015bc8b30cc",
+      "title": "가천대 수시 합격자 발표",
+      "body": "가천대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "가천대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "ffc70bcc-d136-4ffa-8b0d-88e1c612bdec",
+      "title": "가톨릭대 수시 합격자 발표",
+      "body": "가톨릭대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "가톨릭대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "d260e354-e334-4f96-8156-14ff4bb3f0ba",
+      "title": "강남대 수시 합격자 발표",
+      "body": "강남대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "강남대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "85683484-574f-49cd-89ba-3899742ff4f9",
+      "title": "강서대 수시 합격자 발표 — 간호학과",
+      "body": "강서대 수시 합격자 발표: 12.18(금). 대상 전형·학과: 간호학과.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "강서대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "515e366c-52c4-48cf-822e-b2cd26eb8065",
+      "title": "강원대 수시 합격자 발표",
+      "body": "강원대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "강원대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "629e53a0-e1f0-4aff-8a60-7c86e3bbd87a",
+      "title": "건국대 수시 합격자 발표",
+      "body": "건국대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "건국대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "3298481b-4cae-4d64-85a4-9deb6f8a6b66",
+      "title": "경기대 수시 합격자 발표",
+      "body": "경기대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "경기대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "a258bbd1-507e-487e-889e-9f1521b61e8a",
+      "title": "경북대 수시 합격자 발표",
+      "body": "경북대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "경북대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "0f8ab452-6662-4dbd-8738-0095b5b17249",
+      "title": "경상국립대 수시 합격자 발표",
+      "body": "경상국립대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "경상국립대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "e0cec222-a5b6-4e9d-847a-c4faf6144e5c",
+      "title": "경희대 수시 합격자 발표",
+      "body": "경희대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "경희대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "00973e30-57f1-4035-82d6-a45ed40b8316",
+      "title": "고려대 수시 합격자 발표",
+      "body": "고려대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "고려대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "540c98e7-7715-436d-8f14-c0d86ec21748",
+      "title": "고려대(세종) 수시 합격자 발표",
+      "body": "고려대(세종) 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "고려대(세종)"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "36c00070-a706-4e44-89ff-c12ee4442189",
+      "title": "광운대 수시 합격자 발표",
+      "body": "광운대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "광운대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "ea48d83b-4ea1-4d3c-8b4b-9103f3a65b25",
+      "title": "국립공주대 수시 합격자 발표",
+      "body": "국립공주대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "국립공주대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "306b8379-bb96-47ce-8a0b-dad5adc0a5b2",
+      "title": "국립한국교통대 수시 합격자 발표",
+      "body": "국립한국교통대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "국립한국교통대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "610a476e-a2ad-4041-8ea0-fe5451082d8e",
+      "title": "국민대 수시 합격자 발표",
+      "body": "국민대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "국민대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "6ebc2ef7-1eb4-432c-8fa8-ed5b20bb9545",
+      "title": "나사렛대 수시 합격자 발표",
+      "body": "나사렛대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "나사렛대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "86aeb0bc-51bf-4a1e-8047-e74b255d52eb",
+      "title": "단국대(죽전) 수시 합격자 발표",
+      "body": "단국대(죽전) 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "단국대(죽전)"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "5c680ae9-ce5d-4bd0-8284-00ac5b2f50ff",
+      "title": "단국대(천안) 수시 합격자 발표",
+      "body": "단국대(천안) 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "단국대(천안)"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "455aa4a3-43a5-4d3b-8320-3a49584f84f8",
+      "title": "덕성여대 수시 합격자 발표",
+      "body": "덕성여대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "덕성여대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "88cefd91-10e5-4876-8282-f46a8ac3ec7c",
+      "title": "동국대 수시 합격자 발표",
+      "body": "동국대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "동국대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "159382bf-8a74-453c-83a0-35cd3de554d6",
+      "title": "동덕여대 수시 합격자 발표",
+      "body": "동덕여대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "동덕여대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "88da38b8-7999-45de-8e37-d3ba886b5a52",
+      "title": "부산대 수시 합격자 발표",
+      "body": "부산대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "부산대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "b9d15038-2efb-451c-8f21-55d69bfb9433",
+      "title": "서강대 수시 합격자 발표",
+      "body": "서강대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "서강대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "e6351e86-ba19-42cd-8e65-391e96533387",
+      "title": "서경대 수시 합격자 발표",
+      "body": "서경대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "서경대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "49342b56-ffec-447d-89d8-4683dcae7864",
+      "title": "서울과기대 수시 합격자 발표",
+      "body": "서울과기대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "서울과기대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "2561d45a-6878-4600-88e0-a5665868524b",
+      "title": "서울대 수시 합격자 발표",
+      "body": "서울대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "서울대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "3f086674-76da-41ed-8032-8ab4a3fded11",
+      "title": "서울시립대 수시 합격자 발표",
+      "body": "서울시립대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "서울시립대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "1eb35500-0a9f-4a28-8f92-7a915e205e82",
+      "title": "서울여대 수시 합격자 발표",
+      "body": "서울여대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "서울여대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "8368fdee-b5a5-4437-833a-73f9a2e68169",
+      "title": "성균관대 수시 합격자 발표",
+      "body": "성균관대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "성균관대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "879c9095-795b-4c91-81a3-062ccf7a8fd1",
+      "title": "성신여대 수시 합격자 발표",
+      "body": "성신여대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "성신여대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "518ce7e3-b20d-4666-8cf1-e6d5256ad0f3",
+      "title": "세종대 수시 합격자 발표",
+      "body": "세종대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "세종대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "8850cb7f-0f4a-4224-8b3d-27b92110dd54",
+      "title": "수원대 수시 합격자 발표",
+      "body": "수원대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "수원대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "9cd6c891-3bfa-4e18-81f3-85939cca5b30",
+      "title": "숙명여대 수시 합격자 발표",
+      "body": "숙명여대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "숙명여대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "7fcf6689-3079-47ba-8105-bebcbb30640d",
+      "title": "순천향대 수시 합격자 발표",
+      "body": "순천향대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "순천향대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "9c090373-7cfc-427e-8063-fdf455139e2c",
+      "title": "숭실대 수시 합격자 발표",
+      "body": "숭실대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "숭실대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "31399492-b983-4e0a-8167-cc0c62d4e9df",
+      "title": "아주대 수시 합격자 발표",
+      "body": "아주대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "아주대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "6c3159bb-6e51-4bdf-8d0d-867e84ddc6c0",
+      "title": "연세대 수시 합격자 발표",
+      "body": "연세대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "연세대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "a995e4a7-16ad-4891-8c1e-ef8704c6750a",
+      "title": "연세대(미래) 수시 합격자 발표",
+      "body": "연세대(미래) 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "연세대(미래)"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "a0d18972-d25d-416b-82fa-2e9187b5513b",
+      "title": "을지대 수시 합격자 발표",
+      "body": "을지대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "을지대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "98e376d0-6ae3-4be3-8047-4b71198ce8ed",
+      "title": "인천대 수시 합격자 발표",
+      "body": "인천대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "인천대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "277cc26d-87e5-4488-829f-3aa27933fd1c",
+      "title": "인하대 수시 합격자 발표",
+      "body": "인하대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "인하대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "a5b158e0-3f59-48b3-8969-1ea39d7e195b",
+      "title": "전남대 수시 합격자 발표",
+      "body": "전남대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "전남대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "dce1e4d3-b6e5-4870-817b-b22b9f3d8b09",
+      "title": "전북대 수시 합격자 발표",
+      "body": "전북대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "전북대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "42d468e0-c17c-4903-8247-dc159c50b441",
+      "title": "제주대 수시 합격자 발표",
+      "body": "제주대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "제주대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "6d263f61-a2d5-4b6e-8eef-ef8fbf393782",
+      "title": "중앙대 수시 합격자 발표",
+      "body": "중앙대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "중앙대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "47e6ff74-461a-41cb-87f8-f2c0dd258c1a",
+      "title": "차의과학대 수시 합격자 발표",
+      "body": "차의과학대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "차의과학대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "de3a804d-7eac-41b4-8026-a521c18ef309",
+      "title": "충남대 수시 합격자 발표",
+      "body": "충남대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "충남대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "bee82993-b21d-4e04-8e22-9adaf9a316f7",
+      "title": "충북대 수시 합격자 발표",
+      "body": "충북대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "충북대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "79065735-25f1-4740-8615-e5b7a15c4a63",
+      "title": "한국공학대 수시 합격자 발표",
+      "body": "한국공학대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "한국공학대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "e7e91ea3-beb4-4af2-8646-b453bbaf8f72",
+      "title": "한국기술교대 수시 합격자 발표",
+      "body": "한국기술교대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "한국기술교대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "8dc35b0e-605f-4d64-844c-b9b1a2fd1c2b",
+      "title": "한국외대 수시 합격자 발표",
+      "body": "한국외대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "한국외대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "da9a3583-fb91-40cc-8d60-042b9cacfe5e",
+      "title": "한국항공대 수시 합격자 발표",
+      "body": "한국항공대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "한국항공대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "264c8458-4e8c-4a7c-88fe-c76e2dc11e2a",
+      "title": "한신대 수시 합격자 발표 — 논술",
+      "body": "한신대 수시 합격자 발표: 12.18(금). 대상 전형·학과: 논술.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "한신대"
+        ],
+        "admissionTypes": [
+          "NONSUL"
+        ]
+      }
+    },
+    {
+      "id": "fb793679-2286-4e9e-877f-d1140ef63be4",
+      "title": "한양대 수시 합격자 발표",
+      "body": "한양대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "한양대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "5447dd1d-b6a2-49bb-818a-c36fc12eb59e",
+      "title": "한양대(ERICA) 수시 합격자 발표",
+      "body": "한양대(ERICA) 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "한양대(ERICA)"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "cee7cce6-2ecd-4c35-818d-6550797065ca",
+      "title": "협성대 수시 합격자 발표",
+      "body": "협성대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "협성대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "dfb205a0-f96a-4388-8d07-d2ccd3ccbd46",
+      "title": "홍익대 수시 합격자 발표",
+      "body": "홍익대 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "홍익대"
+        ],
+        "admissionTypes": []
+      }
+    },
+    {
+      "id": "6d3c82fb-8729-4481-873f-81298963eab6",
+      "title": "홍익대(세종) 수시 합격자 발표",
+      "body": "홍익대(세종) 수시 합격자 발표: 12.18(금).",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-12-18T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ],
+        "universities": [
+          "홍익대(세종)"
+        ],
+        "admissionTypes": []
+      }
+    }
+  ]
+}

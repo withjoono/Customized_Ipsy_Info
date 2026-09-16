@@ -42,8 +42,8 @@ interface SeedFile {
     scope: string;
     sources: { name: string; url: string }[];
     disclaimer: string;
-    /** 이 시드가 대체하는 기존 출처명 */
-    replacesSource?: string;
+    /** 이 시드가 대체하는 기존 출처명 (여러 개면 배열) */
+    replacesSource?: string | string[];
   };
   items: SeedItem[];
 }
@@ -98,7 +98,7 @@ async function loadAndSeed(fileName: string, dry: boolean) {
     // 교체된 출처의 잔존 항목 정리 — 삭제하지 않고 ARCHIVED 로 내려 이력을 남긴다.
     const result = await prisma.infoItem.updateMany({
       where: {
-        source: seed.meta.replacesSource,
+        source: { in: ([] as string[]).concat(seed.meta.replacesSource) },
         status: ItemStatus.APPROVED,
         id: { notIn: sorted.map((i) => i.id) },
       },
@@ -106,7 +106,7 @@ async function loadAndSeed(fileName: string, dry: boolean) {
     });
     archived = result.count;
     if (archived > 0) {
-      console.log(`  ↓ 교체된 출처('${seed.meta.replacesSource}') 잔존 ${archived}건을 ARCHIVED 처리`);
+      console.log(`  ↓ 교체된 출처('${([] as string[]).concat(seed.meta.replacesSource).join("', '")}') 잔존 ${archived}건을 ARCHIVED 처리`);
     }
   }
 

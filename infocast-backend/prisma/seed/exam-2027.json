@@ -1,0 +1,244 @@
+{
+  "meta": {
+    "schoolYear": "2027학년도 (2026년 시행)",
+    "scope": "시험 일정 — 전국연합학력평가·평가원 모의평가·수능 응시원서 접수. 학년별로 대상이 다르다.",
+    "sources": [
+      {
+        "name": "서울시교육청·교육지원청 공고 (수능 시행 관련)",
+        "url": "https://www.sen.go.kr/user/bbs/BD_selectBbs.do?q_bbsSn=1069&q_bbsDocNo=20260803144421524"
+      },
+      {
+        "name": "서울시교육청 '친구랑' 6월 모의평가 공지",
+        "url": "https://friend.sen.go.kr/cop/bbs/selectArticleDetail.do?bbsId=BBSMSTR_000000000001&nttId=1805&menuNo=4010000"
+      },
+      {
+        "name": "서울시교육청 '친구랑' 9월 모의평가 공지",
+        "url": "https://friend.sen.go.kr/cop/bbs/selectArticleDetail.do?bbsId=BBSMSTR_000000000001&nttId=1876&menuNo=4010000"
+      },
+      {
+        "name": "2026학년도 전국연합학력평가 시행 일정(안) — 언론 인용",
+        "url": "https://www.kyobit.com/news/articleView.html?idxno=2045"
+      },
+      {
+        "name": "서울시교육청 3월 학력평가 보도자료 — 언론 인용",
+        "url": "https://www.kjcnews.co.kr/news/articleView.html?idxno=908299"
+      },
+      {
+        "name": "서울시교육청 10월 학력평가 발표 — 언론 인용",
+        "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260802010000147"
+      }
+    ],
+    "note": "항목마다 source/url 이 다르다(신뢰도가 다름). '시행 일정(안)' 근거 항목은 본문에 재확인 안내를 넣었다. 평가원(suneung.re.kr)·교육부(moe.go.kr) 원문은 robots.txt 로 접근할 수 없어 서울시교육청 공식 공지로 대체 확인했다.",
+    "disclaimer": "학력평가 일정은 시·도교육청 사정에 따라 변경될 수 있습니다. 학교 공지를 최종으로 확인하세요."
+  },
+  "items": [
+    {
+      "id": "18287342-15ed-4f6c-8f28-a54994086f71",
+      "title": "3월 전국연합학력평가",
+      "body": "서울시교육청 주관 전국연합학력평가. 고1·고2·고3이 함께 응시합니다.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-03-24T03:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          1,
+          2,
+          3
+        ]
+      },
+      "source": "서울시교육청 3월 학력평가 보도자료 — 언론 인용",
+      "url": "https://www.kjcnews.co.kr/news/articleView.html?idxno=908299"
+    },
+    {
+      "id": "f5901fb3-a4be-4b7a-86b2-9dd733da9ea0",
+      "title": "5월 전국연합학력평가 (고3)",
+      "body": "경기도교육청 주관 전국연합학력평가. 고3 대상 회차입니다. ※ 시·도교육청 시행 일정(안) 기준이며 공식 공고 원문은 확인하지 못했습니다. 학교 가정통신문으로 반드시 재확인하세요.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-05-07T03:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3
+        ]
+      },
+      "source": "2026학년도 전국연합학력평가 시행 일정(안) — 언론 인용",
+      "url": "https://www.kyobit.com/news/articleView.html?idxno=2045"
+    },
+    {
+      "id": "455948a7-918b-4d1d-841b-1e9cc600c042",
+      "title": "2027학년도 수능 6월 모의평가",
+      "body": "한국교육과정평가원 주관 6월 모의평가. 고3과 졸업생이 함께 응시하며, 재수생이 처음으로 함께 잡히는 시험입니다.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-06-04T08:40:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ]
+      },
+      "source": "서울시교육청 '친구랑' 6월 모의평가 공지",
+      "url": "https://friend.sen.go.kr/cop/bbs/selectArticleDetail.do?bbsId=BBSMSTR_000000000001&nttId=1805&menuNo=4010000"
+    },
+    {
+      "id": "dad9c21e-7f3a-41b1-828e-41411e6c1842",
+      "title": "6월 전국연합학력평가 (고1·고2)",
+      "body": "부산시교육청 주관 전국연합학력평가. 같은 날 고3은 평가원 6월 모의평가를 치릅니다. ※ 시·도교육청 시행 일정(안) 기준이며 공식 공고 원문은 확인하지 못했습니다. 학교 가정통신문으로 반드시 재확인하세요.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-06-04T03:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          1,
+          2
+        ]
+      },
+      "source": "2026학년도 전국연합학력평가 시행 일정(안) — 언론 인용",
+      "url": "https://www.kyobit.com/news/articleView.html?idxno=2045"
+    },
+    {
+      "id": "15188480-9502-4003-8c46-780c042c8113",
+      "title": "6월 모의평가 성적 통지",
+      "body": "2027학년도 수능 6월 모의평가 성적 통지일.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-07-01T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ]
+      },
+      "source": "서울시교육청 '친구랑' 6월 모의평가 공지",
+      "url": "https://friend.sen.go.kr/cop/bbs/selectArticleDetail.do?bbsId=BBSMSTR_000000000001&nttId=1805&menuNo=4010000"
+    },
+    {
+      "id": "1f8392e4-ce72-4813-8799-39bf3e8d3380",
+      "title": "7월 전국연합학력평가 (고3)",
+      "body": "인천시교육청 주관 전국연합학력평가. 고3 대상 회차입니다. ※ 시·도교육청 시행 일정(안) 기준이며 공식 공고 원문은 확인하지 못했습니다. 학교 가정통신문으로 반드시 재확인하세요.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-07-08T03:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3
+        ]
+      },
+      "source": "2026학년도 전국연합학력평가 시행 일정(안) — 언론 인용",
+      "url": "https://www.kyobit.com/news/articleView.html?idxno=2045"
+    },
+    {
+      "id": "3776e594-8044-4d2a-8708-441318d1b8d2",
+      "title": "수능 응시원서 온라인 사전입력 시작",
+      "body": "2027학년도 수능 응시원서 온라인 사전입력 기간 2026.8.20 ~ 9.3. 사전입력만으로는 접수가 완료되지 않으며, 접수처를 직접 방문해야 합니다.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-08-20T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ]
+      },
+      "source": "서울시교육청·교육지원청 공고 (수능 시행 관련)",
+      "url": "https://www.sen.go.kr/user/bbs/BD_selectBbs.do?q_bbsSn=1069&q_bbsDocNo=20260803144421524"
+    },
+    {
+      "id": "d44af2e6-1019-4def-8b0a-81c4e0e9037a",
+      "title": "수능 응시원서 접수 시작",
+      "body": "2027학년도 수능 응시원서 접수 2026.8.24(월) ~ 9.4(금), 09:00~17:00(토·공휴일 제외). 재학생은 재학 중인 고등학교, 졸업생은 출신 고등학교에서 접수하며, 주민등록 주소지가 다른 시험지구이면 주소지 관할 교육지원청에서 접수할 수 있습니다. 검정고시 출신 등은 주민등록 주소지 관할 시험지구 교육지원청에서 접수합니다.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-08-24T09:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ]
+      },
+      "source": "서울시교육청·교육지원청 공고 (수능 시행 관련)",
+      "url": "https://www.sen.go.kr/user/bbs/BD_selectBbs.do?q_bbsSn=1069&q_bbsDocNo=20260803144421524"
+    },
+    {
+      "id": "ef4a230a-dfc1-43c6-8b5c-3c8f3556ddf7",
+      "title": "2027학년도 수능 9월 모의평가",
+      "body": "한국교육과정평가원 주관 9월 모의평가. 수시 지원 직전 마지막 전국 단위 가늠자입니다.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-09-02T08:40:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ]
+      },
+      "source": "서울시교육청 '친구랑' 9월 모의평가 공지",
+      "url": "https://friend.sen.go.kr/cop/bbs/selectArticleDetail.do?bbsId=BBSMSTR_000000000001&nttId=1876&menuNo=4010000"
+    },
+    {
+      "id": "fa3a6396-8456-4a1c-82be-b417e5e022e2",
+      "title": "9월 전국연합학력평가 (고1·고2)",
+      "body": "인천시교육청 주관 전국연합학력평가. 같은 날 고3은 평가원 9월 모의평가를 치릅니다. ※ 시·도교육청 시행 일정(안) 기준이며 공식 공고 원문은 확인하지 못했습니다. 학교 가정통신문으로 반드시 재확인하세요.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-09-02T03:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          1,
+          2
+        ]
+      },
+      "source": "2026학년도 전국연합학력평가 시행 일정(안) — 언론 인용",
+      "url": "https://www.kyobit.com/news/articleView.html?idxno=2045"
+    },
+    {
+      "id": "d4fed274-b44d-4a0f-843e-7f04bd9a76cb",
+      "title": "수능 응시원서 접수 마감",
+      "body": "2027학년도 수능 응시원서 접수 마지막 날(2026.9.4 금) 17:00까지. 접수처 방문이 필요합니다.",
+      "category": "DEADLINE",
+      "deadlineAt": "2026-09-04T17:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ]
+      },
+      "source": "서울시교육청·교육지원청 공고 (수능 시행 관련)",
+      "url": "https://www.sen.go.kr/user/bbs/BD_selectBbs.do?q_bbsSn=1069&q_bbsDocNo=20260803144421524"
+    },
+    {
+      "id": "b1e3ec41-2ddc-406c-8af7-b6a4aabdbeee",
+      "title": "9월 모의평가 성적 통지",
+      "body": "2027학년도 수능 9월 모의평가 성적 통지일. 수시 지원 판단의 마지막 근거가 됩니다.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-09-29T00:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3,
+          "N"
+        ]
+      },
+      "source": "서울시교육청 '친구랑' 9월 모의평가 공지",
+      "url": "https://friend.sen.go.kr/cop/bbs/selectArticleDetail.do?bbsId=BBSMSTR_000000000001&nttId=1876&menuNo=4010000"
+    },
+    {
+      "id": "41472e02-d745-47e6-8b4e-b89158e8fba6",
+      "title": "10월 전국연합학력평가 (고3)",
+      "body": "서울시교육청 주관 전국연합학력평가. 고3의 마지막 학력평가입니다.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-10-20T03:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          3
+        ]
+      },
+      "source": "서울시교육청 10월 학력평가 발표 — 언론 인용",
+      "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260802010000147"
+    },
+    {
+      "id": "e6905f00-9585-4f71-8f7d-73422c339776",
+      "title": "10월 전국연합학력평가 (고1·고2)",
+      "body": "경기도교육청 주관 전국연합학력평가. 고1·고2의 2026년 마지막 학력평가입니다(11월 회차 없음). ※ 시·도교육청 시행 일정(안) 기준이며 공식 공고 원문은 확인하지 못했습니다. 학교 가정통신문으로 반드시 재확인하세요.",
+      "category": "SCHEDULE",
+      "deadlineAt": "2026-10-20T03:00:00+09:00",
+      "targetTags": {
+        "grades": [
+          1,
+          2
+        ]
+      },
+      "source": "2026학년도 전국연합학력평가 시행 일정(안) — 언론 인용",
+      "url": "https://www.kyobit.com/news/articleView.html?idxno=2045"
+    }
+  ]
+}
