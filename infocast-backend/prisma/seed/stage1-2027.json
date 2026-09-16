@@ -1,0 +1,4783 @@
+{
+ "meta": {
+  "schoolYear": "2027학년도",
+  "scope": "대학별 수시 1단계(서류) 합격자 발표일 — 고3·재수생 대상, 대학 태그로 개인화",
+  "sources": [
+   {
+    "name": "수시 통합 일정 DB(susi.susi_schedule_event_2027) — 2027 모집요강 추출 우선, 없으면 웹 수집",
+    "url": ""
+   }
+  ],
+  "note": "수시 DB의 schedule_resolved_2027 에서 STAGE1_ANNOUNCE 만 내보냈다. 대학명은 interview/announcement 시드와 같은 canonical. 캠퍼스를 요강에서 가르지 못한 대학은 제외.",
+  "disclaimer": "대학별 일정은 각 대학 공고에 따라 변경될 수 있으므로 반드시 해당 대학 입학처에서 확인해야 한다.",
+  "generatedFrom": "Susi/2027_susi/일정DB/export_2027.py",
+  "universities": [
+   "GIST",
+   "KAIST",
+   "POSTECH",
+   "가천대",
+   "가톨릭대",
+   "강남대",
+   "강원대",
+   "건국대",
+   "건양대",
+   "경기대",
+   "경남대",
+   "경북대",
+   "경상국립대",
+   "경희대",
+   "계명대",
+   "고려대",
+   "고신대",
+   "공군사관학교",
+   "광운대",
+   "광주교대",
+   "국군간호사관학교",
+   "국립경국대",
+   "국립순천대",
+   "국립한국교통대",
+   "국립한국해양대",
+   "국립한밭대",
+   "나사렛대",
+   "대구대",
+   "대구한의대",
+   "대전대",
+   "대진대",
+   "덕성여대",
+   "동국대",
+   "동덕여대",
+   "동아대",
+   "동의대",
+   "루터대",
+   "명지대",
+   "부경대",
+   "부산가톨릭대",
+   "부산교대",
+   "부산대",
+   "삼육대",
+   "상명대",
+   "서울대",
+   "서울시립대",
+   "서울신학대",
+   "서울여대",
+   "성결대",
+   "성균관대",
+   "세종대",
+   "수원가톨릭대",
+   "수원대",
+   "숙명여대",
+   "순천향대",
+   "숭실대",
+   "아주대",
+   "안양대",
+   "연세대",
+   "영남대",
+   "우석대",
+   "우송대",
+   "울산대",
+   "원광대",
+   "육군사관학교",
+   "이화여대",
+   "인천가톨릭대",
+   "인천대",
+   "전남대",
+   "전북대",
+   "전주교대",
+   "제주대",
+   "중앙대",
+   "진주교대",
+   "차의과학대",
+   "청주교대",
+   "청주대",
+   "한국공학대",
+   "한국교원대",
+   "한국기술교대",
+   "한국예술종합학교",
+   "한국외대",
+   "한국항공대",
+   "한남대",
+   "한동대",
+   "한림대",
+   "한양대",
+   "해군사관학교",
+   "홍익대"
+  ]
+ },
+ "items": [
+  {
+   "id": "8fb686d7-5bc7-5b1c-86cc-2ce8e5f4d849",
+   "title": "공군사관학교 수시 1단계 합격자 발표 — 일반우선(일반우선 1차 시험 합격자), 고교학교장추천(고교학교장추천 1차…",
+   "body": "공군사관학교 수시 1단계 합격자 발표: 8.13(목). 대상 전형: 일반우선(일반우선 1차 시험 합격자), 고교학교장추천(고교학교장추천 1차 시험 합격자). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-08-13T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "공군사관학교"
+    ],
+    "admissionTypes": []
+   },
+   "source": "입학처·언론 보도 (수시 통합 일정 DB 웹 수집)",
+   "url": "https://www.kyobit.com/news/articleView.html?idxno=6533",
+   "sourceRefs": [
+    "WEB"
+   ],
+   "eventIds": [
+    "c2b954354d625099",
+    "3f5f7f42a1599f0f"
+   ]
+  },
+  {
+   "id": "ec6308ae-9fea-5a12-b356-122a2a622fa4",
+   "title": "해군사관학교 수시 1단계 합격자 발표 — 우선선발(고교학교장 추천전형, 고교학교장 추천 제외전형)(1차 시험 합격…",
+   "body": "해군사관학교 수시 1단계 합격자 발표: 8.13(목). 대상 전형: 우선선발(고교학교장 추천전형, 고교학교장 추천 제외전형)(1차 시험 합격자(2차 시험 대상자)), 종합선발(1차 시험 합격자). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-08-13T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "해군사관학교"
+    ],
+    "admissionTypes": []
+   },
+   "source": "입학처·언론 보도 (수시 통합 일정 DB 웹 수집)",
+   "url": "https://www.kyobit.com/news/articleView.html?idxno=6533",
+   "sourceRefs": [
+    "WEB"
+   ],
+   "eventIds": [
+    "a474564ee10adae0",
+    "5ddfec87a682d2bb"
+   ]
+  },
+  {
+   "id": "daa2fe37-14f5-5911-bad9-d0f5410be9cd",
+   "title": "국군간호사관학교 수시 1단계 합격자 발표 — 일반전형(우선선발: 학교장추천, 일반우선) · 특별전형 · 종합선발(1차…",
+   "body": "국군간호사관학교 수시 1단계 합격자 발표: 8.14(금). 대상 전형: 일반전형(우선선발: 학교장추천, 일반우선) · 특별전형 · 종합선발(1차 시험 합격자(전 전형)). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-08-14T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "국군간호사관학교"
+    ],
+    "admissionTypes": []
+   },
+   "source": "입학처·언론 보도 (수시 통합 일정 DB 웹 수집)",
+   "url": "https://www.kyobit.com/news/articleView.html?idxno=6533",
+   "sourceRefs": [
+    "WEB"
+   ],
+   "eventIds": [
+    "5d1041d724e3a0fe"
+   ]
+  },
+  {
+   "id": "391fc230-6d8c-5ea2-b49c-0cbaf4b8dc99",
+   "title": "육군사관학교 수시 1단계 합격자 발표 — 일반전형 우선선발(고등학교 학교장 추천, 적성우수, 미래 국방 인재) ·…",
+   "body": "육군사관학교 수시 1단계 합격자 발표: 8.14(금). 대상 전형: 일반전형 우선선발(고등학교 학교장 추천, 적성우수, 미래 국방 인재) · 종합선발(일반전형 1차 시험 합격자), 특별전형(국가보훈대상자, 고른기회, 재외국민 자녀)(특별전형 1차 시험 합격자). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-08-14T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "육군사관학교"
+    ],
+    "admissionTypes": []
+   },
+   "source": "입학처·언론 보도 (수시 통합 일정 DB 웹 수집)",
+   "url": "https://www.kyobit.com/news/articleView.html?idxno=6533",
+   "sourceRefs": [
+    "WEB"
+   ],
+   "eventIds": [
+    "5c866fc9a03c71ee",
+    "f3bf4c1c4879cc0d"
+   ]
+  },
+  {
+   "id": "05a6427d-0fb1-5ea5-9aab-0decf733709e",
+   "title": "한국예술종합학교 수시 1단계 합격자 발표 — 일반전형(8월입시: 무용원 전 학과 1차 합격자)",
+   "body": "한국예술종합학교 수시 1단계 합격자 발표: 8.18(화) 17:00. 대상 전형: 일반전형(8월입시: 무용원 전 학과 1차 합격자). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-08-18T17:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "한국예술종합학교"
+    ],
+    "admissionTypes": []
+   },
+   "source": "입학처·언론 보도 (수시 통합 일정 DB 웹 수집)",
+   "url": "https://www.karts.ac.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000000162044&fileSn=0&accAt=&bbsId=00000000000000000000",
+   "sourceRefs": [
+    "WEB"
+   ],
+   "eventIds": [
+    "818580dd67dea580"
+   ]
+  },
+  {
+   "id": "b994d5c5-3f00-5014-8b40-b3d551b1353a",
+   "title": "수원대 수시 1단계 합격자 발표 — 면접위주교과전형",
+   "body": "수원대 수시 1단계 합격자 발표: 9.22(화). 대상 전형: 면접위주교과전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-09-22T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "수원대"
+    ],
+    "admissionTypes": [
+     "GYOGWA"
+    ],
+    "regions": [
+     "경기"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "a58df7533a4df501"
+   ]
+  },
+  {
+   "id": "ffcb2d06-5b91-58cb-ab4a-03009e811a2f",
+   "title": "건양대 수시 1단계 합격자 발표 — 군사학전형",
+   "body": "건양대 수시 1단계 합격자 발표: 9.28(월) 16:00. 대상 전형: 군사학전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-09-28T16:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "건양대"
+    ],
+    "admissionTypes": [
+     "GYOGWA"
+    ],
+    "regions": [
+     "충남"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "91ff5956af3b776f"
+   ]
+  },
+  {
+   "id": "0b01a625-1fcf-514e-852d-ca489bc42a71",
+   "title": "경남대 수시 1단계 합격자 발표 — 학생부교과(일반면접전형), 학생부교과(군사학과전형)",
+   "body": "경남대 수시 1단계 합격자 발표: 9.28(월). 대상 전형: 학생부교과(일반면접전형), 학생부교과(군사학과전형). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-09-28T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "경남대"
+    ],
+    "admissionTypes": [
+     "GYOGWA"
+    ],
+    "regions": [
+     "경남"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "4f1e6a9ceff14808",
+    "e014e5944ec255ce"
+   ]
+  },
+  {
+   "id": "5308c88f-3f74-5738-a3fb-a0bd7819493c",
+   "title": "대전대 수시 1단계 합격자 발표 — 군사학과전형",
+   "body": "대전대 수시 1단계 합격자 발표: 9.28(월) 15:00. 대상 전형: 군사학과전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-09-28T15:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "대전대"
+    ],
+    "admissionTypes": [
+     "GYOGWA"
+    ],
+    "regions": [
+     "대전"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "bf14967d4de0331a"
+   ]
+  },
+  {
+   "id": "817e6fb9-dc84-50ab-aa86-470b11018eb9",
+   "title": "영남대 수시 1단계 합격자 발표 — 군사학특별전형",
+   "body": "영남대 수시 1단계 합격자 발표: 9.28(월). 대상 전형: 군사학특별전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-09-28T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "영남대"
+    ],
+    "admissionTypes": [
+     "GYOGWA"
+    ],
+    "regions": [
+     "경북"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "a36c9d85d167fffb"
+   ]
+  },
+  {
+   "id": "d602a392-a8ef-5a51-baaa-1e2306d48b36",
+   "title": "원광대 수시 1단계 합격자 발표 — 군사학과전형",
+   "body": "원광대 수시 1단계 합격자 발표: 9.28(월). 대상 전형: 군사학과전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-09-28T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "원광대"
+    ],
+    "admissionTypes": [
+     "GYOGWA"
+    ],
+    "regions": [
+     "전북"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "71bf8a785471ebf6"
+   ]
+  },
+  {
+   "id": "2a39bf9b-1338-5ebb-8189-770289c866aa",
+   "title": "동덕여대 수시 1단계 합격자 발표 — 특기자 특별전형",
+   "body": "동덕여대 수시 1단계 합격자 발표: 9.29(화) 17:00. 대상 전형: 특기자 특별전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-09-29T17:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "동덕여대"
+    ],
+    "admissionTypes": [
+     "SILGI"
+    ],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "4672b02680b2e03e"
+   ]
+  },
+  {
+   "id": "ac538785-6779-50ae-9c26-ca5836e8edfe",
+   "title": "청주대 수시 1단계 합격자 발표 — 군사학과전형",
+   "body": "청주대 수시 1단계 합격자 발표: 9.29(화). 대상 전형: 군사학과전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-09-29T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "청주대"
+    ],
+    "admissionTypes": [
+     "GYOGWA"
+    ],
+    "regions": [
+     "충북"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "fba6e283e63f2357"
+   ]
+  },
+  {
+   "id": "913247f6-a78a-554a-b59f-e4f183dc5e66",
+   "title": "가천대 수시 1단계 합격자 발표 — 특성화고교, 기회균형, 농어촌(종합)",
+   "body": "가천대 수시 1단계 합격자 발표: 9.30(수). 대상 전형: 특성화고교, 기회균형, 농어촌(종합). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-09-30T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "가천대"
+    ],
+    "admissionTypes": [
+     "GYOGWA",
+     "JONGHAP"
+    ],
+    "regions": [
+     "경기"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "5a4bc64592b236aa",
+    "04b3b0c95f5f5af7",
+    "f2ce633e1337e884"
+   ]
+  },
+  {
+   "id": "05282030-08b0-5980-a4fd-514bfede0be2",
+   "title": "성결대 수시 1단계 합격자 발표 — SKU창의전형",
+   "body": "성결대 수시 1단계 합격자 발표: 9.30(수). 대상 전형: SKU창의전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-09-30T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "성결대"
+    ],
+    "admissionTypes": [
+     "GYOGWA"
+    ],
+    "regions": [
+     "경기"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "2a61063a903c3a2d"
+   ]
+  },
+  {
+   "id": "4f08888a-d169-5ac8-bed2-6fbf2f1ed2a3",
+   "title": "안양대 수시 1단계 합격자 발표 — 아리학생부면접전형",
+   "body": "안양대 수시 1단계 합격자 발표: 10.2(금). 대상 전형: 아리학생부면접전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-02T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "안양대"
+    ],
+    "admissionTypes": [
+     "GYOGWA"
+    ],
+    "regions": [
+     "경기"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "4979148a0408daf3"
+   ]
+  },
+  {
+   "id": "6674579e-19a7-5c75-a093-24616d7cf0e5",
+   "title": "인천가톨릭대 수시 1단계 합격자 발표 — 학교생활우수자, ICCU미래인재, 실기우수자",
+   "body": "인천가톨릭대 수시 1단계 합격자 발표: 10.2(금) 11:00. 대상 전형: 학교생활우수자, ICCU미래인재, 실기우수자. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-02T11:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "인천가톨릭대"
+    ],
+    "admissionTypes": [
+     "GYOGWA",
+     "SILGI"
+    ],
+    "regions": [
+     "인천"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "bcf2982a74a8c8f7",
+    "d57f08d29f452496",
+    "5fbf4cd32e51f1c1"
+   ]
+  },
+  {
+   "id": "68e64ed5-3e4b-5bf4-a7b0-3c99ce4e047a",
+   "title": "수원대 수시 1단계 합격자 발표 — 실기우수자(연기예술)전형, 농어촌학생전형(연기예술)",
+   "body": "수원대 수시 1단계 합격자 발표: 10.7(수). 대상 전형: 실기우수자(연기예술)전형, 농어촌학생전형(연기예술). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-07T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "수원대"
+    ],
+    "admissionTypes": [
+     "SILGI"
+    ],
+    "regions": [
+     "경기"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "1e0d6208c96065ea",
+    "f091edcebbc1d55f"
+   ]
+  },
+  {
+   "id": "1d715208-fc06-5031-94fe-47f0d702ac01",
+   "title": "영남대 수시 1단계 합격자 발표 — 창의인재전형, 실기전형",
+   "body": "영남대 수시 1단계 합격자 발표: 10.7(수). 대상 전형: 창의인재전형, 실기전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-07T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "영남대"
+    ],
+    "admissionTypes": [
+     "GYOGWA",
+     "SILGI"
+    ],
+    "regions": [
+     "경북"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "d1d6cfb925684b23",
+    "f7222c88943d1523"
+   ]
+  },
+  {
+   "id": "b21ee61f-9f3e-582b-a75a-91dd3ec36db1",
+   "title": "삼육대 수시 1단계 합격자 발표 — 기회균형Ⅰ전형, 신학특별전형, 재림교회목회자추천전형",
+   "body": "삼육대 수시 1단계 합격자 발표: 10.8(목). 대상 전형: 기회균형Ⅰ전형, 신학특별전형, 재림교회목회자추천전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-08T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "삼육대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "1b0dbeb70b12dc83",
+    "27f9849dae2b45f1",
+    "f653df78bf8e24e8"
+   ]
+  },
+  {
+   "id": "cb8d850f-e289-5b17-b8aa-6a4c7c258499",
+   "title": "세종대 수시 1단계 합격자 발표 — 학생부교과(항공시스템공학 특별전형)",
+   "body": "세종대 수시 1단계 합격자 발표: 10.8(목). 대상 전형: 학생부교과(항공시스템공학 특별전형). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-08T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "세종대"
+    ],
+    "admissionTypes": [
+     "GYOGWA"
+    ],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "999f2968110a976a"
+   ]
+  },
+  {
+   "id": "eee59ef4-2c26-5f7c-900e-601143c58e23",
+   "title": "건양대 수시 1단계 합격자 발표 — 지역[면접]",
+   "body": "건양대 수시 1단계 합격자 발표: 10.12(월) 16:00. 대상 전형: 지역[면접]. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-12T16:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "건양대"
+    ],
+    "admissionTypes": [
+     "GYOGWA"
+    ],
+    "regions": [
+     "충남"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "c062120d19e596d9"
+   ]
+  },
+  {
+   "id": "336407fa-1de0-590a-8115-62e1f134826e",
+   "title": "대전대 수시 1단계 합격자 발표 — 교과면접전형",
+   "body": "대전대 수시 1단계 합격자 발표: 10.12(월). 대상 전형: 교과면접전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-12T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "대전대"
+    ],
+    "admissionTypes": [
+     "GYOGWA"
+    ],
+    "regions": [
+     "대전"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "4606468a12cce29f"
+   ]
+  },
+  {
+   "id": "bce32acb-4730-5ff7-afc7-557bb88c7127",
+   "title": "수원가톨릭대 수시 1단계 합격자 발표 — 일반학생",
+   "body": "수원가톨릭대 수시 1단계 합격자 발표: 10.13(화). 대상 전형: 일반학생. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-13T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "수원가톨릭대"
+    ],
+    "admissionTypes": [
+     "GYOGWA"
+    ],
+    "regions": [
+     "경기"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "6f7b2c21c6e362b0"
+   ]
+  },
+  {
+   "id": "c48e2e76-6c50-55f5-a308-67c167cee99f",
+   "title": "숭실대 수시 1단계 합격자 발표 — 예체능우수인재전형(연기), 예체능우수인재전형(연출)",
+   "body": "숭실대 수시 1단계 합격자 발표: 10.13(화). 대상 전형: 예체능우수인재전형(연기), 예체능우수인재전형(연출). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-13T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "숭실대"
+    ],
+    "admissionTypes": [
+     "SILGI"
+    ],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "db8ec5086745002a",
+    "781487317e3325bf"
+   ]
+  },
+  {
+   "id": "eb18b3fb-8018-586e-ace4-b5030f536aaa",
+   "title": "한국예술종합학교 수시 1단계 합격자 발표 — 일반전형(10월입시: 음악원 전 학과/연극원 무대미술과/전통예술원 전 학…",
+   "body": "한국예술종합학교 수시 1단계 합격자 발표: 10.13(화) 17:00. 대상 전형: 일반전형(10월입시: 음악원 전 학과/연극원 무대미술과/전통예술원 전 학과 1차 합격자). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-13T17:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "한국예술종합학교"
+    ],
+    "admissionTypes": []
+   },
+   "source": "입학처·언론 보도 (수시 통합 일정 DB 웹 수집)",
+   "url": "https://www.karts.ac.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000000162044&fileSn=0&accAt=&bbsId=00000000000000000000",
+   "sourceRefs": [
+    "WEB"
+   ],
+   "eventIds": [
+    "9a74147018de6e57"
+   ]
+  },
+  {
+   "id": "7f90cd76-e1f8-51e9-b8d9-e569bd30b27c",
+   "title": "경북대 수시 1단계 합격자 발표 — 실기전형(음악·체육교육과), 특기자(체육)전형",
+   "body": "경북대 수시 1단계 합격자 발표: 10.14(수). 대상 전형: 실기전형(음악·체육교육과), 특기자(체육)전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-14T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "경북대"
+    ],
+    "admissionTypes": [
+     "SILGI"
+    ],
+    "regions": [
+     "대구"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "53cfa8e87e8505c9",
+    "2d2de61da4e5d207"
+   ]
+  },
+  {
+   "id": "864f5ff5-c424-5d07-b073-06dad2735e37",
+   "title": "부산가톨릭대 수시 1단계 합격자 발표 — 학생부종합(자기추천전형), 학생부종합(가톨릭지도자추천전형)",
+   "body": "부산가톨릭대 수시 1단계 합격자 발표: 10.14(수). 대상 전형: 학생부종합(자기추천전형), 학생부종합(가톨릭지도자추천전형). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-14T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "부산가톨릭대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "부산"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "74018ea7f9478566",
+    "0700af1e0f53a76d"
+   ]
+  },
+  {
+   "id": "2af08e8d-9398-5ed0-b28f-d9755093daf1",
+   "title": "삼육대 수시 1단계 합격자 발표 — 세움인재전형, S/W인재전형, 예체능인재전형",
+   "body": "삼육대 수시 1단계 합격자 발표: 10.15(목). 대상 전형: 세움인재전형, S/W인재전형, 예체능인재전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-15T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "삼육대"
+    ],
+    "admissionTypes": [
+     "JONGHAP",
+     "SILGI"
+    ],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "c415d3074635c53c",
+    "03e817d94ffe26f8",
+    "03fa4a42a006a32a"
+   ]
+  },
+  {
+   "id": "6a3f2083-038c-538d-b894-c449c742b97a",
+   "title": "우송대 수시 1단계 합격자 발표 — 종합면접형, 지역인재Ⅱ",
+   "body": "우송대 수시 1단계 합격자 발표: 10.15(목) 10:00. 대상 전형: 종합면접형, 지역인재Ⅱ. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-15T10:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "우송대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "대전"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "ba8966ef50e69e6c",
+    "832ef42fa9c54336"
+   ]
+  },
+  {
+   "id": "185fdc4d-586a-5d90-9a58-b6e511a58162",
+   "title": "GIST 수시 1단계 합격자 발표 — 일반전형 · 학교장추천전형 · 고른기회전형(일반전형, 학교장추천전형, 고…",
+   "body": "GIST 수시 1단계 합격자 발표: 10.15(목) 18:00. 대상 전형: 일반전형 · 학교장추천전형 · 고른기회전형(일반전형, 학교장추천전형, 고른기회전형). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-15T18:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "GIST"
+    ],
+    "admissionTypes": [],
+    "regions": [
+     "광주"
+    ]
+   },
+   "source": "입학처·언론 보도 (수시 통합 일정 DB 웹 수집)",
+   "url": "https://www.kyobit.com/news/articleView.html?idxno=6870",
+   "sourceRefs": [
+    "WEB"
+   ],
+   "eventIds": [
+    "bc3326191bdda55e"
+   ]
+  },
+  {
+   "id": "3b4c31c7-a387-5e94-99d6-579c5f445b2f",
+   "title": "고신대 수시 1단계 합격자 발표 — 고신희망, 자기추천, 기회균형, 지역인재기회균형",
+   "body": "고신대 수시 1단계 합격자 발표: 10.16(금). 대상 전형: 고신희망, 자기추천, 기회균형, 지역인재기회균형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-16T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "고신대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "부산"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "183b77adb4c65fd5",
+    "e71456d2c761ce9c",
+    "f98a817f47944c6d",
+    "4cd8e2eb8499f264"
+   ]
+  },
+  {
+   "id": "20b7868d-c187-5d1f-951a-0ffc21b76251",
+   "title": "명지대 수시 1단계 합격자 발표 — 학생부교과(교과면접전형), 학생부교과(만학도전형), 학생부교과(특성화고등…",
+   "body": "명지대 수시 1단계 합격자 발표: 10.16(금). 대상 전형: 학생부교과(교과면접전형), 학생부교과(만학도전형), 학생부교과(특성화고등졸재직자전형), 학생부교과(특수교육대상자전형). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-16T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "명지대"
+    ],
+    "admissionTypes": [
+     "GYOGWA"
+    ],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "40283a6a5e51e785",
+    "2b3bb19d10ab6943",
+    "03f598097b808822",
+    "63f63e3cd43010c2"
+   ]
+  },
+  {
+   "id": "0e8bfa98-fe4b-586e-a0f6-b2a1ea199837",
+   "title": "부산대 수시 1단계 합격자 발표 — 실기전형, 농어촌학생전형, 저소득층학생전형",
+   "body": "부산대 수시 1단계 합격자 발표: 10.16(금). 대상 전형: 실기전형, 농어촌학생전형, 저소득층학생전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-16T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "부산대"
+    ],
+    "admissionTypes": [
+     "SILGI"
+    ],
+    "regions": [
+     "부산"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "632243ce6df269cc",
+    "3368ad6878ab102f",
+    "632e7251c5fbd421"
+   ]
+  },
+  {
+   "id": "a854a8fa-d32f-51d2-91f7-2407a98f09df",
+   "title": "홍익대 수시 1단계 합격자 발표 — 체육우수자전형",
+   "body": "홍익대 수시 1단계 합격자 발표: 10.16(금). 대상 전형: 체육우수자전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-16T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "홍익대"
+    ],
+    "admissionTypes": [
+     "SILGI"
+    ],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "325bc32fa04fa542"
+   ]
+  },
+  {
+   "id": "c6ac74b0-cd33-50ee-be0e-3910b51d1a18",
+   "title": "명지대 수시 1단계 합격자 발표 — 교과면접전형(학생부교과 교과면접전형 1단계 합격자)",
+   "body": "명지대 수시 1단계 합격자 발표: 10.16(금) 15:00. 대상 전형: 교과면접전형(학생부교과 교과면접전형 1단계 합격자). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-16T15:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "명지대"
+    ],
+    "admissionTypes": [],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "입학처·언론 보도 (수시 통합 일정 DB 웹 수집)",
+   "url": "https://www.kyobit.com/news/articleView.html?idxno=6241",
+   "sourceRefs": [
+    "WEB"
+   ],
+   "eventIds": [
+    "41e7474f3c289ca0"
+   ]
+  },
+  {
+   "id": "3f543597-f226-567b-a01d-8c17594f29f0",
+   "title": "나사렛대 수시 1단계 합격자 발표 — 창의융합인재(면접형), 지역인재2(일반), 지역인재2(기초생활수급자 등)…",
+   "body": "나사렛대 수시 1단계 합격자 발표: 10.20(화). 대상 전형: 창의융합인재(면접형), 지역인재2(일반), 지역인재2(기초생활수급자 등), 창의융합인재, 장애학생, 계약학과(조기취업형). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-20T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "나사렛대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "충남"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "be916a23fe513b19",
+    "441f229c4c1da072",
+    "07898d4c3c905090",
+    "b9af0fd36016a1cc",
+    "ce1ebf1089608188",
+    "da7def7940b050fc"
+   ]
+  },
+  {
+   "id": "72ad75e5-21d3-5785-9055-be5b439e08eb",
+   "title": "한양대 수시 1단계 합격자 발표 — 실기/실적(미술특기자), 실기/실적(체육특기자)",
+   "body": "한양대 수시 1단계 합격자 발표: 10.20(화). 대상 전형: 실기/실적(미술특기자), 실기/실적(체육특기자). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-20T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "한양대"
+    ],
+    "admissionTypes": [
+     "SILGI"
+    ],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "1bcf6f91a6a8d2f2",
+    "24e8d5bd70aa8403"
+   ]
+  },
+  {
+   "id": "dca18784-a79f-5991-bc19-659860226cd5",
+   "title": "성균관대 수시 1단계 합격자 발표 — 성균인재(스포츠과학과 면접대상자(10.25. 면접))",
+   "body": "성균관대 수시 1단계 합격자 발표: 10.20(화). 대상 전형: 성균인재(스포츠과학과 면접대상자(10.25. 면접)). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-20T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "성균관대"
+    ],
+    "admissionTypes": [],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "입학처·언론 보도 (수시 통합 일정 DB 웹 수집)",
+   "url": "https://www.veritas-a.com/news/articleView.html?idxno=626388",
+   "sourceRefs": [
+    "WEB"
+   ],
+   "eventIds": [
+    "36ee8701f3e4e3fd"
+   ]
+  },
+  {
+   "id": "33d0be1b-e867-5245-a595-4507b900d8c3",
+   "title": "경희대 수시 1단계 합격자 발표 — 기회균형전형 I (특성화고 등을 졸업한 재직자), 실기우수자전형(한국화·…",
+   "body": "경희대 수시 1단계 합격자 발표: 10.21(수) 18:00. 대상 전형: 기회균형전형 I (특성화고 등을 졸업한 재직자), 실기우수자전형(한국화·회화·조소), 실기우수자전형(연극·뮤지컬 연기). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-21T18:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "경희대"
+    ],
+    "admissionTypes": [
+     "GYOGWA",
+     "SILGI"
+    ],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "8aadde0e4a22e25c",
+    "efb3116012565530",
+    "ba35ce423762da5d"
+   ]
+  },
+  {
+   "id": "ae4901a2-cdce-5b99-ba38-2cd3c54f65a8",
+   "title": "동의대 수시 1단계 합격자 발표 — 조기취업형계약학과전형, 체육특기자전형",
+   "body": "동의대 수시 1단계 합격자 발표: 10.21(수). 대상 전형: 조기취업형계약학과전형, 체육특기자전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-21T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "동의대"
+    ],
+    "admissionTypes": [
+     "GYOGWA",
+     "SILGI"
+    ],
+    "regions": [
+     "부산"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "1f59592534e5b0d6",
+    "2d7eae2797436af9"
+   ]
+  },
+  {
+   "id": "ff48b0cd-23be-5cb1-be83-bfdcb06cb614",
+   "title": "순천향대 수시 1단계 합격자 발표 — 지역의사선발전형-천안권, 지역의사선발전형-공주권, 지역의사선발전형-서산권…",
+   "body": "순천향대 수시 1단계 합격자 발표: 10.21(수). 대상 전형: 지역의사선발전형-천안권, 지역의사선발전형-공주권, 지역의사선발전형-서산권, 지역의사선발전형-논산권, 지역의사선발전형-홍성권, 지역의사선발전형-광역권, 특기자전형, 조기취업형계약학과전형, 평생학습자전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-21T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "순천향대"
+    ],
+    "admissionTypes": [
+     "GYOGWA",
+     "JONGHAP",
+     "SILGI"
+    ],
+    "regions": [
+     "충남"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "32c2d527ca8ee708",
+    "99a95544e3207cfa",
+    "c7d450a526133ea3",
+    "f38ba17495216d8d",
+    "3eb28cec6c0a9ad2",
+    "82366ed706468421",
+    "cd48acf370ec377c",
+    "903087bf2673a649",
+    "d4752c393e16c8d5"
+   ]
+  },
+  {
+   "id": "572c582f-a24d-5861-857f-bc5f6b85f8bf",
+   "title": "대구한의대 수시 1단계 합격자 발표 — 면접전형",
+   "body": "대구한의대 수시 1단계 합격자 발표: 10.22(목). 대상 전형: 면접전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-22T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "대구한의대"
+    ],
+    "admissionTypes": [
+     "GYOGWA"
+    ],
+    "regions": [
+     "경북"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "d621adec1f0d2eb6"
+   ]
+  },
+  {
+   "id": "04a7b8d8-289a-5341-917d-66843d8b277c",
+   "title": "건국대 수시 1단계 합격자 발표 — 연기우수자, 연출우수자, 체육특기자",
+   "body": "건국대 수시 1단계 합격자 발표: 10.22(목). 대상 전형: 연기우수자, 연출우수자, 체육특기자. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-22T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "건국대"
+    ],
+    "admissionTypes": [
+     "SILGI"
+    ],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "21304c2664c8900b",
+    "ff159b70622c5355",
+    "b1c6654d875afe5f"
+   ]
+  },
+  {
+   "id": "f2d89342-9191-5867-82a5-c26167439e06",
+   "title": "삼육대 수시 1단계 합격자 발표 — 기회균형Ⅱ전형, 특수교육대상자전형",
+   "body": "삼육대 수시 1단계 합격자 발표: 10.22(목). 대상 전형: 기회균형Ⅱ전형, 특수교육대상자전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-22T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "삼육대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "c34bdfcbc704979a",
+    "92eb6a1340acee19"
+   ]
+  },
+  {
+   "id": "32d95541-d1b9-55f7-8cc6-2ca2cd7abdde",
+   "title": "고려대 수시 1단계 합격자 발표 — 고른기회전형, 다문화전형, 재직자전형, 사이버국방전형, 특기자전형",
+   "body": "고려대 수시 1단계 합격자 발표: 10.23(금) 17:00. 대상 전형: 고른기회전형, 다문화전형, 재직자전형, 사이버국방전형, 특기자전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-23T17:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "고려대"
+    ],
+    "admissionTypes": [
+     "JONGHAP",
+     "SILGI"
+    ],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "783772ac7b7d311b",
+    "82c013174901388a",
+    "b9ca33bb37a7e545",
+    "7ae362541bbf8768",
+    "94d331f2f67a4e3f"
+   ]
+  },
+  {
+   "id": "fc0ef9f4-240f-5ca2-bd19-ce9616f98ef7",
+   "title": "국립경국대 수시 1단계 합격자 발표 — 장애인등대상자전형",
+   "body": "국립경국대 수시 1단계 합격자 발표: 10.23(금). 대상 전형: 장애인등대상자전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-23T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "국립경국대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "경북"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "42da6523d9b3fbe6"
+   ]
+  },
+  {
+   "id": "43688d56-0420-5296-b37d-e32571d0ec9c",
+   "title": "대구대 수시 1단계 합격자 발표 — 면접전형, 특수창의융합인재전형, 라이프디자인전형",
+   "body": "대구대 수시 1단계 합격자 발표: 10.23(금). 대상 전형: 면접전형, 특수창의융합인재전형, 라이프디자인전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-23T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "대구대"
+    ],
+    "admissionTypes": [
+     "GYOGWA"
+    ],
+    "regions": [
+     "경북"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "e84560b0b24aad1a",
+    "c00d9c9be57ec778",
+    "8f623f5db391db13"
+   ]
+  },
+  {
+   "id": "38197c31-5486-5e83-9d65-434e698bb0c5",
+   "title": "서울신학대 수시 1단계 합격자 발표 — H+인재전형, 사회기여및배려자전형",
+   "body": "서울신학대 수시 1단계 합격자 발표: 10.23(금). 대상 전형: H+인재전형, 사회기여및배려자전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-23T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "서울신학대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "경기"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "feeb13b903e5fcd5",
+    "2be3a23751b9fec7"
+   ]
+  },
+  {
+   "id": "9d179321-6d15-57b0-84aa-bd9df426cb4c",
+   "title": "세종대 수시 1단계 합격자 발표 — 학생부종합(사이버국방 특별전형), 학생부종합(국방AI융합시스템공학 특별전…",
+   "body": "세종대 수시 1단계 합격자 발표: 10.23(금). 대상 전형: 학생부종합(사이버국방 특별전형), 학생부종합(국방AI융합시스템공학 특별전형), 학생부종합(국방AI로봇융합공학 특별전형). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-23T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "세종대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "1208aa77759d9d7f",
+    "328207376eda3f91",
+    "a78ea225d69b87e7"
+   ]
+  },
+  {
+   "id": "cd06ccc8-d4bf-5ba5-8eec-01f82f6524da",
+   "title": "우석대 수시 1단계 합격자 발표 — 학생부교과(교과면접)",
+   "body": "우석대 수시 1단계 합격자 발표: 10.23(금). 대상 전형: 학생부교과(교과면접). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-23T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "우석대"
+    ],
+    "admissionTypes": [
+     "GYOGWA"
+    ],
+    "regions": [
+     "전북"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "8c2cf49193b7b2ce"
+   ]
+  },
+  {
+   "id": "81260c0b-101a-561b-9e4b-5de056f608c6",
+   "title": "원광대 수시 1단계 합격자 발표 — 특기자전형",
+   "body": "원광대 수시 1단계 합격자 발표: 10.23(금). 대상 전형: 특기자전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-23T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "원광대"
+    ],
+    "admissionTypes": [
+     "SILGI"
+    ],
+    "regions": [
+     "전북"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "40096dd50c1b89d5"
+   ]
+  },
+  {
+   "id": "fb4acb55-bb17-5dd3-a506-32cee8d8a353",
+   "title": "한국기술교대 수시 1단계 합격자 발표 — 창의인재(면접형), 충남형계약학과(조기취업형), 창의인재(면접형) · 충…",
+   "body": "한국기술교대 수시 1단계 합격자 발표: 10.23(금). 대상 전형: 창의인재(면접형), 충남형계약학과(조기취업형), 창의인재(면접형) · 충남형계약학과_조기취업형(학생부종합전형(창의인재_면접형), 충남형계약학과(조기취업형)). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-23T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "한국기술교대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "충남"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "https://cdn013.negagea.net/dgsmidc/omr/seoul/web/univ_info2026/한국기술교육대학교/한국기술교육대학교_2027학년도_수시모집요강.pdf",
+   "sourceRefs": [
+    "WEB",
+    "YOGANG"
+   ],
+   "eventIds": [
+    "5c00439483c2640e",
+    "3c39cf24d4ba3368",
+    "178b6fef6844f01e"
+   ]
+  },
+  {
+   "id": "ceb5992e-c1be-5e3c-b661-f04520d2b6e2",
+   "title": "한동대 수시 1단계 합격자 발표 — 농어촌학생Ⅱ:울릉도(정원외)",
+   "body": "한동대 수시 1단계 합격자 발표: 10.23(금) 15:00. 대상 전형: 농어촌학생Ⅱ:울릉도(정원외). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-23T15:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "한동대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "경북"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "1052600b975bfb9c"
+   ]
+  },
+  {
+   "id": "44241f8f-3989-5adf-9efa-8242e6069196",
+   "title": "대전대 수시 1단계 합격자 발표 — 혜화인재전형",
+   "body": "대전대 수시 1단계 합격자 발표: 10.26(월) 15:00. 대상 전형: 혜화인재전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-26T15:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "대전대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "대전"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "2c9d51cb656de35c"
+   ]
+  },
+  {
+   "id": "80fede08-bf2b-5da4-8e79-eed4d5dd7c86",
+   "title": "연세대 수시 1단계 합격자 발표 — 학생부종합전형[국제인재], 학생부종합전형[기회균형], 특기자전형[체육인재…",
+   "body": "연세대 수시 1단계 합격자 발표: 10.26(월). 대상 전형: 학생부종합전형[국제인재], 학생부종합전형[기회균형], 특기자전형[체육인재]. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-26T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "연세대"
+    ],
+    "admissionTypes": [
+     "JONGHAP",
+     "SILGI"
+    ],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "99797d26710c5d0e",
+    "d3b6894dbc26f932",
+    "dec7cffea7fe8bcd"
+   ]
+  },
+  {
+   "id": "12c78cdd-d58c-56cc-a320-11551487e06c",
+   "title": "고신대 수시 1단계 합격자 발표 — 지역인재종합, 일반고, 지역인재, 지역인재기회균형, 지역의사선발(광역권)…",
+   "body": "고신대 수시 1단계 합격자 발표: 10.27(화). 대상 전형: 지역인재종합, 일반고, 지역인재, 지역인재기회균형, 지역의사선발(광역권), 지역의사선발(진료권), 농어촌(정원외). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-27T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "고신대"
+    ],
+    "admissionTypes": [
+     "GYOGWA",
+     "JONGHAP"
+    ],
+    "regions": [
+     "부산"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "b94baa4421844c9d",
+    "a6a3131145bd51c3",
+    "8d8c90cb4ee4225b",
+    "fe49ad20d3929f11",
+    "d310a542fc19fb6b",
+    "be66ecef6bcc3369",
+    "ddf95b81a0edf9b8"
+   ]
+  },
+  {
+   "id": "8b6d8671-f32b-5cb8-ac8f-9b29631d73eb",
+   "title": "동덕여대 수시 1단계 합격자 발표 — 동덕창의리더전형",
+   "body": "동덕여대 수시 1단계 합격자 발표: 10.27(화) 17:00. 대상 전형: 동덕창의리더전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-27T17:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "동덕여대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "31580c30cfc6422b"
+   ]
+  },
+  {
+   "id": "5ee2691f-689f-5368-b366-3816b9e36a88",
+   "title": "루터대 수시 1단계 합격자 발표 — 섬김인재전형, 고른기회전형",
+   "body": "루터대 수시 1단계 합격자 발표: 10.27(화). 대상 전형: 섬김인재전형, 고른기회전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-27T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "루터대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "경기"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "39100aba522e9b2d",
+    "c1252fba2a994c36"
+   ]
+  },
+  {
+   "id": "d5acba7a-c0e3-5e78-aa65-f19282d85c74",
+   "title": "차의과학대 수시 1단계 합격자 발표 — CHA학생부교과전형(간호·글로벌)",
+   "body": "차의과학대 수시 1단계 합격자 발표: 10.27(화). 대상 전형: CHA학생부교과전형(간호·글로벌). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-27T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "차의과학대"
+    ],
+    "admissionTypes": [
+     "GYOGWA"
+    ],
+    "regions": [
+     "경기"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "c88124ed1a824b13"
+   ]
+  },
+  {
+   "id": "7f73c029-f968-5e23-aeb6-2ecbdb095169",
+   "title": "연세대 수시 1단계 합격자 발표 — 학교생활우수자(면접형)(미래캠퍼스)(전 모집단위(의예과 제외) 면접대상자…",
+   "body": "연세대 수시 1단계 합격자 발표: 10.27(화) 17:00. 대상 전형: 학교생활우수자(면접형)(미래캠퍼스)(전 모집단위(의예과 제외) 면접대상자(1단계) 발표). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-27T17:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "연세대"
+    ],
+    "admissionTypes": [],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "입학처·언론 보도 (수시 통합 일정 DB 웹 수집)",
+   "url": "https://admission.yonsei.ac.kr/mirae/upload/guide/202609091128343AZAWL.PDF",
+   "sourceRefs": [
+    "WEB"
+   ],
+   "eventIds": [
+    "8d2a093290dd431d"
+   ]
+  },
+  {
+   "id": "5efc9286-209d-5aa0-9035-59c4ea591e51",
+   "title": "광운대 수시 1단계 합격자 발표 — 광운참빛인재전형Ⅰ-면접형, 소프트웨어우수인재전형",
+   "body": "광운대 수시 1단계 합격자 발표: 10.28(수). 대상 전형: 광운참빛인재전형Ⅰ-면접형, 소프트웨어우수인재전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-28T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "광운대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "675d210089728f5f",
+    "e5b5f940419d902e"
+   ]
+  },
+  {
+   "id": "ad8f719b-1ab9-5b98-a373-29d740f29008",
+   "title": "국립한국해양대 수시 1단계 합격자 발표 — 지역인재전형",
+   "body": "국립한국해양대 수시 1단계 합격자 발표: 10.28(수). 대상 전형: 지역인재전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-28T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "국립한국해양대"
+    ],
+    "admissionTypes": [
+     "GYOGWA"
+    ],
+    "regions": [
+     "부산"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "c44a303b9dcf2b2a"
+   ]
+  },
+  {
+   "id": "cd16a4f4-497a-55d2-afb1-fa1873e89478",
+   "title": "광운대 수시 1단계 합격자 발표 — 광운참빛인재전형Ⅰ(면접형) · 소프트웨어우수인재전형(학생부종합 광운참빛인…",
+   "body": "광운대 수시 1단계 합격자 발표: 10.28(수) 15:00. 대상 전형: 광운참빛인재전형Ⅰ(면접형) · 소프트웨어우수인재전형(학생부종합 광운참빛인재전형Ⅰ(면접형), 소프트웨어우수인재전형). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-28T15:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "광운대"
+    ],
+    "admissionTypes": [],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "입학처·언론 보도 (수시 통합 일정 DB 웹 수집)",
+   "url": "https://iphak.kw.ac.kr/upload_data/mojib/20260526155135_27.pdf",
+   "sourceRefs": [
+    "WEB"
+   ],
+   "eventIds": [
+    "f2cea6c2e81322b7"
+   ]
+  },
+  {
+   "id": "0b210f96-4609-5535-8bb3-4faee975afee",
+   "title": "가천대 수시 1단계 합격자 발표 — 가천바람개비, 조기취업형 계약학과",
+   "body": "가천대 수시 1단계 합격자 발표: 10.29(목). 대상 전형: 가천바람개비, 조기취업형 계약학과. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-29T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "가천대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "경기"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "2c3a3c03393656a5",
+    "21c20715dc094968"
+   ]
+  },
+  {
+   "id": "9f256187-a02b-5208-ac4d-225a68c26602",
+   "title": "상명대 수시 1단계 합격자 발표 — 조기취업형계약학과전형",
+   "body": "상명대 수시 1단계 합격자 발표: 10.29(목) 14:00. 대상 전형: 조기취업형계약학과전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-29T14:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "상명대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "b9dd06b9ba739480"
+   ]
+  },
+  {
+   "id": "a81c7450-5e43-5208-affc-8080bee09e5c",
+   "title": "강남대 수시 1단계 합격자 발표 — 학교생활우수자전형2, 장애인 등 대상자전형",
+   "body": "강남대 수시 1단계 합격자 발표: 10.30(금). 대상 전형: 학교생활우수자전형2, 장애인 등 대상자전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-30T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "강남대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "경기"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "442264b1b97cdf33",
+    "c3973c0a924925a0"
+   ]
+  },
+  {
+   "id": "d7978024-8ded-57f9-b060-37f3f0a4a97a",
+   "title": "고려대 수시 1단계 합격자 발표 — 계열적합전형",
+   "body": "고려대 수시 1단계 합격자 발표: 10.30(금) 17:00. 대상 전형: 계열적합전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-30T17:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "고려대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "2f4620ffc051dc12"
+   ]
+  },
+  {
+   "id": "bf1a8229-62ba-5a8f-9658-94b741e622bf",
+   "title": "국립순천대 수시 1단계 합격자 발표 — 종합면접 전형, 특기자 전형",
+   "body": "국립순천대 수시 1단계 합격자 발표: 10.30(금). 대상 전형: 종합면접 전형, 특기자 전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-30T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "국립순천대"
+    ],
+    "admissionTypes": [
+     "JONGHAP",
+     "SILGI"
+    ],
+    "regions": [
+     "전남"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "7dbc7816b6e75d4d",
+    "85a95d0a6749de08"
+   ]
+  },
+  {
+   "id": "719e6622-ead4-5fe4-94ee-b7ce84c4a9ae",
+   "title": "한국항공대 수시 1단계 합격자 발표 — 미래인재전형(면접대상자), 고른기회전형",
+   "body": "한국항공대 수시 1단계 합격자 발표: 10.30(금). 대상 전형: 미래인재전형(면접대상자), 고른기회전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-30T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "한국항공대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "경기"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "81b3823d021c176e",
+    "a5e0182238e51414"
+   ]
+  },
+  {
+   "id": "502929f2-7a3e-5114-a91c-1dead4a276da",
+   "title": "한국항공대 수시 1단계 합격자 발표 — 미래인재전형 · 고른기회전형(미래인재전형, 고른기회전형)",
+   "body": "한국항공대 수시 1단계 합격자 발표: 10.30(금) 09:00. 대상 전형: 미래인재전형 · 고른기회전형(미래인재전형, 고른기회전형). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-10-30T09:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "한국항공대"
+    ],
+    "admissionTypes": [],
+    "regions": [
+     "경기"
+    ]
+   },
+   "source": "입학처·언론 보도 (수시 통합 일정 DB 웹 수집)",
+   "url": "https://cdn013.negagea.net/dgsmidc/omr/seoul/web/univ_info2026/한국항공대학교/한국항공대학교_2027학년도_수시모집요강.pdf",
+   "sourceRefs": [
+    "WEB"
+   ],
+   "eventIds": [
+    "8321f415c21aa157"
+   ]
+  },
+  {
+   "id": "6dfbafa8-6cb5-579b-bedc-2e5b286e671c",
+   "title": "대진대 수시 1단계 합격자 발표 — 학생부종합(윈윈대진전형)",
+   "body": "대진대 수시 1단계 합격자 발표: 11.3(화) 14:00. 대상 전형: 학생부종합(윈윈대진전형). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-03T14:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "대진대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "경기"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "050d7cb27d9c0825"
+   ]
+  },
+  {
+   "id": "9577c9a4-0de5-531b-ba10-67627f8fb231",
+   "title": "차의과학대 수시 1단계 합격자 발표 — CHA학생부교과전형(약학), CHA학생부종합전형(간호·글로벌), 사회통합…",
+   "body": "차의과학대 수시 1단계 합격자 발표: 11.3(화). 대상 전형: CHA학생부교과전형(약학), CHA학생부종합전형(간호·글로벌), 사회통합전형(간호·글로벌). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-03T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "차의과학대"
+    ],
+    "admissionTypes": [
+     "GYOGWA",
+     "JONGHAP"
+    ],
+    "regions": [
+     "경기"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "9d1374bbb0039632",
+    "d3ec48425c5a1493",
+    "32fe4f812bc7a460"
+   ]
+  },
+  {
+   "id": "352b0735-2e2e-57c1-81d8-020eac10bfca",
+   "title": "성균관대 수시 1단계 합격자 발표 — 성균인재(사범대학·연기예술학과(연출) 면접대상자(11.8. 면접))",
+   "body": "성균관대 수시 1단계 합격자 발표: 11.3(화). 대상 전형: 성균인재(사범대학·연기예술학과(연출) 면접대상자(11.8. 면접)). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-03T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "성균관대"
+    ],
+    "admissionTypes": [],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "입학처·언론 보도 (수시 통합 일정 DB 웹 수집)",
+   "url": "https://www.veritas-a.com/news/articleView.html?idxno=626388",
+   "sourceRefs": [
+    "WEB"
+   ],
+   "eventIds": [
+    "121f41ce5a3035a5"
+   ]
+  },
+  {
+   "id": "2ea54e25-92e3-5d12-b56f-8b8f7941c8de",
+   "title": "경북대 수시 1단계 합격자 발표 — 지역인재전형",
+   "body": "경북대 수시 1단계 합격자 발표: 11.6(금) 16:00. 대상 전형: 지역인재전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-06T16:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "경북대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "대구"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "f8fb4d2356145246"
+   ]
+  },
+  {
+   "id": "cd2b8550-ba73-507e-bde3-d8e47423afe5",
+   "title": "경북대 수시 1단계 합격자 발표 — 지역의사선발전형, 지역인재 학교장추천전형, SW특별전형, 고졸재직자전형,…",
+   "body": "경북대 수시 1단계 합격자 발표: 11.6(금). 대상 전형: 지역의사선발전형, 지역인재 학교장추천전형, SW특별전형, 고졸재직자전형, 영농창업인재전형, 특성화고졸재직자전형, 모바일과학인재전형, 장애인등대상자전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-06T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "경북대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "대구"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "8626eae0bfb3d051",
+    "801d0ac0cfda0059",
+    "84b7eef96f19e239",
+    "6cc0f7f595fcffc9",
+    "f92a0d861afaae32",
+    "2cea17bf0b36d9fa",
+    "047279a5f433084d",
+    "daf9fcc82a5eb2b0"
+   ]
+  },
+  {
+   "id": "5de493c3-d44b-5a2d-836f-9f843ce9f5cf",
+   "title": "국립한밭대 수시 1단계 합격자 발표 — 지역인재(종합)(면접대상), 학생부종합(소프트웨어인재)(면접대상), 학생…",
+   "body": "국립한밭대 수시 1단계 합격자 발표: 11.6(금). 대상 전형: 지역인재(종합)(면접대상), 학생부종합(소프트웨어인재)(면접대상), 학생부종합(야간)(면접대상), 특수교육대상자(면접대상), 특성화고등을졸업한재직자(야간)(면접대상), 만학도(야간)(면접대상). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-06T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "국립한밭대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "대전"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "5ef1d27bb42ab5c9",
+    "23f7b3c9178b7300",
+    "ac91b30ab74d1f75",
+    "a0d63d4533b0cf34",
+    "4afab86c23c0deca",
+    "e69c6366fc5d8276"
+   ]
+  },
+  {
+   "id": "8ddaf690-5cca-5253-b4cd-722d34837e3d",
+   "title": "인천대 수시 1단계 합격자 발표 — 자기추천전형",
+   "body": "인천대 수시 1단계 합격자 발표: 11.6(금). 대상 전형: 자기추천전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-06T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "인천대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "인천"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "5331b8c97228e624"
+   ]
+  },
+  {
+   "id": "f85122db-0f9d-5d23-a1c3-a177729b60c7",
+   "title": "한국공학대 수시 1단계 합격자 발표 — 학생부종합(조기취업형계약학과)",
+   "body": "한국공학대 수시 1단계 합격자 발표: 11.6(금). 대상 전형: 학생부종합(조기취업형계약학과). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-06T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "한국공학대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "경기"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "a704b1bbe0334140"
+   ]
+  },
+  {
+   "id": "781a6f44-46db-5104-9a7b-7bd461e6a4d0",
+   "title": "국립한밭대 수시 1단계 합격자 발표 — 지역인재 · 소프트웨어인재 · 특수교육대상자(학생부종합(지역인재, 소프트…",
+   "body": "국립한밭대 수시 1단계 합격자 발표: 11.6(금) 15:00. 대상 전형: 지역인재 · 소프트웨어인재 · 특수교육대상자(학생부종합(지역인재, 소프트웨어인재, 특수교육대상자 등)). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-06T15:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "국립한밭대"
+    ],
+    "admissionTypes": [],
+    "regions": [
+     "대전"
+    ]
+   },
+   "source": "입학처·언론 보도 (수시 통합 일정 DB 웹 수집)",
+   "url": "https://addon.jinhakapply.com/Nesin/3004/2027/download/%ED%95%9C%EB%B0%AD%EB%8C%80_%EC%88%98%EC%8B%9C_%EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95.pdf",
+   "sourceRefs": [
+    "WEB"
+   ],
+   "eventIds": [
+    "8a98d75a056fd773"
+   ]
+  },
+  {
+   "id": "a2c2dbc8-f3c3-562b-8f26-3df3d0f2c2f1",
+   "title": "홍익대 수시 1단계 합격자 발표 — 농어촌학생전형, 학교생활우수자전형, 고른기회Ⅰ전형, 기초생활수급자·차상위…",
+   "body": "홍익대 수시 1단계 합격자 발표: 11.7(토). 대상 전형: 농어촌학생전형, 학교생활우수자전형, 고른기회Ⅰ전형, 기초생활수급자·차상위계층전형, 미술우수자전형, 공연예술우수자전형, 미술우수자(미술계열) · 농어촌학생[미술계열(예술학과 제외)](미술우수자전형, 농어촌학생전형(미술계열) — 서울캠퍼스), 미술우수자(미술계열) · 농어촌학생[미술계열(예술학과 제외)](미술우수자전형, 농어촌학생전형(미술계열) — 세종캠퍼스). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-07T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "홍익대"
+    ],
+    "admissionTypes": [
+     "JONGHAP",
+     "SILGI"
+    ],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "https://cdn013.negagea.net/dgsmidc/omr/seoul/web/univ_info2026/홍익대학교(서울)/홍익대학교(서울)_2027학년도_수시모집요강.pdf",
+   "sourceRefs": [
+    "WEB",
+    "YOGANG"
+   ],
+   "eventIds": [
+    "2df4fa3349c4d9bc",
+    "5a3642c6d421fb2f",
+    "4bab6cae8afcd83b",
+    "2b8fada48a9fd04a",
+    "477ebc451091385d",
+    "f2fa7813c5ad07b1",
+    "34ed57a81441caf6",
+    "a6e1c10ae452384b"
+   ]
+  },
+  {
+   "id": "94a066cb-a158-5aee-b108-725d39538e8c",
+   "title": "부경대 수시 1단계 합격자 발표 — 실기우수인재",
+   "body": "부경대 수시 1단계 합격자 발표: 11.10(화). 대상 전형: 실기우수인재. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-10T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "부경대"
+    ],
+    "admissionTypes": [
+     "SILGI"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "b481b6cfbf676059"
+   ]
+  },
+  {
+   "id": "1ff745e2-51df-5947-93ac-a90cf9b444a7",
+   "title": "한동대 수시 1단계 합격자 발표 — G-IMPACT인재, SW인재",
+   "body": "한동대 수시 1단계 합격자 발표: 11.11(수) 15:00. 대상 전형: G-IMPACT인재, SW인재. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-11T15:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "한동대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "경북"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "80894cb0ef42b15b",
+    "aafe2da1ccce1bb3"
+   ]
+  },
+  {
+   "id": "487efdca-4e83-5693-8a87-f899ab411551",
+   "title": "KAIST 수시 1단계 합격자 발표 — 일반전형 · 고른기회전형(Regular Admission(일반전형, 고른…",
+   "body": "KAIST 수시 1단계 합격자 발표: 11.11(수). 대상 전형: 일반전형 · 고른기회전형(Regular Admission(일반전형, 고른기회전형, 특기자전형, 반도체시스템인재전형) 1단계 합격자), 특기자전형(Regular Admission(일반전형, 고른기회전형, 특기자전형, 반도체시스템인재전형) 1단계 합격자), 반도체시스템인재전형(Regular Admission(일반전형, 고른기회전형, 특기자전형, 반도체시스템인재전형) 1단계 합격자). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-11T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "KAIST"
+    ],
+    "admissionTypes": [],
+    "regions": [
+     "대전"
+    ]
+   },
+   "source": "입학처·언론 보도 (수시 통합 일정 DB 웹 수집)",
+   "url": "https://www.kyobit.com/news/articleView.html?idxno=5690",
+   "sourceRefs": [
+    "WEB"
+   ],
+   "eventIds": [
+    "f18d96bf8df51525",
+    "f16ccd30659f6623",
+    "074594efe53974a7"
+   ]
+  },
+  {
+   "id": "b467c09b-49f4-5c59-9652-e6fa4fa8c0b6",
+   "title": "가천대 수시 1단계 합격자 발표 — 지역균형",
+   "body": "가천대 수시 1단계 합격자 발표: 11.12(목). 대상 전형: 지역균형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-12T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "가천대"
+    ],
+    "admissionTypes": [
+     "GYOGWA"
+    ],
+    "regions": [
+     "경기"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "1b8630e077b4e915"
+   ]
+  },
+  {
+   "id": "f5ab9ccb-30a2-5f89-a192-b9024847aa18",
+   "title": "덕성여대 수시 1단계 합격자 발표 — 덕성인재전형Ⅱ, 기회균형전형Ⅰ_장애인 등 대상자, 덕성인재전형Ⅱ(덕성인재…",
+   "body": "덕성여대 수시 1단계 합격자 발표: 11.12(목). 대상 전형: 덕성인재전형Ⅱ, 기회균형전형Ⅰ_장애인 등 대상자, 덕성인재전형Ⅱ(덕성인재전형Ⅱ(기회균형전형Ⅰ_장애인 등 대상자 포함) 1단계 합격자). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-12T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "덕성여대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "https://www.kyobit.com/news/articleView.html?idxno=6855",
+   "sourceRefs": [
+    "WEB",
+    "YOGANG"
+   ],
+   "eventIds": [
+    "b79727894c18ac16",
+    "d4a8c9cd38cb076a",
+    "da352615b051eef6"
+   ]
+  },
+  {
+   "id": "d81bd111-a129-564c-ba88-076c7f4fd8fb",
+   "title": "이화여대 수시 1단계 합격자 발표 — 학생부종합(미래인재전형-면접형), 학생부종합(예체능서류전형), 미래인재전…",
+   "body": "이화여대 수시 1단계 합격자 발표: 11.12(목). 대상 전형: 학생부종합(미래인재전형-면접형), 학생부종합(예체능서류전형), 미래인재전형(학생부종합(미래인재전형-면접형)). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-12T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "이화여대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "https://admission.ewha.ac.kr/upload/GUIDES/20260907134642BHLTER.pdf",
+   "sourceRefs": [
+    "WEB",
+    "YOGANG"
+   ],
+   "eventIds": [
+    "b7b523a401ed57c1",
+    "df8e63d14c57a962",
+    "73704440820f7e01"
+   ]
+  },
+  {
+   "id": "55ecc114-7389-54bc-8347-c7988b3dd0d3",
+   "title": "건양대 수시 1단계 합격자 발표 — 지역의사",
+   "body": "건양대 수시 1단계 합격자 발표: 11.13(금) 16:00. 대상 전형: 지역의사. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-13T16:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "건양대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "충남"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "bc39d0e0dd1882d7"
+   ]
+  },
+  {
+   "id": "5cb4a5d8-3525-57a7-bfa7-39639e8f9d36",
+   "title": "경상국립대 수시 1단계 합격자 발표 — 학생부종합(일반전형)_면접",
+   "body": "경상국립대 수시 1단계 합격자 발표: 11.13(금) 16:00. 대상 전형: 학생부종합(일반전형)_면접. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-13T16:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "경상국립대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "경남"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "fe392682d7798cf4"
+   ]
+  },
+  {
+   "id": "64db8d2c-b709-5594-8814-02ac3426580a",
+   "title": "경상국립대 수시 1단계 합격자 발표 — 학생부종합(지역인재전형)(의과대), 학생부종합(지역의사선발전형), 학생부…",
+   "body": "경상국립대 수시 1단계 합격자 발표: 11.13(금). 대상 전형: 학생부종합(지역인재전형)(의과대), 학생부종합(지역의사선발전형), 학생부종합(지역인재 기초생활수급자등전형)(의과대), 학생부종합(농어촌학생전형)(의과대). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-13T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "경상국립대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "경남"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "56ea1aeae974f580",
+    "a5b0399acead8c1a",
+    "13dad9bb2a973e54",
+    "07d7f3139e9e27ea"
+   ]
+  },
+  {
+   "id": "3266c995-aa98-5b1c-97f2-51df1e87e107",
+   "title": "광주교대 수시 1단계 합격자 발표 — 학생부종합(전남교육감추천전형), 학생부종합(전남교육감다문화전형), 학생부…",
+   "body": "광주교대 수시 1단계 합격자 발표: 11.13(금) 14:00. 대상 전형: 학생부종합(전남교육감추천전형), 학생부종합(전남교육감다문화전형), 학생부종합(지역인재전형), 학생부종합(사회통합전형), 학생부종합(장애인대상자전형), 학생부종합(만학도전형). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-13T14:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "광주교대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "광주"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "d8040e420f8d7675",
+    "7359a37ccce08063",
+    "65efb7c9cb983c14",
+    "62303517ed4ae8a2",
+    "46f8dea621045cf5",
+    "2ab4b5714f5f3e46"
+   ]
+  },
+  {
+   "id": "68e6846c-5a04-5562-b7c6-ee5101becf34",
+   "title": "세종대 수시 1단계 합격자 발표 — 학생부종합(세종인재 전형(면접형))",
+   "body": "세종대 수시 1단계 합격자 발표: 11.13(금). 대상 전형: 학생부종합(세종인재 전형(면접형)). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-13T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "세종대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "f9ac64bd110cb234"
+   ]
+  },
+  {
+   "id": "d10cc8b7-94f4-52cd-af3a-6c08da3ff689",
+   "title": "영남대 수시 1단계 합격자 발표 — 지역인재전형, 지역의사선발전형(진료권)",
+   "body": "영남대 수시 1단계 합격자 발표: 11.13(금). 대상 전형: 지역인재전형, 지역의사선발전형(진료권). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-13T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "영남대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "경북"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "f91eab8a4d21cc6b",
+    "23f01a669cb33db9"
+   ]
+  },
+  {
+   "id": "e98fe96b-d3bd-5b35-9fe2-cfef42c1ee36",
+   "title": "전남대 수시 1단계 합격자 발표 — 학생부교과(예체능실기), 학생부교과(특수교육대상자), 학생부종합(고교생활…",
+   "body": "전남대 수시 1단계 합격자 발표: 11.13(금). 대상 전형: 학생부교과(예체능실기), 학생부교과(특수교육대상자), 학생부종합(고교생활우수자Ⅰ), 학생부종합(지역의사_진료권), 학생부종합(후계농업경영인), 실기/실적(예능실기), 고교생활우수자Ⅰ · 지역의사 진료권 · 후계농업경영인(1단계 전형 전체(정원내 면접 전형)). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-13T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "전남대"
+    ],
+    "admissionTypes": [
+     "GYOGWA",
+     "JONGHAP",
+     "SILGI"
+    ],
+    "regions": [
+     "광주"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "https://www.veritas-a.com/news/articleView.html?idxno=624870",
+   "sourceRefs": [
+    "WEB",
+    "YOGANG"
+   ],
+   "eventIds": [
+    "54bee3b816f231ba",
+    "f10c4c09309147bf",
+    "efee55ae11336ee8",
+    "9ae8016ca40d9871",
+    "a2c338839f875a7f",
+    "0929da3d34621ef8",
+    "692581203e17986e"
+   ]
+  },
+  {
+   "id": "6ff9aa93-edfc-57bb-9950-a8a3b98fd495",
+   "title": "전주교대 수시 1단계 합격자 발표 — 교직적성우수자, 지역인재선발, 국가보훈대상자, 다문화가정자녀, 농어촌학생…",
+   "body": "전주교대 수시 1단계 합격자 발표: 11.13(금) 15:00. 대상 전형: 교직적성우수자, 지역인재선발, 국가보훈대상자, 다문화가정자녀, 농어촌학생, 기회균형선발, 장애인등 대상자. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-13T15:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "전주교대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "전북"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "0b5110c276c77f4a",
+    "b6a0b0371f301144",
+    "be829987c88134e6",
+    "19e7cd447a30ee18",
+    "ecf7c58efba089aa",
+    "11a4b6fc3bcc6369",
+    "e08d383e0e3e8d1e"
+   ]
+  },
+  {
+   "id": "30eb34ae-6663-5e1c-8e1e-10107473f2b2",
+   "title": "제주대 수시 1단계 합격자 발표 — 학생부종합(일반학생), 학생부종합(지역인재), 학생부종합(지역의사(광역권…",
+   "body": "제주대 수시 1단계 합격자 발표: 11.13(금). 대상 전형: 학생부종합(일반학생), 학생부종합(지역인재), 학생부종합(지역의사(광역권 제주)). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-13T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "제주대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "제주"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "6c9ea5cc05a6b530",
+    "978ad459d122238f",
+    "a700c946c7c7dcdb"
+   ]
+  },
+  {
+   "id": "6bb7c831-5dc6-5cde-bd3f-d26bc409110a",
+   "title": "진주교대 수시 1단계 합격자 발표 — 학생부종합(21세기형 교직 적성자), 학생부종합(지역인재), 학생부종합(…",
+   "body": "진주교대 수시 1단계 합격자 발표: 11.13(금). 대상 전형: 학생부종합(21세기형 교직 적성자), 학생부종합(지역인재), 학생부종합(국가보훈대상자), 학생부종합(다문화·탈북 학생), 학생부종합(농어촌학생), 학생부종합(기회균형), 학생부종합(장애인 등 대상자), 학생부종합(만학도), 21세기형 교직적성자 · 국가보훈대상자 · 다문화·탈북학생 · 농어촌 · 기회균형 · 장애인 등 대상자(수시모집 1단계(모집인원의 2.5배수)). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-13T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "진주교대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "경남"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "https://www.idomin.com/news/articleView.html?idxno=2014858",
+   "sourceRefs": [
+    "WEB",
+    "YOGANG"
+   ],
+   "eventIds": [
+    "20d3bee6bdc5bf88",
+    "3888bd9f96528f27",
+    "a2552765e4f6db44",
+    "c4b1ac693e838b7d",
+    "502057b3187be1b6",
+    "8d1265a79b9c45c5",
+    "d0a46442a52c4bb1",
+    "23aa7629aa4d82da",
+    "4978154eba8ab5e6"
+   ]
+  },
+  {
+   "id": "5daff430-29e3-52e9-890b-8b336f4e5976",
+   "title": "청주교대 수시 1단계 합격자 발표 — 학생부종합(배움나눔인재전형), 학생부종합(지역인재전형), 학생부종합(국가…",
+   "body": "청주교대 수시 1단계 합격자 발표: 11.13(금). 대상 전형: 학생부종합(배움나눔인재전형), 학생부종합(지역인재전형), 학생부종합(국가보훈대상자전형), 학생부종합(다문화가족자녀전형), 학생부종합(농어촌학생전형), 학생부종합(장애인학생전형), 학생부종합(기회균형선발제전형). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-13T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "청주교대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "충북"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "3e6a9ae2cb1cc090",
+    "86c6cb9fd48c73b7",
+    "6457541b1be002e2",
+    "c374d1f0f38fb29c",
+    "4cbd5b7dadc68aff",
+    "401b04af7359cc97",
+    "a8aed0be022de88c"
+   ]
+  },
+  {
+   "id": "0c2b5e12-0f49-54a6-adc5-58984785f245",
+   "title": "한남대 수시 1단계 합격자 발표 — 한남인재Ⅱ(서류+면접)전형, 창업인재(서류+면접)전형, 한남인재Ⅱ(서류+…",
+   "body": "한남대 수시 1단계 합격자 발표: 11.13(금) 17:00. 대상 전형: 한남인재Ⅱ(서류+면접)전형, 창업인재(서류+면접)전형, 한남인재Ⅱ(서류+면접). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-13T17:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "한남대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "대전"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "https://ibsi.hannam.ac.kr/upload/GUIDES/20260529180909001.pdf",
+   "sourceRefs": [
+    "WEB",
+    "YOGANG"
+   ],
+   "eventIds": [
+    "bbcd60757228bf57",
+    "1cd3a76647b4e8f0",
+    "a04bb5be96842fde"
+   ]
+  },
+  {
+   "id": "437eb46c-8fa4-5f46-a412-64d7ac8948ff",
+   "title": "한양대 수시 1단계 합격자 발표 — 학생부종합(면접형), 학생부종합(면접형)(학생부종합(면접형) 전 모집단위…",
+   "body": "한양대 수시 1단계 합격자 발표: 11.13(금). 대상 전형: 학생부종합(면접형), 학생부종합(면접형)(학생부종합(면접형) 전 모집단위(공과대학·한양인터칼리지학부, 의과대학, 사범대학)). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-13T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "한양대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "https://cdn013.negagea.net/dgsmidc/omr/seoul/web/univ_info2026/한양대학교/한양대학교_2027학년도_수시모집요강.pdf",
+   "sourceRefs": [
+    "WEB",
+    "YOGANG"
+   ],
+   "eventIds": [
+    "7ed874829c075303",
+    "28443a970337ae7c"
+   ]
+  },
+  {
+   "id": "2e9cf23b-62dc-5db0-be87-b9af68fc283b",
+   "title": "동국대 수시 1단계 합격자 발표 — <서울캠퍼스> DO DREAM(Do Dream), <서울캠퍼스> 불교추천…",
+   "body": "동국대 수시 1단계 합격자 발표: 11.13(금). 대상 전형: <서울캠퍼스> DO DREAM(Do Dream), <서울캠퍼스> 불교추천인재, <서울캠퍼스> 기회균형통합 · 특수교육대상자(기회균형통합, 특수교육대상자). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-13T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "동국대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "입학처·언론 보도 (수시 통합 일정 DB 웹 수집)",
+   "url": "https://ipsi.dongguk.edu/upload/file/20260601115911UVEHWG.PDF",
+   "sourceRefs": [
+    "WEB"
+   ],
+   "eventIds": [
+    "78aec3e320e6cec9",
+    "7f78f3e50151f67c",
+    "a77c7f2683c3008f"
+   ]
+  },
+  {
+   "id": "47306ad1-00e8-5479-94b2-e758f73fc030",
+   "title": "청주교대 수시 1단계 합격자 발표 — 지역인재전형 · 국가보훈대상자전형 · 다문화가족자녀전형 · 농어촌학생전형…",
+   "body": "청주교대 수시 1단계 합격자 발표: 11.13(금) 10:00. 대상 전형: 지역인재전형 · 국가보훈대상자전형 · 다문화가족자녀전형 · 농어촌학생전형 · 장애인학생전형 · 기회균형선발제전형(지역인재, 국가보훈대상자, 다문화가족자녀, 농어촌학생, 장애인학생, 기회균형선발제 전형). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-13T10:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "청주교대"
+    ],
+    "admissionTypes": [],
+    "regions": [
+     "충북"
+    ]
+   },
+   "source": "입학처·언론 보도 (수시 통합 일정 DB 웹 수집)",
+   "url": "https://www.cje.ac.kr/upload/contents/files/2027학년도 수시모집 모집요강(변경안)(2026.7월)_2차.pdf",
+   "sourceRefs": [
+    "WEB"
+   ],
+   "eventIds": [
+    "0de586021f828a8c"
+   ]
+  },
+  {
+   "id": "210864cf-3914-5c9b-ae3e-0093f54b1ac9",
+   "title": "계명대 수시 1단계 합격자 발표 — 학생부교과(면접전형)",
+   "body": "계명대 수시 1단계 합격자 발표: 11.14(토). 대상 전형: 학생부교과(면접전형). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-14T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "계명대"
+    ],
+    "admissionTypes": [
+     "GYOGWA"
+    ],
+    "regions": [
+     "대구"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "2235177ad7e42b2e"
+   ]
+  },
+  {
+   "id": "ab18cc0e-a032-5e37-91f2-8927c12075e6",
+   "title": "국립한국교통대 수시 1단계 합격자 발표 — 학생부종합전형Ⅰ, 학생부종합Ⅰ(1단계 전형(학생부종합))",
+   "body": "국립한국교통대 수시 1단계 합격자 발표: 11.16(월). 대상 전형: 학생부종합전형Ⅰ, 학생부종합Ⅰ(1단계 전형(학생부종합)). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-16T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "국립한국교통대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "충북"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "https://www.veritas-a.com/news/articleView.html?idxno=625519",
+   "sourceRefs": [
+    "WEB",
+    "YOGANG"
+   ],
+   "eventIds": [
+    "848c0738576addc1",
+    "54caee46ba471e0d"
+   ]
+  },
+  {
+   "id": "e4ce9ba2-e425-5b37-8aae-cc3529ef834e",
+   "title": "연세대 수시 1단계 합격자 발표 — 학생부종합전형[활동우수형]",
+   "body": "연세대 수시 1단계 합격자 발표: 11.16(월). 대상 전형: 학생부종합전형[활동우수형]. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-16T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "연세대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "0597e1a5d20f5dba"
+   ]
+  },
+  {
+   "id": "9831198a-b679-5f19-a629-a7042abf1699",
+   "title": "한국공학대 수시 1단계 합격자 발표 — 학생부종합(조기취업형계약학과)(예비대학)",
+   "body": "한국공학대 수시 1단계 합격자 발표: 11.16(월). 대상 전형: 학생부종합(조기취업형계약학과)(예비대학). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-16T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "한국공학대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "경기"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "50a9c7f45e141ef3"
+   ]
+  },
+  {
+   "id": "a0524a3d-16ae-57bb-8055-e0f7efa4c565",
+   "title": "한국외대 수시 1단계 합격자 발표 — 학생부종합전형(면접형), 면접형(학생부종합(면접형) 서울·글로벌)",
+   "body": "한국외대 수시 1단계 합격자 발표: 11.16(월). 대상 전형: 학생부종합전형(면접형), 면접형(학생부종합(면접형) 서울·글로벌). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-16T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "한국외대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "https://cdn013.negagea.net/dgsmidc/omr/seoul/web/univ_info2026/한국외국어대학교/한국외국어대학교_2027학년도_수시모집요강.pdf",
+   "sourceRefs": [
+    "WEB",
+    "YOGANG"
+   ],
+   "eventIds": [
+    "5f261438a7c9ddb1",
+    "8dd91bd26875bd19"
+   ]
+  },
+  {
+   "id": "57fa4697-31d9-563a-82ec-ac321e1b12e5",
+   "title": "아주대 수시 1단계 합격자 발표 — ACE전형, 첨단융합인재전형, 특수교육대상자전형, 국방IT우수인재1전형,…",
+   "body": "아주대 수시 1단계 합격자 발표: 11.17(화). 대상 전형: ACE전형, 첨단융합인재전형, 특수교육대상자전형, 국방IT우수인재1전형, 특성화고등을졸업한재직자전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-17T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "아주대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "경기"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "dc78acff12e2d574",
+    "d3cce5be1d265916",
+    "13017d3bdb25b62b",
+    "44a370062f2e41be",
+    "97d9de5a1bdb0f4e"
+   ]
+  },
+  {
+   "id": "c73e8492-680f-59ed-a403-4fff894a94f2",
+   "title": "울산대 수시 1단계 합격자 발표 — 지역의사제",
+   "body": "울산대 수시 1단계 합격자 발표: 11.17(화). 대상 전형: 지역의사제. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-17T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "울산대"
+    ],
+    "admissionTypes": [
+     "GYOGWA"
+    ],
+    "regions": [
+     "울산"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "d9500f4c91588905"
+   ]
+  },
+  {
+   "id": "60239f68-4c75-5c37-abb2-824d948e9c8d",
+   "title": "숙명여대 수시 1단계 합격자 발표 — 숙명인재(면접형)전형, 소프트웨어인재전형, 특수교육대상자전형",
+   "body": "숙명여대 수시 1단계 합격자 발표: 11.19(목). 대상 전형: 숙명인재(면접형)전형, 소프트웨어인재전형, 특수교육대상자전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-19T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "숙명여대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "cbcd5ea463faa3ed",
+    "d72fa6f8b7172449",
+    "fa07ee07b14c8af4"
+   ]
+  },
+  {
+   "id": "0284a863-316e-504c-96d4-ebb1b030eafb",
+   "title": "강원대 수시 1단계 합격자 발표 — 미래인재면접Ⅰ전형, 기회균형면접전형, 농어촌학생전형",
+   "body": "강원대 수시 1단계 합격자 발표: 11.20(금). 대상 전형: 미래인재면접Ⅰ전형, 기회균형면접전형, 농어촌학생전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-20T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "강원대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "강원"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "248fd08ae6c669df",
+    "53b5e5bc07445199",
+    "f3fc83f4ab8dc872"
+   ]
+  },
+  {
+   "id": "629bdbc1-0496-5134-99f1-03925fe0dda6",
+   "title": "건국대 수시 1단계 합격자 발표 — KU자기추천, 특수교육대상자",
+   "body": "건국대 수시 1단계 합격자 발표: 11.20(금). 대상 전형: KU자기추천, 특수교육대상자. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-20T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "건국대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "34229308bdf7f35e",
+    "626a3986a7695f30"
+   ]
+  },
+  {
+   "id": "74459064-fe1a-5635-82d4-c34849cd784b",
+   "title": "경기대 수시 1단계 합격자 발표 — KGU학생부종합전형, SW우수자전형, 특수교육대상자전형, KGU학생부종합…",
+   "body": "경기대 수시 1단계 합격자 발표: 11.20(금). 대상 전형: KGU학생부종합전형, SW우수자전형, 특수교육대상자전형, KGU학생부종합 · SW우수자(KGU학생부종합, SW우수자, 특수교육대상자). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-20T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "경기대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "경기"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "https://www.kyobit.com/news/articleView.html?idxno=5695",
+   "sourceRefs": [
+    "WEB",
+    "YOGANG"
+   ],
+   "eventIds": [
+    "ddc6cffea9cea1f0",
+    "5b9baa22c05f8bd5",
+    "3e7df807baae7076",
+    "a66095f0661a6c51"
+   ]
+  },
+  {
+   "id": "427d5c3d-b764-58b6-9645-68f01bf5f8f2",
+   "title": "동아대 수시 1단계 합격자 발표 — 잠재능력우수자전형, 지역인재종합전형, 지역의사제 광역권전형, 지역의사제 …",
+   "body": "동아대 수시 1단계 합격자 발표: 11.20(금). 대상 전형: 잠재능력우수자전형, 지역인재종합전형, 지역의사제 광역권전형, 지역의사제 창원권전형, 지역의사제 김해권전형, 지역의사제 진주권전형, 지역의사제 통영권전형, 지역의사제 거창권전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-20T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "동아대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "부산"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "c6e21364f331ace4",
+    "da19522278f8d71c",
+    "6c69da687c9e9bce",
+    "ffc213ca217fabff",
+    "cfb58f5a3722c00c",
+    "ac0b730484ef290b",
+    "b64721e1914b7536",
+    "5605a55ace3db147"
+   ]
+  },
+  {
+   "id": "6877a1b2-9568-57f8-a271-e71f9e58936b",
+   "title": "동의대 수시 1단계 합격자 발표 — 학교생활우수자(면접)전형",
+   "body": "동의대 수시 1단계 합격자 발표: 11.20(금). 대상 전형: 학교생활우수자(면접)전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-20T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "동의대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "부산"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "d67399dc9e7302e9"
+   ]
+  },
+  {
+   "id": "8ff6af1f-bac3-51ba-bd99-43e2651acf09",
+   "title": "명지대 수시 1단계 합격자 발표 — 학생부종합(명지인재면접전형), 학생부종합(크리스천리더전형)",
+   "body": "명지대 수시 1단계 합격자 발표: 11.20(금). 대상 전형: 학생부종합(명지인재면접전형), 학생부종합(크리스천리더전형). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-20T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "명지대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "c1d8a0e266757361",
+    "587162dd4c27bc6a"
+   ]
+  },
+  {
+   "id": "9a9fc4cc-9ac9-5ca1-8c49-df33d366ea57",
+   "title": "부산교대 수시 1단계 합격자 발표 — 학생부종합(초등교직적성자전형), 학생부종합(지역인재전형), 학생부종합(국…",
+   "body": "부산교대 수시 1단계 합격자 발표: 11.20(금). 대상 전형: 학생부종합(초등교직적성자전형), 학생부종합(지역인재전형), 학생부종합(국가보훈대상자전형), 학생부종합(농어촌학생전형), 학생부종합(장애인등대상자전형), 학생부종합(저소득층학생전형). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-20T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "부산교대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "부산"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "04f6e97105a7fcc9",
+    "36dd881a11d0e070",
+    "166ff7b3bacdf57b",
+    "48334408416cf29e",
+    "caee1618726c3690",
+    "e0611ab8ee4fef0c"
+   ]
+  },
+  {
+   "id": "44fb7657-aeef-56bd-abb8-696bc10a0972",
+   "title": "서울시립대 수시 1단계 합격자 발표 — 학생부종합전형Ⅰ(면접형), 기회균형전형Ⅰ, 사회공헌·통합전형, 학생부종합…",
+   "body": "서울시립대 수시 1단계 합격자 발표: 11.20(금). 대상 전형: 학생부종합전형Ⅰ(면접형), 기회균형전형Ⅰ, 사회공헌·통합전형, 학생부종합전형Ⅰ · 기회균형전형Ⅰ · 사회공헌·통합전형(학생부종합전형Ⅰ 등 학생부종합(면접형) 1단계). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-20T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "서울시립대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "https://www.m-i.kr/news/articleView.html?idxno=1404702",
+   "sourceRefs": [
+    "WEB",
+    "YOGANG"
+   ],
+   "eventIds": [
+    "783f8d7a4f1f0fdd",
+    "6d70771dc8e04bce",
+    "7e55d745e203fb95",
+    "c005714065b13e72"
+   ]
+  },
+  {
+   "id": "84afc9cd-7b05-5878-9e01-2ce810cce72a",
+   "title": "울산대 수시 1단계 합격자 발표 — 잠재역량, 지역인재(기초생활/차상위)",
+   "body": "울산대 수시 1단계 합격자 발표: 11.20(금). 대상 전형: 잠재역량, 지역인재(기초생활/차상위). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-20T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "울산대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "울산"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "2b2b33c195c09b1d",
+    "4579efe66a252f5c"
+   ]
+  },
+  {
+   "id": "21c6185b-814e-5442-85e3-71720f97f478",
+   "title": "원광대 수시 1단계 합격자 발표 — 학생부종합전형",
+   "body": "원광대 수시 1단계 합격자 발표: 11.20(금). 대상 전형: 학생부종합전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-20T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "원광대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "전북"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "910dda291d623d1a"
+   ]
+  },
+  {
+   "id": "2e8e1a3c-9e1b-55dd-b17d-2d8a840a3680",
+   "title": "전북대 수시 1단계 합격자 발표 — 큰사람전형",
+   "body": "전북대 수시 1단계 합격자 발표: 11.20(금) 14:00. 대상 전형: 큰사람전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-20T14:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "전북대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "전북"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "81b7fc50247e8307"
+   ]
+  },
+  {
+   "id": "933ae749-a9a7-5106-b860-163d69e4e754",
+   "title": "전북대 수시 1단계 합격자 발표 — 지역인재1유형전형-호남권, 지역인재2유형전형-전북권, SW인재전형, 사회…",
+   "body": "전북대 수시 1단계 합격자 발표: 11.20(금). 대상 전형: 지역인재1유형전형-호남권, 지역인재2유형전형-전북권, SW인재전형, 사회통합전형, 특성화고교졸업자전형, 특성화고졸재직자전형(수시 6회 제한 제외), 큰사람 · SW인재 · 사회통합(학생부종합전형). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-20T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "전북대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "전북"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "https://www.dhinsight.co.kr/news/articleView.html?idxno=25012",
+   "sourceRefs": [
+    "WEB",
+    "YOGANG"
+   ],
+   "eventIds": [
+    "de1232793ce137fb",
+    "368151f94e2fb341",
+    "ac25245361e79eed",
+    "7069596f8a6b8954",
+    "9fa2a8da3fe74163",
+    "f1e2aecb5ca2bf0f",
+    "bdffb252bd61a722"
+   ]
+  },
+  {
+   "id": "04abf488-0e1d-5076-b954-41964a8fbd54",
+   "title": "POSTECH 수시 1단계 합격자 발표 — 일반전형Ⅰ, 반도체공학인재전형, 일반전형Ⅱ",
+   "body": "POSTECH 수시 1단계 합격자 발표: 11.20(금) 10:00. 대상 전형: 일반전형Ⅰ, 반도체공학인재전형, 일반전형Ⅱ. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-20T10:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "POSTECH"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "경북"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "https://adm-u.postech.ac.kr/wp-content/uploads/2025/05/2027학년도_POSTECH_모집요강_web.pdf",
+   "sourceRefs": [
+    "WEB",
+    "YOGANG"
+   ],
+   "eventIds": [
+    "874c448e95924219",
+    "03e5468ea06a52c9",
+    "5625827ca5dd9234",
+    "699507c6a76550d2"
+   ]
+  },
+  {
+   "id": "8343b242-ca8d-50c1-a5cb-ccb138afb9e0",
+   "title": "한국교원대 수시 1단계 합격자 발표 — 학생부종합(학생부종합우수자 일반전형), 학생부종합(사회통합 특별전형), …",
+   "body": "한국교원대 수시 1단계 합격자 발표: 11.20(금). 대상 전형: 학생부종합(학생부종합우수자 일반전형), 학생부종합(사회통합 특별전형), 학생부종합(농어촌학생 특별전형), 학생부종합(기초수급 및 차상위계층 특별전형), 학생부종합(장애인 등 대상자 특별전형). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-20T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "한국교원대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "충북"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "cccc843a5587df29",
+    "aaccf78d7d68d9a5",
+    "a77e2b871437b186",
+    "40ec21543fef426a",
+    "48b329d9961edff8"
+   ]
+  },
+  {
+   "id": "ee282c9c-848e-5be3-b9ae-ef46c359a5bf",
+   "title": "강원대 수시 1단계 합격자 발표 — 춘천·삼척: 미래인재면접전형 · 지역인재면접전형(의예과) · 강릉·원주:…",
+   "body": "강원대 수시 1단계 합격자 발표: 11.20(금) 15:00. 대상 전형: 춘천·삼척: 미래인재면접전형 · 지역인재면접전형(의예과) · 강릉·원주: 미래인재면접Ⅰ전형 · 기회균형면접전형 · 농어촌학생전형(치의예과)(강릉·원주캠퍼스 학생부종합 미래인재면접Ⅰ·기회균형면접·농어촌학생전형). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-20T15:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "강원대"
+    ],
+    "admissionTypes": [],
+    "regions": [
+     "강원"
+    ]
+   },
+   "source": "입학처·언론 보도 (수시 통합 일정 DB 웹 수집)",
+   "url": "https://www.gwnu.ac.kr/bbs/iphak/1606/154216/download.do",
+   "sourceRefs": [
+    "WEB"
+   ],
+   "eventIds": [
+    "9d192c2b6549d647"
+   ]
+  },
+  {
+   "id": "828686f9-e769-532c-88b8-3521e6ed5a56",
+   "title": "건국대 수시 1단계 합격자 발표 — KU자기추천 · 특수교육대상자(서울캠퍼스 학생부종합(KU자기추천, 특수교…",
+   "body": "건국대 수시 1단계 합격자 발표: 11.20(금) 14:00. 대상 전형: KU자기추천 · 특수교육대상자(서울캠퍼스 학생부종합(KU자기추천, 특수교육대상자)). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-20T14:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "건국대"
+    ],
+    "admissionTypes": [],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "입학처·언론 보도 (수시 통합 일정 DB 웹 수집)",
+   "url": "https://www.konkuk.ac.kr/bbs/admission/6282/1221044/download.do",
+   "sourceRefs": [
+    "WEB"
+   ],
+   "eventIds": [
+    "d5dda8cd064c8ad3"
+   ]
+  },
+  {
+   "id": "370288b5-3370-57b3-8ff4-d322cbb4ccc3",
+   "title": "명지대 수시 1단계 합격자 발표 — 명지인재면접전형 · 크리스천리더(학생부종합 명지인재면접전형, 크리스천리더…",
+   "body": "명지대 수시 1단계 합격자 발표: 11.20(금) 15:00. 대상 전형: 명지인재면접전형 · 크리스천리더(학생부종합 명지인재면접전형, 크리스천리더전형 1단계 합격자). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-20T15:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "명지대"
+    ],
+    "admissionTypes": [],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "입학처·언론 보도 (수시 통합 일정 DB 웹 수집)",
+   "url": "https://www.kyobit.com/news/articleView.html?idxno=6241",
+   "sourceRefs": [
+    "WEB"
+   ],
+   "eventIds": [
+    "767a097b4889262c"
+   ]
+  },
+  {
+   "id": "36a72831-d86d-5fb3-ba0f-c355c44be266",
+   "title": "서울대 수시 1단계 합격자 발표 — 기회균형특별전형(사회통합)(기회균형특별전형(사회통합) 1단계 합격자), …",
+   "body": "서울대 수시 1단계 합격자 발표: 11.20(금) 18:00. 대상 전형: 기회균형특별전형(사회통합)(기회균형특별전형(사회통합) 1단계 합격자), 일반전형(일반전형 1단계 합격자). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-20T18:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "서울대"
+    ],
+    "admissionTypes": [],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "입학처·언론 보도 (수시 통합 일정 DB 웹 수집)",
+   "url": "https://admission.snu.ac.kr/webdata/admission/files/2027susi.pdf",
+   "sourceRefs": [
+    "WEB"
+   ],
+   "eventIds": [
+    "e482ed317dcda809",
+    "3dec129b8f09f558"
+   ]
+  },
+  {
+   "id": "935c4597-3ff7-5a11-983e-f00585d2b058",
+   "title": "한국교원대 수시 1단계 합격자 발표 — 학생부종합우수자 일반전형 · 사회통합 특별전형 · 농어촌 특별전형 · 기…",
+   "body": "한국교원대 수시 1단계 합격자 발표: 11.20(금) 10:00. 대상 전형: 학생부종합우수자 일반전형 · 사회통합 특별전형 · 농어촌 특별전형 · 기초수급 및 차상위계층 특별전형 · 장애인 등 대상자 특별전형(학생부종합 전형(제1단계)). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-20T10:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "한국교원대"
+    ],
+    "admissionTypes": [],
+    "regions": [
+     "충북"
+    ]
+   },
+   "source": "입학처·언론 보도 (수시 통합 일정 DB 웹 수집)",
+   "url": "https://www.knue.ac.kr/site/ipsi/file/cts1802_pdf02.pdf",
+   "sourceRefs": [
+    "WEB"
+   ],
+   "eventIds": [
+    "3bd2391fbb5c6a4c"
+   ]
+  },
+  {
+   "id": "25d5274b-968f-530f-a71c-0d81037edeeb",
+   "title": "숭실대 수시 1단계 합격자 발표 — SSU미래인재전형(면접형)(면접대상자), 기회균형전형(면접대상자), SW…",
+   "body": "숭실대 수시 1단계 합격자 발표: 11.23(월). 대상 전형: SSU미래인재전형(면접형)(면접대상자), 기회균형전형(면접대상자), SW우수자전형(면접대상자), 특수교육대상자전형(면접대상자), 정보보호특기자전형(면접대상자). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-23T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "숭실대"
+    ],
+    "admissionTypes": [
+     "JONGHAP",
+     "SILGI"
+    ],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "2327878fd5a87c95",
+    "6754da7ac43f15dc",
+    "811d98a3765060ba",
+    "b3642d62998fb138",
+    "f6f0678f0f022e57"
+   ]
+  },
+  {
+   "id": "b56a55f5-b1ec-5fc5-bce0-df37c9714766",
+   "title": "연세대 수시 1단계 합격자 발표 — 학생부종합전형[국제형(국내고)], 학생부종합전형[국제형(해외고/검정고시)…",
+   "body": "연세대 수시 1단계 합격자 발표: 11.23(월). 대상 전형: 학생부종합전형[국제형(국내고)], 학생부종합전형[국제형(해외고/검정고시)], 국제형(서울캠퍼스)(국제형(국내고, 해외고·검정고시) 1단계). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-23T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "연세대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "https://admission.yonsei.ac.kr/seoul/upload/guide/20260529204109T8NZNJ.PDF",
+   "sourceRefs": [
+    "WEB",
+    "YOGANG"
+   ],
+   "eventIds": [
+    "97ae28ee0362584a",
+    "8dd8353e52195252",
+    "985128f5f800d65e"
+   ]
+  },
+  {
+   "id": "e41af5c1-9b2d-5e8d-ac3d-c137602ce8df",
+   "title": "연세대 수시 1단계 합격자 발표 — 학교생활우수자(면접형)(미래캠퍼스)(의예과 면접대상자(1단계) 발표), …",
+   "body": "연세대 수시 1단계 합격자 발표: 11.24(화) 17:00. 대상 전형: 학교생활우수자(면접형)(미래캠퍼스)(의예과 면접대상자(1단계) 발표), 사회통합 · 기초생활연세한마음 · 농어촌(의예과)(의예과 면접대상자 발표(일괄합산 — 1단계 발표 해당 없음)). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-24T17:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "연세대"
+    ],
+    "admissionTypes": [],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "입학처·언론 보도 (수시 통합 일정 DB 웹 수집)",
+   "url": "https://admission.yonsei.ac.kr/mirae/upload/guide/202609091128343AZAWL.PDF",
+   "sourceRefs": [
+    "WEB"
+   ],
+   "eventIds": [
+    "606450fc478ec4ed",
+    "d0f6f4453f05fbcf"
+   ]
+  },
+  {
+   "id": "77e8ab2b-9b50-5dbf-b56d-495a6efdbb93",
+   "title": "경희대 수시 1단계 합격자 발표 — 네오르네상스전형",
+   "body": "경희대 수시 1단계 합격자 발표: 11.25(수) 18:00. 대상 전형: 네오르네상스전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-25T18:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "경희대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "399d4e06d791169b"
+   ]
+  },
+  {
+   "id": "776b3ce9-f5d3-5928-b08d-6754d32062c9",
+   "title": "서울여대 수시 1단계 합격자 발표 — 학생부종합(바롬인재면접전형), 학생부종합(SW융합인재전형), 학생부종합(…",
+   "body": "서울여대 수시 1단계 합격자 발표: 11.25(수). 대상 전형: 학생부종합(바롬인재면접전형), 학생부종합(SW융합인재전형), 학생부종합(기독교지도자전형), 바롬인재면접전형 · SW융합인재전형 · 기독교지도자전형(바롬인재면접전형, SW융합인재전형, 기독교지도자전형 1단계). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-25T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "서울여대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "https://v.daum.net/v/WLMZFDcnRV",
+   "sourceRefs": [
+    "WEB",
+    "YOGANG"
+   ],
+   "eventIds": [
+    "62d743ec021685c6",
+    "c5b270c20b7e06ff",
+    "a0d84a931be59f67",
+    "2e7016589d664f9f"
+   ]
+  },
+  {
+   "id": "346ef057-6e46-5e24-80c1-b61b2e6d69a8",
+   "title": "중앙대 수시 1단계 합격자 발표 — 탐구형 인재(학생부종합 탐구형인재), 융합형 인재(의학부) · 성장형 인…",
+   "body": "중앙대 수시 1단계 합격자 발표: 11.26(목). 대상 전형: 탐구형 인재(학생부종합 탐구형인재), 융합형 인재(의학부) · 성장형 인재(학생부종합 융합형인재(의학부), 성장형인재). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-26T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "중앙대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "입학처·언론 보도 (수시 통합 일정 DB 웹 수집)",
+   "url": "https://www.hanibnews.com/news/articleView.html?idxno=536",
+   "sourceRefs": [
+    "WEB"
+   ],
+   "eventIds": [
+    "bf9db43ceba84c83",
+    "6a424b0b744f1397"
+   ]
+  },
+  {
+   "id": "aeeb25bc-b2a4-5e74-a13a-f7be044a84bd",
+   "title": "가톨릭대 수시 1단계 합격자 발표 — 학생부종합(잠재능력우수자면접전형), 학생부종합(가톨릭지도자추천전형), 학…",
+   "body": "가톨릭대 수시 1단계 합격자 발표: 11.27(금). 대상 전형: 학생부종합(잠재능력우수자면접전형), 학생부종합(가톨릭지도자추천전형), 학생부종합(학교장추천전형), 학생부종합(장애인 등 대상자전형). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-27T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "가톨릭대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "72c120e2724dcce3",
+    "b5af50960c67fe6d",
+    "59c667ea37a337f3",
+    "d6b237facbbf1693"
+   ]
+  },
+  {
+   "id": "d2d96580-a902-5667-8289-9475283638b5",
+   "title": "서울대 수시 1단계 합격자 발표 — 지역균형전형",
+   "body": "서울대 수시 1단계 합격자 발표: 11.27(금). 대상 전형: 지역균형전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-27T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "서울대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "5fd9a78e9d9b7fa5"
+   ]
+  },
+  {
+   "id": "28c63235-8b20-5ad3-a0b9-d84811d94334",
+   "title": "한동대 수시 1단계 합격자 발표 — 대안학교, 글로벌인재, 선교사·목회자 자녀, 사회통합, 기초생활 및 차상…",
+   "body": "한동대 수시 1단계 합격자 발표: 11.27(금) 15:00. 대상 전형: 대안학교, 글로벌인재, 선교사·목회자 자녀, 사회통합, 기초생활 및 차상위(정원외), 장애인 등 대상자(정원외). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-27T15:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "한동대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "경북"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "0b6b4ce1ee47982a",
+    "1bfaabc72cf1e501",
+    "2b4c4f929d702ff1",
+    "57278975d5260a1f",
+    "30b1bd55ce193a2e",
+    "798a43204bddbdae"
+   ]
+  },
+  {
+   "id": "9a91ce36-9354-582d-b1e8-c55dfd647186",
+   "title": "동국대 수시 1단계 합격자 발표 — <WISE 캠퍼스> 참사랑 전형(WISE 학생부종합 참사랑전형 1단계 합…",
+   "body": "동국대 수시 1단계 합격자 발표: 11.27(금). 대상 전형: <WISE 캠퍼스> 참사랑 전형(WISE 학생부종합 참사랑전형 1단계 합격자). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-11-27T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "동국대"
+    ],
+    "admissionTypes": [],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "입학처·언론 보도 (수시 통합 일정 DB 웹 수집)",
+   "url": "https://ipsi.dongguk.ac.kr/resources/files/susi_2027.pdf",
+   "sourceRefs": [
+    "WEB"
+   ],
+   "eventIds": [
+    "c62bd10cdd94535c"
+   ]
+  },
+  {
+   "id": "17bb8b45-a10d-5a2e-8742-3847ba5856a6",
+   "title": "부산대 수시 1단계 합격자 발표 — 학생부종합전형, 지역인재전형, 지역의사선발전형",
+   "body": "부산대 수시 1단계 합격자 발표: 12.1(화). 대상 전형: 학생부종합전형, 지역인재전형, 지역의사선발전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-12-01T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "부산대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "부산"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "07acd52d9e03030a",
+    "8ffa9653d0ca39f4",
+    "2bff7f098a48b807"
+   ]
+  },
+  {
+   "id": "1c54d43d-1e95-5acc-aaf4-ebb592eb5157",
+   "title": "원광대 수시 1단계 합격자 발표 — 지역인재종합전형, 지역인재기회균형전형, 지역의사선발전형, 기회균형전형, …",
+   "body": "원광대 수시 1단계 합격자 발표: 12.1(화). 대상 전형: 지역인재종합전형, 지역인재기회균형전형, 지역의사선발전형, 기회균형전형, 농어촌학생전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-12-01T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "원광대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "전북"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "7316a1a2010bee43",
+    "4b17bac3064f956e",
+    "ad3a60ddf9ef0c57",
+    "a6559ac2c9cd3bdf",
+    "42fd3cf624dd4dd8"
+   ]
+  },
+  {
+   "id": "6c4ef238-a044-5db3-89ae-bf025846f899",
+   "title": "성균관대 수시 1단계 합격자 발표 — 성균인재(의예과, 자유전공계열, 글로벌AI융합학부 면접대상자(12.6. …",
+   "body": "성균관대 수시 1단계 합격자 발표: 12.1(화). 대상 전형: 성균인재(의예과, 자유전공계열, 글로벌AI융합학부 면접대상자(12.6. 면접)). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-12-01T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "성균관대"
+    ],
+    "admissionTypes": [],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "입학처·언론 보도 (수시 통합 일정 DB 웹 수집)",
+   "url": "https://www.veritas-a.com/news/articleView.html?idxno=626388",
+   "sourceRefs": [
+    "WEB"
+   ],
+   "eventIds": [
+    "fd22d538ec66fac7"
+   ]
+  },
+  {
+   "id": "85360c57-113f-5155-9157-4353961e4e0d",
+   "title": "한림대 수시 1단계 합격자 발표 — 학교생활우수자전형",
+   "body": "한림대 수시 1단계 합격자 발표: 12.3(목) 16:00. 대상 전형: 학교생활우수자전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-12-03T16:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "한림대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "강원"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "261fba0352006435"
+   ]
+  },
+  {
+   "id": "1f88812f-3efa-508a-8993-6411435b3021",
+   "title": "한림대 수시 1단계 합격자 발표 — 지역의사전형(지역의사_의학과), 지역인재전형(지역인재), 지역인재전형_기…",
+   "body": "한림대 수시 1단계 합격자 발표: 12.3(목). 대상 전형: 지역의사전형(지역의사_의학과), 지역인재전형(지역인재), 지역인재전형_기초생활수급자및차상위계층, 기회균형전형 농어촌학생전형(농어촌학생_의학과), 기회균형전형 장애인등대상자전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-12-03T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "한림대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "강원"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "233d939bb8da0f5c",
+    "2a0610486a169a08",
+    "edcbcae15c1dbb27",
+    "fabf94351910fffa",
+    "c27838e7e5d59be3"
+   ]
+  },
+  {
+   "id": "1bbe1d58-9acc-550b-abbf-9b29149d3edf",
+   "title": "가천대 수시 1단계 합격자 발표 — 가천의약학, 교육기회균형",
+   "body": "가천대 수시 1단계 합격자 발표: 12.9(수). 대상 전형: 가천의약학, 교육기회균형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-12-09T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "가천대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "경기"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "4e5297ba90dfa79c",
+    "e9692eba351965a7"
+   ]
+  },
+  {
+   "id": "c147a287-83b2-5fbb-a167-baed1a1c01e5",
+   "title": "한국예술종합학교 수시 1단계 합격자 발표 — 일반전형(11월입시: 연극원 연출과·극작과·연극학과/영상원 전 학과/미술…",
+   "body": "한국예술종합학교 수시 1단계 합격자 발표: 12.10(목) 17:00. 대상 전형: 일반전형(11월입시: 연극원 연출과·극작과·연극학과/영상원 전 학과/미술원 전 학과 1차 합격자). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-12-10T17:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "한국예술종합학교"
+    ],
+    "admissionTypes": []
+   },
+   "source": "입학처·언론 보도 (수시 통합 일정 DB 웹 수집)",
+   "url": "https://www.karts.ac.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000000162044&fileSn=0&accAt=&bbsId=00000000000000000000",
+   "sourceRefs": [
+    "WEB"
+   ],
+   "eventIds": [
+    "0bb2583d345a9991"
+   ]
+  },
+  {
+   "id": "d80d85c3-fa43-5035-82e9-022ecc1495ad",
+   "title": "건양대 수시 1단계 합격자 발표 — 지역[기초]",
+   "body": "건양대 수시 1단계 합격자 발표: 12.11(금) 16:00. 대상 전형: 지역[기초]. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-12-11T16:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "건양대"
+    ],
+    "admissionTypes": [
+     "GYOGWA"
+    ],
+    "regions": [
+     "충남"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "bd11b355c1658989"
+   ]
+  },
+  {
+   "id": "6072f9d0-8d4d-5643-86ad-23fb53a3c295",
+   "title": "건양대 수시 1단계 합격자 발표 — 농어촌학생전형[면접]",
+   "body": "건양대 수시 1단계 합격자 발표: 12.11(금) 17:00. 대상 전형: 농어촌학생전형[면접]. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-12-11T17:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "건양대"
+    ],
+    "admissionTypes": [
+     "GYOGWA"
+    ],
+    "regions": [
+     "충남"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "8b1adf5cecc74a75"
+   ]
+  },
+  {
+   "id": "da926381-a5cf-5799-8539-8b7a6c936651",
+   "title": "아주대 수시 1단계 합격자 발표 — 지역의사선발전형",
+   "body": "아주대 수시 1단계 합격자 발표: 12.12(토). 대상 전형: 지역의사선발전형. 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-12-12T00:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "아주대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "경기"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "2beae4801180fd8b"
+   ]
+  },
+  {
+   "id": "5816b196-3a1a-5453-91c3-32e3acb9b561",
+   "title": "덕성여대 수시 1단계 합격자 발표 — 기회균형전형Ⅰ_특성화고 등을 졸업한 재직자(전형기간 자율화 특별전형)",
+   "body": "덕성여대 수시 1단계 합격자 발표: 12.18(금) 17:00. 대상 전형: 기회균형전형Ⅰ_특성화고 등을 졸업한 재직자(전형기간 자율화 특별전형). 발표 후 면접 일정이 이어지니 대학 공고를 확인하세요.",
+   "category": "SCHEDULE",
+   "deadlineAt": "2026-12-18T17:00:00+09:00",
+   "targetTags": {
+    "grades": [
+     3,
+     "N"
+    ],
+    "universities": [
+     "덕성여대"
+    ],
+    "admissionTypes": [
+     "JONGHAP"
+    ],
+    "regions": [
+     "서울"
+    ]
+   },
+   "source": "2027학년도 대학별 모집요강 (수시 통합 일정 DB)",
+   "url": "",
+   "sourceRefs": [
+    "YOGANG"
+   ],
+   "eventIds": [
+    "14950e7c51741b53"
+   ]
+  }
+ ]
+}
