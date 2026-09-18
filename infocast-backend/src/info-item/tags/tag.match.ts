@@ -7,6 +7,7 @@ export interface TagQuery {
   regions?: string[];
   admissionTypes?: string[];
   curricula?: string[];
+  universities?: string[];
 }
 
 /** 콤마구분 문자열 → 배열. */
@@ -39,12 +40,15 @@ export function itemMatchesQuery(tags: TagSet, query: TagQuery): boolean {
     dimMatches(tags.tracks, query.tracks ?? []) &&
     dimMatches(tags.regions, query.regions ?? []) &&
     dimMatches(tags.admissionTypes, query.admissionTypes ?? []) &&
-    dimMatches(tags.curricula, query.curricula ?? [])
+    dimMatches(tags.curricula, query.curricula ?? []) &&
+    dimMatches(tags.universities, query.universities ?? [])
   );
 }
 
 /** 차원별 가중치 (정형 태그 우선 — 전형·계열을 학년·지역보다 무겁게). */
 const DIM_WEIGHTS = {
+  /** 관심 대학 일치는 가장 강한 신호 — '내가 지원한 대학 면접일'이 최우선. */
+  universities: 4,
   admissionTypes: 3,
   tracks: 3,
   curricula: 2,
@@ -69,12 +73,14 @@ function dimScore(
  */
 export function scoreMatch(tags: TagSet, query: TagQuery): number {
   const max =
+    DIM_WEIGHTS.universities +
     DIM_WEIGHTS.admissionTypes +
     DIM_WEIGHTS.tracks +
     DIM_WEIGHTS.curricula +
     DIM_WEIGHTS.grades +
     DIM_WEIGHTS.regions;
   const raw =
+    dimScore(tags.universities, query.universities ?? [], DIM_WEIGHTS.universities) +
     dimScore(tags.admissionTypes, query.admissionTypes ?? [], DIM_WEIGHTS.admissionTypes) +
     dimScore(tags.tracks, query.tracks ?? [], DIM_WEIGHTS.tracks) +
     dimScore(tags.curricula, query.curricula ?? [], DIM_WEIGHTS.curricula) +

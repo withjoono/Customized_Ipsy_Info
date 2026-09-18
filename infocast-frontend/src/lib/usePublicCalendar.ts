@@ -7,9 +7,14 @@ interface PublicEvent extends InfoItemLike {
   universities?: string[];
 }
 
-export function usePublicCalendar(q?: string) {
+/**
+ * 공개 일정. 로그인 사용자는 개인화된 소스를 쓰므로 `enabled: false` 로 꺼 둔다.
+ * 응답에는 개인정보가 없고 대학 태그만 있어 대학 검색·공통 일정 판별에 쓸 수 있다.
+ */
+export function usePublicCalendar(q?: string, enabled = true) {
   const query = useQuery({
     queryKey: ['public-calendar', q ?? ''],
+    enabled,
     queryFn: async () => {
       const res = await api.get('/public/calendar', { params: q ? { q } : undefined });
       const items: unknown = res.data?.data ?? res.data;

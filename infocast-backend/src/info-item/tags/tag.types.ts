@@ -46,9 +46,21 @@ export const REGIONS = [
 ] as const;
 export type Region = (typeof REGIONS)[number];
 
-/** 학년: 1·2·3. 전 학년 대상이면 빈 배열(= 제한 없음). */
-export type Grade = 1 | 2 | 3;
-export const GRADES: Grade[] = [1, 2, 3];
+/**
+ * 대학명 — 화이트리스트 없이 자유 문자열(캠퍼스 포함 표기: '고려대(세종)').
+ * 신설·개명 대학이 계속 생기므로 enum 으로 고정하지 않는다. 정규화는 공백 제거뿐.
+ */
+export type University = string;
+
+/**
+ * 학년: 1·2·3 + 재수생('N'). 전 학년 대상이면 빈 배열(= 제한 없음).
+ * 'N'(N수생/졸업생)은 고3과 같은 사이클을 지원하지만 경로가 다르다 —
+ * 생기부 마감·학교 학력평가는 무관하고, 수능 원서는 시험지구에 개별 접수한다.
+ */
+export type Grade = 1 | 2 | 3 | 'N';
+export const GRADES: Grade[] = [1, 2, 3, 'N'];
+/** 올해 대입에 실제로 지원하는 집단 — 원서접수·면접·발표 일정의 기본 대상. */
+export const APPLICANT_GRADES: Grade[] = [3, 'N'];
 
 /**
  * 정규화된 태그 집합.
@@ -60,6 +72,8 @@ export interface TagSet {
   regions: Region[];
   admissionTypes: AdmissionType[];
   curricula: Curriculum[];
+  /** 대상 대학(대학별 면접·발표 일정용). 빈 배열 = 대학 무관(전체 대상). */
+  universities: University[];
 }
 
 export const EMPTY_TAGSET: TagSet = {
@@ -68,6 +82,7 @@ export const EMPTY_TAGSET: TagSet = {
   regions: [],
   admissionTypes: [],
   curricula: [],
+  universities: [],
 };
 
 /** 저장된 jsonb 값을 TagSet 으로 안전 변환. */
@@ -80,6 +95,7 @@ export function toTagSet(raw: unknown): TagSet {
       regions: (r.regions as Region[]) ?? [],
       admissionTypes: (r.admissionTypes as AdmissionType[]) ?? [],
       curricula: (r.curricula as Curriculum[]) ?? [],
+      universities: (r.universities as University[]) ?? [],
     };
   }
   return { ...EMPTY_TAGSET };

@@ -15,6 +15,9 @@ function RootLayout() {
         </Link>
         <nav className="app__nav" aria-label="주 메뉴">
           <Link to="/" className="app__link" activeOptions={{ exact: true }}>대시보드</Link>
+          <Link to="/calendar" className="app__link">
+            입시 캘린더
+          </Link>
           <Link to="/schedule" className="app__link">
             전체 일정
           </Link>
@@ -22,9 +25,6 @@ function RootLayout() {
           <Link to="/subscribe" className="app__link">구독 설정</Link>
           {user ? (
             <>
-              <Link to="/calendar" className="app__link">
-                캘린더
-              </Link>
               <Link to="/admin" className="app__link">
                 관리자
               </Link>

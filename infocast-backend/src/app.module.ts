@@ -7,6 +7,9 @@ import { InfoItemModule } from './info-item/info-item.module';
 import { SubscriptionModule } from './subscription/subscription.module';
 import { MatchModule } from './match/match.module';
 import { DeliveryModule } from './delivery/delivery.module';
+import { PublicModule } from './public/public.module';
+import { ProfileModule } from './profile/profile.module';
+import { SchoolModule } from './school/school.module';
 import { HealthController } from './health.controller';
 
 @Module({
@@ -19,6 +22,9 @@ import { HealthController } from './health.controller';
     SubscriptionModule,
     MatchModule,
     DeliveryModule,
+    PublicModule,
+    ProfileModule,
+    SchoolModule,
   ],
   controllers: [HealthController],
 })

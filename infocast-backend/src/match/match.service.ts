@@ -3,7 +3,9 @@ import { ItemStatus, Prisma } from '@prisma/client';
 import { PrismaService } from '../prisma/prisma.service';
 import { HubService } from '../hub/hub.service';
 import { SubscriptionService } from '../subscription/subscription.service';
-import { toTagSet } from '../info-item/tags/tag.types';
+import { Grade, toTagSet } from '../info-item/tags/tag.types';
+import { TagNormalizer } from '../info-item/tags/tag.normalizer';
+import { parseGradeFromId } from '../auth/grade-from-id';
 import { itemMatchesQuery, scoreMatch, TagQuery } from '../info-item/tags/tag.match';
 
 export interface MatchedItem {
@@ -21,6 +23,9 @@ export interface MatchedItem {
 
 const DAY = 24 * 60 * 60 * 1000;
 
+/** 매칭 후보로 훑을 최대 아이템 수(승인 일정 전체를 덮을 만큼). */
+const CANDIDATE_POOL = 2000;
+
 @Injectable()
 export class MatchService {
   private readonly logger = new Logger(MatchService.name);
@@ -36,11 +41,16 @@ export class MatchService {
     const sub = await this.subscriptions.getMine(memberId);
     const interests = (sub?.interests ?? {}) as Record<string, unknown>;
 
-    let grades: number[] = [];
+    // 아이디('26h3')가 Hub 프로파일보다 정확하다 — 재수생을 표현할 수 있는 유일한 경로.
+    const fromId = parseGradeFromId(memberId);
+    let grades: Grade[] = fromId ? [fromId] : [];
     let curricula: string[] = [];
     try {
       const profile = await this.hub.getAdmissionProfile(memberId);
-      if (profile?.grade) grades = [Number(profile.grade)];
+      // Hub 가 재수생을 어떤 값으로 주든 TagNormalizer 가 'N' 으로 흡수한다.
+      if (!fromId && profile?.grade !== undefined && profile?.grade !== null) {
+        grades = TagNormalizer.normalize({ grades: [profile.grade] }).grades;
+      }
       if (profile?.curriculum) curricula = [String(profile.curriculum)];
     } catch (err) {
       // Hub 미가용(로컬/장애) — 구독 관심사만으로 매칭.
@@ -53,6 +63,7 @@ export class MatchService {
       tracks: (interests.tracks as string[]) ?? [],
       regions: (interests.regions as string[]) ?? [],
       admissionTypes: (interests.admissionTypes as string[]) ?? [],
+      universities: (interests.universities as string[]) ?? [],
     };
   }
 
@@ -60,10 +71,11 @@ export class MatchService {
   async matchForMember(memberId: string, take = 50): Promise<MatchedItem[]> {
     const query = await this.buildQuery(memberId);
 
+    // 후보 풀 상한. 일정이 수백 건이라 300 으로 두면 캘린더에서 조용히 잘린다.
     const items = await this.prisma.infoItem.findMany({
       where: { status: ItemStatus.APPROVED },
       orderBy: { publishedAt: 'desc' },
-      take: 300,
+      take: CANDIDATE_POOL,
     });
 
     const now = Date.now();
@@ -122,6 +134,7 @@ export class MatchService {
     const out: string[] = [];
     const hit = (item: (string | number)[], q?: (string | number)[]) =>
       (q?.length ?? 0) > 0 && item.length > 0 && item.some((v) => q!.map(String).includes(String(v)));
+    if (hit(tags.universities, query.universities)) out.push('관심 대학');
     if (hit(tags.admissionTypes, query.admissionTypes)) out.push('관심 전형 일치');
     if (hit(tags.tracks, query.tracks)) out.push('계열 일치');
     if (hit(tags.regions, query.regions)) out.push('관심 지역 일치');

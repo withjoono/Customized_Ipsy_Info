@@ -58,9 +58,21 @@ export class InfoItemService {
     if (query.status) where.status = query.status;
     if (query.category) where.category = query.category;
 
+    // 기간·마감일 필터는 DB 에서 처리한다 — 일정이 수백 건이라
+    // take 로 잘라 온 뒤 클라이언트에서 거르면 조용히 누락된다.
+    const wantsDeadline = query.hasDeadline === 'true';
+    if (wantsDeadline || query.from || query.to) {
+      const deadlineAt: Prisma.DateTimeNullableFilter = {};
+      if (wantsDeadline) deadlineAt.not = null;
+      if (query.from) deadlineAt.gte = new Date(query.from);
+      if (query.to) deadlineAt.lte = new Date(query.to);
+      where.deadlineAt = deadlineAt;
+    }
+
     const items = await this.prisma.infoItem.findMany({
       where,
-      orderBy: { createdAt: 'desc' },
+      // 기간 조회는 날짜순이 자연스럽고, 그 외에는 최신순을 유지한다.
+      orderBy: where.deadlineAt ? { deadlineAt: 'asc' } : { createdAt: 'desc' },
       take: query.take ?? 50,
     });
 
@@ -70,6 +82,7 @@ export class InfoItemService {
       regions: splitCsv(query.regions),
       admissionTypes: splitCsv(query.admissionTypes),
       curricula: splitCsv(query.curricula),
+      universities: splitCsv(query.universities),
     };
     const hasTagFilter = Object.values(tagQuery).some((v) => (v?.length ?? 0) > 0);
     if (!hasTagFilter) return items;
@@ -96,6 +109,7 @@ export class InfoItemService {
         regions: (r.regions as TagSet['regions']) ?? [],
         admissionTypes: (r.admissionTypes as TagSet['admissionTypes']) ?? [],
         curricula: (r.curricula as TagSet['curricula']) ?? [],
+        universities: (r.universities as TagSet['universities']) ?? [],
       };
     }
     return { ...EMPTY_TAGSET };

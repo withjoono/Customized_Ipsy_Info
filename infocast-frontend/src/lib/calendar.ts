@@ -25,6 +25,8 @@ export interface CalendarEvent {
   own: boolean;
   reasons: string[];
   score?: number;
+  /** 대상 대학(있으면 대학별 일정, 비어 있으면 전 국민 공통 일정). */
+  universities?: string[];
 }
 
 /** 캘린더 파생 대상이 되는 원본 정보 아이템(피드/전체 목록 공통 최소 형태). */
@@ -38,6 +40,7 @@ export interface InfoItemLike {
   deadlineAt?: string | null;
   score?: number;
   reasons?: string[];
+  universities?: string[];
 }
 
 // ── 날짜 유틸 ────────────────────────────────────────────────
@@ -160,6 +163,11 @@ export const SCHOOL_CATEGORIES = [
   { value: 'SCHOOL_HOLIDAY', label: '방학·휴업' },
 ] as const;
 
+/** 대학 태그가 없는 일정 = 전 국민 공통(수능·원서접수·등록 등). 카운트다운 후보. */
+export function isCommonEvent(e: { universities?: string[]; category: string }): boolean {
+  return !isSchoolCategory(e.category) && (e.universities?.length ?? 0) === 0;
+}
+
 export function isSchoolCategory(category: string): boolean {
   return category.startsWith('SCHOOL_');
 }
@@ -193,6 +201,7 @@ export function toCalendarEvent(item: InfoItemLike, personal: boolean): Calendar
     own: (item.reasons ?? []).includes('학년 일치'),
     reasons: item.reasons ?? [],
     score: item.score,
+    universities: item.universities ?? [],
   };
 }
 

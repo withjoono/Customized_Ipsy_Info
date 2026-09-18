@@ -15,10 +15,15 @@ function normChannels(raw: unknown): Record<string, boolean> {
   return out;
 }
 
-/** 관심 태그 정규화 — regions/tracks/admissionTypes 만 사용. */
+/** 관심 태그 정규화 — regions/tracks/admissionTypes/universities 만 사용. */
 function normInterests(raw: unknown): Record<string, unknown> {
   const t = TagNormalizer.normalize(raw);
-  return { regions: t.regions, tracks: t.tracks, admissionTypes: t.admissionTypes };
+  return {
+    regions: t.regions,
+    tracks: t.tracks,
+    admissionTypes: t.admissionTypes,
+    universities: t.universities,
+  };
 }
 
 @Injectable()

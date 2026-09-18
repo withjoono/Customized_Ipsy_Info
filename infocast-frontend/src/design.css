@@ -207,3 +207,83 @@ h1, h2, h3 { line-height: 1.4; letter-spacing: -.035em; }
   .dash__summary { gap: 16px; }
 }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; scroll-behavior: auto !important; } }
+
+/* ── 공개 입시 캘린더 (비로그인 포함) ─────────────────────────────── */
+.calpage__sub { margin: 6px 0 0; font-size: .875rem; color: var(--muted); }
+.calpage__head { align-items: flex-start; }
+
+/* 다가오는 주요 일정 카운트다운 — 대학별 일정이 아닌 '모두의 날짜'만 세운다 */
+.cdown { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: 12px; }
+.cdown__card { background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 18px 20px; display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.cdown__card--lead { background: var(--brand); border-color: transparent; color: #fff; }
+.cdown__title { margin: 0; font-size: .8125rem; font-weight: 600; line-height: 1.45; color: var(--ink); overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+.cdown__card--lead .cdown__title { font-size: 1rem; color: #fff; }
+.cdown__dday { font-size: 1.625rem; font-weight: 800; letter-spacing: -.04em; font-variant-numeric: tabular-nums; line-height: 1.1; display: flex; align-items: baseline; gap: 8px; color: var(--brand); }
+.cdown__card--lead .cdown__dday { font-size: 2.75rem; color: #fff; }
+.cdown__now { font-size: .75rem; font-weight: 700; background: #ffffff33; border-radius: 30px; padding: 3px 10px; }
+.cdown__card:not(.cdown__card--lead) .cdown__now { background: #eaf1ff; color: #1b52cd; }
+.cdown__date { margin: 0; font-size: .75rem; color: var(--muted); }
+.cdown__card--lead .cdown__date { color: #d5e2ff; }
+
+/* 비로그인 안내 배너 */
+.calpage__cta { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; background: #eef3ff; border: 1px solid #c9daf9; border-radius: 14px; padding: 14px 18px; font-size: .875rem; color: #1b3f95; }
+.calpage__cta strong { color: #143a8f; }
+.calpage__cta button { white-space: nowrap; }
+
+/* 월 요약 스트립 · 범례 */
+.calsum { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; font-size: .8125rem; color: var(--muted); }
+.calsum__total { font-size: .9375rem; font-weight: 800; color: var(--ink); letter-spacing: -.03em; }
+.calsum__item { display: inline-flex; align-items: center; gap: 6px; }
+.calsum__dot { width: 9px; height: 9px; border-radius: 3px; display: inline-block; background: var(--c-POLICY_NEWS); }
+.callegend { display: flex; gap: 16px; flex-wrap: wrap; font-size: .75rem; color: #8b94a6; border-top: 1px solid var(--line); padding-top: 12px; }
+.callegend__item { display: inline-flex; align-items: center; gap: 6px; }
+
+/* 셀: 점 대신 색 바 + 건수 배지 — 하루 20건 넘는 날이 있어 점으로는 안 읽힌다 */
+.calpage > .cal .cal__cell { justify-content: flex-start; gap: 5px; padding: 7px 5px; min-height: 78px; }
+.cal__top { display: flex; align-items: center; justify-content: center; gap: 5px; width: 100%; }
+.cal__count { font-size: .6875rem; font-weight: 700; line-height: 1; color: var(--brand); background: #eaf1ff; border-radius: 30px; padding: 3px 6px; font-variant-numeric: tabular-nums; }
+.cal__cell--selected .cal__count { background: #ffffff33; color: #fff; }
+.cal__bars { display: flex; flex-direction: column; gap: 3px; width: 100%; padding: 0 3px; }
+.cal__bar { height: 4px; border-radius: 2px; background: var(--c-POLICY_NEWS); display: block; }
+.cal__bar--GUIDELINE_CHANGE { background: var(--c-GUIDELINE_CHANGE); }
+.cal__bar--SCHEDULE { background: var(--c-SCHEDULE); }
+.cal__bar--COMPETITION_RATE { background: var(--c-COMPETITION_RATE); }
+.cal__bar--POLICY_NEWS { background: var(--c-POLICY_NEWS); }
+.cal__bar--BRIEFING { background: var(--c-BRIEFING); }
+.cal__bar--DEADLINE { background: var(--c-DEADLINE); }
+.cal__bar--NEW_ADMISSION { background: var(--c-NEW_ADMISSION); }
+.cal__bar--SCHOOL_EXAM { background: var(--c-SCHOOL_EXAM); }
+.cal__bar--SCHOOL_EVENT { background: var(--c-SCHOOL_EVENT); }
+.cal__bar--SCHOOL_HOLIDAY { background: var(--c-SCHOOL_HOLIDAY); }
+.cal__more { font-size: .625rem; color: var(--muted); font-style: normal; text-align: center; }
+.calpage > .cal .cal__cell--dense { background: #f3f7ff; }
+.calpage > .cal .cal__cell--dense:hover:not(:disabled) { background: #e7effe; }
+.calpage > .cal .cal__cell--selected.cal__cell--dense { background: var(--brand); }
+.cal__cell--past .cal__bars, .cal__cell--past .cal__num { opacity: .45; }
+.cal__cell--selected.cal__cell--past .cal__num, .cal__cell--selected.cal__cell--past .cal__bars { opacity: 1; }
+
+/* 웰컴 대시보드의 미니 월간은 셀이 낮아 바를 더 얇게 */
+.welcome-calendar__month .cal__cell { min-height: 52px; justify-content: flex-start; gap: 3px; }
+.welcome-calendar__month .cal__bar { height: 3px; }
+.welcome-calendar__month .cal__count, .welcome-calendar__month .cal__more { display: none; }
+
+.calpage__detailcount { margin-left: 10px; font-size: .75rem; font-weight: 700; color: var(--brand); background: #eaf1ff; border-radius: 30px; padding: 3px 10px; vertical-align: middle; }
+.calpage__hint { margin: 10px 0 0; font-size: .75rem; color: #97a0b2; text-align: center; }
+
+@media (max-width: 720px) {
+  .cdown { grid-template-columns: 1fr; gap: 8px; }
+  .cdown__card--lead .cdown__dday { font-size: 2.25rem; }
+  /* 좁은 화면에서 카드 3장이 세로로 쌓이면 달력이 너무 아래로 밀린다.
+     선두만 크게 두고 나머지는 한 줄짜리로 접는다. */
+  .cdown__card:not(.cdown__card--lead) {
+    flex-direction: row;
+    align-items: baseline;
+    gap: 10px;
+    padding: 12px 16px;
+  }
+  .cdown__card:not(.cdown__card--lead) .cdown__title { flex: 1; -webkit-line-clamp: 1; }
+  .cdown__card:not(.cdown__card--lead) .cdown__dday { font-size: 1.125rem; }
+  .cdown__card:not(.cdown__card--lead) .cdown__date { flex-shrink: 0; }
+  .calpage > .cal .cal__cell { min-height: 66px; }
+  .calsum { gap: 10px; }
+}

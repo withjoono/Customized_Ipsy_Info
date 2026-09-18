@@ -1,7 +1,7 @@
 import { IsBoolean, IsIn, IsInt, IsObject, IsOptional, Max, Min } from 'class-validator';
 
 export class UpsertSubscriptionDto {
-  /** 관심 태그: { regions:[], tracks:[], admissionTypes:[] }. 학년·교육과정은 프로파일에서 자동. */
+  /** 관심 태그: { regions:[], tracks:[], admissionTypes:[], universities:[] }. 학년·교육과정은 프로파일에서 자동. */
   @IsOptional()
   @IsObject()
   interests?: Record<string, unknown>;

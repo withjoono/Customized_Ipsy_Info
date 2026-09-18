@@ -1,8 +1,8 @@
 /**
  * 2027학년도 입시 일정 시드.
  *
- *   yarn seed:calendar        # 적재(upsert)
- *   yarn seed:calendar --dry  # 적재 없이 목록만 출력
+ *   yarn seed:calendar          # DRY-RUN: DB 대상과 before/after 확인, 쓰지 않음
+ *   yarn seed:calendar --apply  # 검증 후 하나의 트랜잭션으로 적재(upsert)
  *
  * 적재 대상
  *   · calendar-2027.json      — 전체 일정(원서접수·수능·등록 등). 대부분 태그 없음 = 전 사용자 대상
@@ -58,7 +58,55 @@ const FILES = [
 
 const prisma = new PrismaClient();
 
-async function loadAndSeed(fileName: string, dry: boolean) {
+/** 외부 스키마는 별도 연결의 읽기 전용 트랜잭션에서 신원 확인에만 사용한다. */
+async function verifyReferenceCounts() {
+  const readonlyUrl = process.env.DATABASE_READONLY_URL;
+  if (!readonlyUrl) throw new Error('신원 검증용 DATABASE_READONLY_URL이 필요합니다.');
+  const writer = new URL(process.env.DATABASE_URL!);
+  const reader = new URL(readonlyUrl);
+  if (
+    writer.host !== reader.host ||
+    writer.pathname !== reader.pathname ||
+    writer.searchParams.get('host') !== reader.searchParams.get('host') ||
+    writer.username === reader.username
+  ) {
+    throw new Error('읽기 전용 연결은 동일 서버/DB의 별도 계정이어야 합니다.');
+  }
+  const gate = new PrismaClient({ datasources: { db: { url: readonlyUrl } } });
+  try {
+    await gate.$transaction(
+      async (tx) => {
+        const identity = await tx.$queryRaw<
+          { database: string; port: number | null; version: string }[]
+        >`SELECT current_database() AS database, inet_server_port() AS port, version()`;
+        console.log('Read-only DB identity:', identity);
+        if (
+          identity[0]?.database !== 'geobukschool_prod' ||
+          !/PostgreSQL 14\..*x86_64-pc-linux-gnu/.test(identity[0]?.version ?? '')
+        ) {
+          throw new Error('읽기 전용 DB 신원 불일치');
+        }
+        await tx.$executeRaw`SET TRANSACTION READ ONLY`;
+        const formulas = await tx.$queryRaw<
+          { count: bigint }[]
+        >`SELECT count(*) FROM susi.susi_calculation_formula`;
+        const units = await tx.$queryRaw<{ count: bigint }[]>`SELECT count(*) FROM susi.susi_unit`;
+        console.log('DB gate:', {
+          formulas: String(formulas[0].count),
+          units: String(units[0].count),
+        });
+        if (Number(formulas[0].count) !== 1267 || Number(units[0].count) !== 33770) {
+          throw new Error('운영 DB 기준 행 수 불일치 — 적재 중단');
+        }
+      },
+      { timeout: 30_000 },
+    );
+  } finally {
+    await gate.$disconnect();
+  }
+}
+
+async function loadAndSeed(db: Prisma.TransactionClient, fileName: string, dry: boolean) {
   const seed = JSON.parse(readFileSync(join(__dirname, fileName), 'utf-8')) as SeedFile;
   const primary = seed.meta.sources[0];
   const sorted = [...seed.items].sort((a, b) => a.deadlineAt.localeCompare(b.deadlineAt));
@@ -69,11 +117,6 @@ async function loadAndSeed(fileName: string, dry: boolean) {
   for (const item of sorted) {
     const when = new Date(item.deadlineAt);
     if (Number.isNaN(when.getTime())) throw new Error(`잘못된 날짜: ${item.id} ${item.deadlineAt}`);
-
-    if (dry) {
-      console.log(`  [dry] ${item.deadlineAt.slice(0, 10)}  ${item.title}`);
-      continue;
-    }
 
     const common = {
       title: item.title,
@@ -86,7 +129,24 @@ async function loadAndSeed(fileName: string, dry: boolean) {
       status: ItemStatus.APPROVED,
     };
 
-    await prisma.infoItem.upsert({
+    if (dry) {
+      const before = await db.infoItem.findUnique({ where: { id: item.id } });
+      const fields = Object.keys(common) as (keyof typeof common)[];
+      const changes = fields.filter(
+        (key) => JSON.stringify(before?.[key]) !== JSON.stringify(common[key]),
+      );
+      console.log(
+        JSON.stringify({
+          id: item.id,
+          action: before ? 'update' : 'create',
+          before: before ? Object.fromEntries(changes.map((key) => [key, before[key]])) : null,
+          after: Object.fromEntries(changes.map((key) => [key, common[key]])),
+        }),
+      );
+      continue;
+    }
+
+    await db.infoItem.upsert({
       where: { id: item.id },
       create: { id: item.id, publishedAt: new Date(), ...common },
       update: common,
@@ -94,19 +154,39 @@ async function loadAndSeed(fileName: string, dry: boolean) {
   }
 
   let archived = 0;
-  if (seed.meta.replacesSource && !dry) {
+  if (seed.meta.replacesSource) {
     // 교체된 출처의 잔존 항목 정리 — 삭제하지 않고 ARCHIVED 로 내려 이력을 남긴다.
-    const result = await prisma.infoItem.updateMany({
-      where: {
-        source: { in: ([] as string[]).concat(seed.meta.replacesSource) },
-        status: ItemStatus.APPROVED,
-        id: { notIn: sorted.map((i) => i.id) },
-      },
-      data: { status: ItemStatus.ARCHIVED },
+    const where: Prisma.InfoItemWhereInput = {
+      source: { in: ([] as string[]).concat(seed.meta.replacesSource) },
+      status: ItemStatus.APPROVED,
+      id: { notIn: sorted.map((i) => i.id) },
+    };
+    const candidates = await db.infoItem.findMany({
+      where,
+      select: { id: true, title: true, status: true },
     });
-    archived = result.count;
+    if (dry) {
+      archived = candidates.length;
+      for (const item of candidates)
+        console.log(
+          JSON.stringify({
+            id: item.id,
+            title: item.title,
+            before: item.status,
+            after: ItemStatus.ARCHIVED,
+          }),
+        );
+    } else {
+      const result = await db.infoItem.updateMany({
+        where,
+        data: { status: ItemStatus.ARCHIVED },
+      });
+      archived = result.count;
+    }
     if (archived > 0) {
-      console.log(`  ↓ 교체된 출처('${([] as string[]).concat(seed.meta.replacesSource).join("', '")}') 잔존 ${archived}건을 ARCHIVED 처리`);
+      console.log(
+        `  ↓ 교체된 출처('${([] as string[]).concat(seed.meta.replacesSource).join("', '")}') 잔존 ${archived}건을 ARCHIVED 처리`,
+      );
     }
   }
 
@@ -115,16 +195,46 @@ async function loadAndSeed(fileName: string, dry: boolean) {
 }
 
 async function main() {
-  const dry = process.argv.includes('--dry');
+  const args = process.argv.slice(2);
+  if (
+    args.some((arg) => !['--dry', '--apply'].includes(arg)) ||
+    (args.includes('--dry') && args.includes('--apply'))
+  ) {
+    throw new Error('사용법: yarn seed:calendar [--dry | --apply]');
+  }
+  const dry = !args.includes('--apply');
+  const identity = await prisma.$queryRaw<
+    { database: string; port: number; version: string }[]
+  >`SELECT current_database() AS database, inet_server_port() AS port, version()`;
+  console.log('DB identity:', identity);
+  if (
+    identity[0]?.database !== 'geobukschool_prod' ||
+    !/PostgreSQL 14\..*x86_64-pc-linux-gnu/.test(identity[0]?.version ?? '')
+  ) {
+    throw new Error('운영 DB 신원 불일치 — 적재 중단');
+  }
+  await verifyReferenceCounts();
+  console.log(dry ? 'DRY-RUN (rollback)' : 'APPLY (transaction)');
   let total = 0;
   let archivedTotal = 0;
   const notes: string[] = [];
 
-  for (const file of FILES) {
-    const r = await loadAndSeed(file, dry);
-    total += r.count;
-    archivedTotal += r.archived;
-    notes.push(r.disclaimer);
+  const rollback = new Error('DRY_RUN_ROLLBACK');
+  try {
+    await prisma.$transaction(
+      async (tx) => {
+        for (const file of FILES) {
+          const r = await loadAndSeed(tx, file, dry);
+          total += r.count;
+          archivedTotal += r.archived;
+          notes.push(r.disclaimer);
+        }
+        if (dry) throw rollback;
+      },
+      { timeout: 180_000 },
+    );
+  } catch (error) {
+    if (error !== rollback) throw error;
   }
 
   console.log(`\n총 ${total}건 ${dry ? '(dry run — 적재하지 않음)' : '적재 완료'}`);
@@ -134,7 +244,11 @@ async function main() {
 
 main()
   .catch((e) => {
-    console.error(e);
-    process.exit(1);
+    console.error(
+      e instanceof Error
+        ? e.message.replace(/postgres(?:ql)?:\/\/[^\s]+/g, '[REDACTED_DATABASE_URL]')
+        : 'Seed failed',
+    );
+    process.exitCode = 1;
   })
   .finally(() => prisma.$disconnect());

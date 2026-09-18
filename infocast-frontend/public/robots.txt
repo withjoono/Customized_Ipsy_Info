@@ -4,10 +4,20 @@
 User-agent: *
 Allow: /
 
-# 로그인 이후에만 의미 있는 영역 — 색인 대상 아님
-Disallow: /admin
+# 예약 접두사 — 로그인 뒤 영역. 색인 대상 아님
+Disallow: /app$
+Disallow: /app/
+Disallow: /app?
+Disallow: /auth$
 Disallow: /auth/
+Disallow: /auth?
 
-# AI 검색 크롤러는 막지 않는다 (막으면 AI 검색 노출이 끝난다)
+# 기존 경로 — 앱 라우트 이관 검증 전까지 유지
+Disallow: /admin
+
+# /share 는 일부러 막지 않는다 — 막으면 페이지 안의 noindex 를 못 읽어
+# URL 만 색인될 수 있다. 개인 데이터 페이지에는 noindex 메타를 넣을 것.
+
+# 검색 크롤러는 허용. 검색용과 학습용 봇의 정책은 구분한다.
 
 Sitemap: https://infocast-front.web.app/sitemap.xml
