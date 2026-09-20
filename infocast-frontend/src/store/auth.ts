@@ -41,8 +41,8 @@ export const useAuth = create<AuthState>((set) => ({
     set({ token: null, user: null });
   },
   loginRedirect: () => {
-    const hub = import.meta.env.VITE_HUB_URL;
-    const redirect = `${import.meta.env.VITE_APP_URL}/auth/callback`;
-    window.location.href = `${hub}/login?redirect=${encodeURIComponent(redirect)}`;
+    const hub = (import.meta.env.VITE_HUB_URL || 'https://www.tskool.kr').replace(/\/$/, '');
+    const redirect = `${import.meta.env.VITE_APP_URL || window.location.origin}/auth/callback`;
+    window.location.href = `${hub}/auth/login?redirect=${encodeURIComponent(redirect)}`;
   },
 }));
