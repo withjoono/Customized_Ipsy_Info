@@ -1,0 +1,47 @@
+name: Deploy Backend
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: deploy-infocast-backend
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check deployment credentials
+        env:
+          GCP_KEY: ${{ secrets.GCP_SA_KEY }}
+          CONFIG: ${{ secrets.BACKEND_APP_YAML_B64 }}
+        run: |
+          test -n "$GCP_KEY" && test -n "$CONFIG" || { echo 'Configure GCP_SA_KEY and BACKEND_APP_YAML_B64 before deployment.'; exit 1; }
+      - uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.GCP_SA_KEY }}
+      - uses: google-github-actions/setup-gcloud@v2
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Generate app.yaml from secret
+        working-directory: infocast-backend
+        env:
+          CONFIG: ${{ secrets.BACKEND_APP_YAML_B64 }}
+        run: printf '%s' "$CONFIG" | base64 -d > app.yaml
+      - name: Install policy test dependency
+        run: npm install --prefix "$RUNNER_TEMP/pool-policy-tools" --ignore-scripts --no-audit --no-fund typescript@5.8.3
+      - name: Enforce shared DB connection budget
+        working-directory: infocast-backend
+        env:
+          NODE_PATH: ${{ runner.temp }}/pool-policy-tools/node_modules
+        run: |
+          python -m pip install PyYAML==6.0.3
+          python test-connection-budget.py
+          node test-pool-runtime.cjs
+          python apply-connection-policy.py app.yaml
+          python apply-connection-policy.py app.yaml --check
+
+      - name: Deploy to App Engine
+        working-directory: infocast-backend
+        run: gcloud app deploy app.yaml --project=ts-back-nest-479305 --quiet

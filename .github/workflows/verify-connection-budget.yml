@@ -1,0 +1,32 @@
+name: Verify connection budget
+on:
+  push:
+    paths: ['infocast-backend/**', '.github/workflows/**']
+  pull_request:
+    paths: ['infocast-backend/**', '.github/workflows/**']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install validation tools only
+        run: |
+          python -m pip install PyYAML==6.0.3
+          npm install --prefix "$RUNNER_TEMP/pool-policy-tools" --ignore-scripts --no-audit --no-fund typescript@5.8.3
+      - name: Verify limits without production credentials
+        working-directory: infocast-backend
+        env:
+          NODE_PATH: ${{ runner.temp }}/pool-policy-tools/node_modules
+        run: |
+          python test-connection-budget.py
+          node test-pool-runtime.cjs
