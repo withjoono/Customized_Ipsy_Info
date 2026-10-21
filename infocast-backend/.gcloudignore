@@ -7,3 +7,11 @@ dist/
 !.env.example
 *.log
 README.md
+
+# CI credentials and local secrets must never enter deployment sources.
+gha-creds-*.json
+**/gha-creds-*.json
+.env*
+**/.env*
+**/*service-account-key*.json
+**/*firebase-key*.json

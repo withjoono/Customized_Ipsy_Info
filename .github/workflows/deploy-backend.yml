@@ -1,25 +1,37 @@
 name: Deploy Backend
 on:
   workflow_dispatch:
+    inputs:
+      validate_only:
+        description: 'Validate credentials and policy without deployment or Cloud Build'
+        required: true
+        type: boolean
+        default: true
 permissions:
   contents: read
+  id-token: write
 concurrency:
   group: deploy-infocast-backend
   cancel-in-progress: false
 jobs:
   deploy:
+    if: github.ref == 'refs/heads/main'
+    timeout-minutes: 15
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: Check deployment credentials
         env:
-          GCP_KEY: ${{ secrets.GCP_SA_KEY }}
+          PROVIDER: ${{ vars.GCP_WIF_PROVIDER }}
+          ACCOUNT: ${{ vars.GCP_DEPLOY_SERVICE_ACCOUNT }}
           CONFIG: ${{ secrets.BACKEND_APP_YAML_B64 }}
         run: |
-          test -n "$GCP_KEY" && test -n "$CONFIG" || { echo 'Configure GCP_SA_KEY and BACKEND_APP_YAML_B64 before deployment.'; exit 1; }
+          test -n "$PROVIDER" && test -n "$ACCOUNT" && test -n "$CONFIG" || { echo 'Missing deployment authentication or configuration.'; exit 1; }
       - uses: google-github-actions/auth@v2
         with:
-          credentials_json: ${{ secrets.GCP_SA_KEY }}
+          workload_identity_provider: ${{ vars.GCP_WIF_PROVIDER }}
+          service_account: ${{ vars.GCP_DEPLOY_SERVICE_ACCOUNT }}
+          project_id: ts-back-nest-479305
       - uses: google-github-actions/setup-gcloud@v2
       - uses: actions/setup-node@v4
         with:
@@ -28,7 +40,9 @@ jobs:
         working-directory: infocast-backend
         env:
           CONFIG: ${{ secrets.BACKEND_APP_YAML_B64 }}
-        run: printf '%s' "$CONFIG" | base64 -d > app.yaml
+        run: |
+          umask 077
+          printf '%s' "$CONFIG" | base64 -d > app.yaml
       - name: Install policy test dependency
         run: npm install --prefix "$RUNNER_TEMP/pool-policy-tools" --ignore-scripts --no-audit --no-fund typescript@5.8.3
       - name: Enforce shared DB connection budget
@@ -42,6 +56,14 @@ jobs:
           python apply-connection-policy.py app.yaml
           python apply-connection-policy.py app.yaml --check
 
+      - name: Verify deployment authentication and permissions (read only)
+        working-directory: infocast-backend
+        run: python verify-deployment-readiness.py
       - name: Deploy to App Engine
+        if: ${{ !inputs.validate_only }}
         working-directory: infocast-backend
         run: gcloud app deploy app.yaml --project=ts-back-nest-479305 --quiet
+      - name: Remove temporary configuration
+        if: always()
+        working-directory: infocast-backend
+        run: rm -f -- app.yaml
